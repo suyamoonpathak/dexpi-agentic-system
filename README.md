@@ -10,30 +10,6 @@ A **RAG System** designed to query complex Process Engineering (P&ID) data. This
 * **Visual Observability**: Generates SVG visualizations of the P&ID topology upon ingestion.
 * **Local Privacy**: Powered entirely by local LLMs via **Ollama** (Llama 3, Nomic Embed).
 
-## 🏗️ System Architecture
-
-The system operates in two distinct phases: **Ingestion (ETL)** and **Query (Inference)**.
-
-```mermaid
-graph TD
-    User[User Input] --> Router{Router Agent}
-    
-    subgraph Knowledge Base
-        NX[NetworkX Graph\n(Pickle)]
-        L_RAG[LightRAG\n(Vector Store)]
-    end
-
-    Router -- "Path/Connection?" --> Topo[Topology Agent]
-    Router -- "Attribute/Concept?" --> Sem[Semantic Agent]
-
-    Topo <--> NX
-    Sem <--> L_RAG
-
-    Topo --> Syn[Synthesizer]
-    Sem --> End((Response))
-    Syn --> End
-
-```
 
 ## 🚀 Prerequisites
 
