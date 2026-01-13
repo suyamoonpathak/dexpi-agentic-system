@@ -12,5 +12,5 @@ Reasoning and Topology Questions:
 
 1. Which component is explicitly connected to the Nozzle with ID SP16EC5647193F4331A5FB172AC36AA6CE? (Answer: Nozzle ID SPB2CFFE45519445E3B005BEFFCADDABB2)
 2. Compare the UpperLimitDesignPressure of the Reciprocating Pump (P-4711) and the Centrifugal Pump (P-4712). Which one is higher? (Answer: 35 and 60, so CentrifugalPump has higher)
-3. Trace the flow path starting from BlindFlange SP3D14F870DEB44B129D3E37D162D6A661 to Nozzle SP7EB92322FAC14299AB96093CA149E484.
-4. What is the ID of the ShutOffValve connected to Nozzle SP55750996853147419A3D8D26AFE0CBFC?
+3. Trace the flow path starting from BlindFlange SP3D14F870DEB44B129D3E37D162D6A661 to Nozzle SP7EB92322FAC14299AB96093CA149E484. (Receives from ProcessInstrumentationFunction_f1c6f778-2e38-4869-b992-680ea5dc8079 and connects to PipingComponent_b74a0350-9c80-449c-9a0d-320fa8ad8934)
+4. What is the ID of the ShutOffValve connected to Nozzle SP55750996853147419A3D8D26AFE0CBFC? (Answer: SP44F79E87D3EA426E8E77CECF7C3C86FA)
