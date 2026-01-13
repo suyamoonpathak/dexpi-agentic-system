@@ -6,7 +6,7 @@ class AgentState(TypedDict):
     The shared memory state of the agent.
     """
     question: str                
-    intent: str                  # 'specific_lookup' or 'graph_reasoning'
+    intent: str                  # 'topology' or 'semantic'
     context: str                
     final_answer: str            
     steps: List[str]             # decision trace logs

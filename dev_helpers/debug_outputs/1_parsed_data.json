@@ -2,15 +2,6 @@
   "filename": "C01V01-HEX.EX03.xml",
   "equipment": [
     {
-      "id": "PBS945900F29F424D32A292F07BB90792E2",
-      "tag": "Github",
-      "type": "PlantSectionIso10209-2012",
-      "attributes": {
-        "PlantSectionIdentificationCodeAssignmentClass": "Github",
-        "PlantSectionNameAssignmentClass": "Github"
-      }
-    },
-    {
       "id": "PBS0D9331D91F4D4144B93903B01D5C7F4A",
       "tag": "DEXPI",
       "type": "ProcessPlant",

@@ -1,4 +1,3 @@
-Context: Process Engineering P&ID Data. In DEXPI file 'C01V01-HEX.EX03.xml', entity 'Github' (ID: PBS945900F29F424D32A292F07BB90792E2) is classified as a 'PlantSectionIso10209-2012'. Its PlantSectionIdentification is 'Github'. Its PlantSectionName is 'Github'.
 Context: Process Engineering P&ID Data. In DEXPI file 'C01V01-HEX.EX03.xml', entity 'DEXPI' (ID: PBS0D9331D91F4D4144B93903B01D5C7F4A) is classified as a 'ProcessPlant'. Its ProcessPlantIdentification is 'DEXPI'. Its ProcessPlantName is 'DEXPI'.
 Context: Process Engineering P&ID Data. In DEXPI file 'C01V01-HEX.EX03.xml', entity 'UNIT1' (ID: PBS21965A6820724688BB443B3EB454E19E) is classified as a 'PlantSectionIso10209-2012'. Its PlantSectionIdentification is 'UNIT1'. Its PlantSectionName is 'UNIT1'.
 Context: Process Engineering P&ID Data. In DEXPI file 'C01V01-HEX.EX03.xml', entity 'Nozzle_757b6700-5b2f-478c-a2f4-b02c1b747d0d' (ID: _757b6700-5b2f-478c-a2f4-b02c1b747d0d) is classified as a 'Nozzle'. 
