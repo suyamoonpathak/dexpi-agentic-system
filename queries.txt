@@ -1,0 +1,17 @@
+All questions are from C01V01-HEX.EX03.xml
+
+Specific Lookup:
+
+1. What components are classified as BlindFlange? I need the IDs of those components (Answer: 4 IDs of those components)
+2. What is the LowerLimitDesignPressure of the Tank with Tag T-4750? (Answer: -0.1)
+3. What is the MaterialOfConstruction for the Centrifugal Pump with ID CentrifugalPump-1? (Answer: 1.4308)
+4. What is the fluid in the PipingNetworkSystem whose PipingClass is '73HG12'? (Answer: MNc)
+5. What is the DesignHeatTransferArea of the Shell and Tube Heat Exchanger (Tag H-1007) with ID SPE1075562BFB740308DE2105490C105F0? (Answer: 46.8)
+
+Reasoning and Topology Questions:
+
+1. Which component is explicitly connected to the Nozzle with ID SP16EC5647193F4331A5FB172AC36AA6CE? (Answer: Nozzle ID SPB2CFFE45519445E3B005BEFFCADDABB2)
+2. Identify the ShutOffValve that is connected to the Nozzle SPF7AFC3A4E3604190BB66C6F5A4500D27. (Answer: Either SP44F79E87D3EA426E8E77CECF7C3C86FA or SP44F79E87D3EA426E8E77CECF7C3C86FA)
+3. Compare the UpperLimitDesignPressure of the Reciprocating Pump (P-4711) and the Centrifugal Pump (P-4712). Which one is higher? (Answer: Both equal 60)
+4. Trace the connection for the PipeReducer with ID SP15D8798E32674D37895509EF2BCB204B. What is it connected to? (Answer: Two nozzles Nozzle_a802c9aa-b41d-48d9-a606-07cb2dda04f3 and Nozzle_5787d082-9186-4697-9660-2c77fbd2b945 with the same ID SP5DE5B0281BC74D0AB470383D03E679CC)
+5. Does the Piping Network System 47127 have heat tracing enabled? (Answer: No)

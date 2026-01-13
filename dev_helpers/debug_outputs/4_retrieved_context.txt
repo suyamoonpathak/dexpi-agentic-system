@@ -1,0 +1,9 @@
+[Context #1 (Score: 0.5511)]: Context: Process Engineering P&ID Data. In DEXPI file 'C01V01-HEX.EX03.xml', entity 'Wirkungslinie' (ID: SPA7C289E2263D43BCB8E6400B83AC5250) is classified as a 'SignalConveyingFunction'.
+
+[Context #2 (Score: 0.5437)]: Context: Process Engineering P&ID Data. In DEXPI file 'C01V01-HEX.EX03.xml', entity 'Wirkungslinie' (ID: SPFD6A078B1FF04E65BC1F602A714B709E) is classified as a 'SignalConveyingFunction'.
+
+[Context #3 (Score: 0.5424)]: Context: Process Engineering P&ID Data. In DEXPI file 'C01V01-HEX.EX03.xml', entity 'Wirkungslinie' (ID: SPB21EF999B9444D31B6BFF2FDEC5F0B36) is classified as a 'SignalConveyingFunction'.
+
+[Context #4 (Score: 0.4706)]: Context: Process Engineering P&ID Data. In DEXPI file 'C01V01-HEX.EX03.xml', entity 'Github' (ID: PBS945900F29F424D32A292F07BB90792E2) is classified as a 'PlantSectionIso10209-2012'. Its PlantSectionIdentification is 'Github'. Its PlantSectionName is 'Github'.
+
+[Context #5 (Score: 0.4619)]: Context: Process Engineering P&ID Data. In DEXPI file 'C01V01-HEX.EX03.xml', entity 'ProcessInstrumentationFunction_7e82ebcc-eb06-4e15-8275-4f7c9f955e7a' (ID: _7e82ebcc-eb06-4e15-8275-4f7c9f955e7a) is classified as a 'ProcessInstrumentationFunction'.
