@@ -13,257 +13,894 @@
 <key id="d2" for="node" attr.name="description" attr.type="string"/>
 <key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
 <key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
-<graph edgedefault="undirected"><node id="ProcessInstrumentationFunction_f1c6f778-2e38-4869-b992-680ea5dc8079">
-  <data key="d0">ProcessInstrumentationFunction_f1c6f778-2e38-4869-b992-680ea5dc8079</data>
-  <data key="d1">data</data>
-  <data key="d2">"ProcessInstrumentationFunction defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"ProcessInstrumentationFunction defined in 'C01V01-HEX.EX03.xml'")</data>
-  <data key="d3">chunk-ac28fe1988095379a50b3d4533a963b3&lt;SEP&gt;chunk-1e1778a2c2b61ddd89f19e81fc301eb6</data>
+<graph edgedefault="undirected"><node id="47130_1">
+  <data key="d0">47130_1</data>
+  <data key="d1">pipingnetworksegment</data>
+  <data key="d2">"PipingNetworkSegment defined in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-473a013f6eab4c1c82782e110a4d480a</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300197</data>
+  <data key="d5">1768304173</data>
   <data key="d6"></data>
 </node>
-<node id="PipingComponent_aec8fef3-b085-42c6-9e22-85bbf512406f">
-  <data key="d0">PipingComponent_aec8fef3-b085-42c6-9e22-85bbf512406f</data>
-  <data key="d1">piping</data>
-  <data key="d2">"'PipingComponent_aec8fef3-b085-42c6-9e22-85bbf512406f' is a PipeTee")&lt;SEP&gt;"PipeTee defined in P&amp;ID Data")</data>
-  <data key="d3">chunk-e9dffceebeebfffb1620f11cce9b2029&lt;SEP&gt;chunk-dd4710f2d5cc318b4b9c670070477899</data>
+<node id="Entity_47130_1">
+  <data key="d0">Entity_47130_1</data>
+  <data key="d3">chunk-473a013f6eab4c1c82782e110a4d480a</data>
+  <data key="d2">10)</data>
+  <data key="d1">UNKNOWN</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300389</data>
+  <data key="d5">1768304173</data>
   <data key="d6"></data>
 </node>
-<node id="Nozzle_5eb26288-e540-4650-b72d-e2cb72fea8ec">
-  <data key="d0">Nozzle_5eb26288-e540-4650-b72d-e2cb72fea8ec</data>
+<node id="None">
+  <data key="d0">None</data>
+  <data key="d3">chunk-473a013f6eab4c1c82782e110a4d480a&lt;SEP&gt;chunk-7a5a7a5e1af0b829e0d073503035b219&lt;SEP&gt;chunk-a945f6a578901cc4932212125c151a83</data>
+  <data key="d2">10)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304173</data>
+  <data key="d6"></data>
+</node>
+<node id="PipingComponent_f981ba82-33db-4c62-a398-94e0cdbec9e8">
+  <data key="d0">PipingComponent_f981ba82-33db-4c62-a398-94e0cdbec9e8</data>
   <data key="d1">artifact</data>
-  <data key="d2">"Nozzle defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Nozzle defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Nozzle with ID SP6CB0200AD3DA4AFF93BC7D22638D7058")</data>
-  <data key="d3">chunk-5ba741f695ff16dc66867d8ad6af8c62&lt;SEP&gt;chunk-f2487abeabab80a1fb95697ef144e108&lt;SEP&gt;chunk-f9ce4d65c30f7a2b2f5b88ea17e1901e</data>
+  <data key="d2">"SpringLoadedAngleGlobeSafetyValve defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"SpringLoadedAngleGlobeSafetyValve defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-754d204b106fb33ded38a18db6023713&lt;SEP&gt;chunk-0a380448f6dd95da51d576e9410f0f22</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300241</data>
+  <data key="d5">1768304470</data>
   <data key="d6"></data>
 </node>
-<node id="PipingComponent_f7f60dc3-c853-492d-9f31-78fa6b15d5fa">
-  <data key="d0">PipingComponent_f7f60dc3-c853-492d-9f31-78fa6b15d5fa</data>
-  <data key="d1">piping</data>
-  <data key="d2">"PipeTee defined in SP10D64A8588FD4ED2851638CAADD0B39C")&lt;SEP&gt;"Pipe Tee defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-a0662a2e6102ab44e8cdbcf410abdc8e&lt;SEP&gt;chunk-a8ae23ffc983ae9e63956fb5687e2654</data>
+<node id="SY8B12D6816E9F432695222500F08A648F">
+  <data key="d0">SY8B12D6816E9F432695222500F08A648F</data>
+  <data key="d1">data</data>
+  <data key="d2">"PipingNetworkSystem defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-a5221d9a5ab20acdf02731ce61721475</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300065</data>
+  <data key="d5">1768304176</data>
+  <data key="d6"></data>
+</node>
+<node id="PipingClassBreak">
+  <data key="d0">PipingClassBreak</data>
+  <data key="d3">chunk-a5221d9a5ab20acdf02731ce61721475</data>
+  <data key="d2">2)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304177</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle_a43edcb9-5fc5-4b3f-9e1c-7f6fa51fd6a0">
+  <data key="d0">Nozzle_a43edcb9-5fc5-4b3f-9e1c-7f6fa51fd6a0</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"'Nozzle' entity described in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"A nozzle defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-3f5d71fc0bd501efb65df201171df1a9&lt;SEP&gt;chunk-45e4ed1a7a5cf3551f022c31d7c04ad2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304395</data>
+  <data key="d6"></data>
+</node>
+<node id="PipeTee 'PipingComponent_aec8fef3-b085-42c6-9e22-85bbf512406f'">
+  <data key="d0">PipeTee 'PipingComponent_aec8fef3-b085-42c6-9e22-85bbf512406f'</data>
+  <data key="d1">piping</data>
+  <data key="d2">"PipeTee defined in SP4DC0DD74113544F5BCC07B3BF5107D29")</data>
+  <data key="d3">chunk-dd4710f2d5cc318b4b9c670070477899</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304185</data>
+  <data key="d6"></data>
+</node>
+<node id="PipeTee 'PipingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d'">
+  <data key="d0">PipeTee 'PipingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d'</data>
+  <data key="d1">piping</data>
+  <data key="d2">"PipeTee defined in SP9474776A0C2943639E3DF14A26B87FAA")</data>
+  <data key="d3">chunk-dd4710f2d5cc318b4b9c670070477899</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304185</data>
   <data key="d6"></data>
 </node>
 <node id="Unnamed_Component">
   <data key="d0">Unnamed_Component</data>
-  <data key="d1">artifact</data>
-  <data key="d2">Here is the synthesized summary:
+  <data key="d1">equipment</data>
+  <data key="d2">The Unnamed_Component refers to a distinct entity within the context of process flow and piping systems. Initially described as a "Chamber" with attributes such as design temperature, lower and upper limit pressures, and material specification. Further descriptions reveal that the Unnamed_Component is an ActuatingSystem with ID SPB52E735974724BD6816CED21DA255545_SE005, operating under PV-4712.02. It is also associated with other components, including a Shell Chamber for processing, with attributes like -45.00°C design temperature and 1.00 bar lower limit.
 
-**Unnamed_Component**
+The Unnamed_Component has been defined in multiple contexts, including C01V01-HEX.EX03.xml, with descriptions ranging from "Unnamed Component" with specific ID SP570CBE2AF8344DD29AF899EE341A7808_SE003 to an ActuatingFunction with attributes such as OnHold and NominalDiameterTypeRepresentation.
 
-The Unnamed_Component refers to a Shut Off Valve Reference with ID SP06BEA591AF5C4565B72FE4CB688DD14A_SE005 and SubTagName TV-4750.03, further defined in C01V01-HEX.EX03.xml file. This unnamed component is characterized by its flow-out pipe connector symbol, which is represented and defined within the same XML file.
+Notably, the Unnamed_Component has no explicit heat tracing system, but its processing capabilities involve a Shell Chamber for flow and piping management. The entity's scope and functionality may have varied according to different descriptions or contexts; however, its essential characteristics remain tied to process control and actuation systems.
 
-The Unnamed_Component is mentioned within another file C01V01-HEX(EX3.xml) and has been referenced under a specific ID SPA7F70109728F4F779F29A129EE302A4A_SE001. It is associated with various processing chambers, including Shell Chamber (ID SP8F1256539D684240959558BAA5FA2EF5_SE001), Displacer Chamber, and Tube Chamber for Heating (ID SPE1075562BFB740308DE2105490C105F0_SE002). Additionally, it is linked to Pump Casing Processing Chamber (SPBDD98F7C78B149F7BDA05772123D0388_SE001).
+Additional descriptions suggest that the Unnamed_Component is also referred to as an Impeller defined in C01V01-HEX.EX03.xml and a Pump Casing Processing Chamber. Additionally, the entity has been described as a Shut Off Valve Reference defined in C01V01-HEX.EX03.xml, with functions such as 'Heating' mentioned for a "Tube Chamber" defined in the same file.
 
-The entity's attributes include LowerLimitDesignPressure = -1.00 and UpperLimitDesignTemperature = 100.00. It is also associated with ActuatingSystem defined in C01V01-HEX.EX03.xml, PipingNetworkSystem, Impeller, and ShutOffValveReference defined in the same XML file.
-
-Note: The formatting inconsistencies in the original descriptions were preserved to maintain the original context and clarity of the information.&lt;SEP&gt;"ProcessSignalGeneratingFunction defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Process signal generating function entity")&lt;SEP&gt;"Pump Casing; Processing Chamber")&lt;SEP&gt;"Unknown component in C01V01-HEX.EX03.xml with ID SP394804117CEC4E45917514CDC302C825_SE002")</data>
-  <data key="d3">chunk-a0662a2e6102ab44e8cdbcf410abdc8e&lt;SEP&gt;chunk-609cbbd0b2253074b9b76c71d46fcf72&lt;SEP&gt;chunk-041bc4002d1fc1ee42e838faafd6500a&lt;SEP&gt;chunk-dea8093ea45fc0de167676a9ec1f18ec&lt;SEP&gt;chunk-577bdab9db34807493062e2f062f8756&lt;SEP&gt;chunk-99f728f791730e44ab77942facc677bc&lt;SEP&gt;chunk-56d879df6a78d8a3b971ee1a1d28b047&lt;SEP&gt;chunk-2ea20b0fc2cd23dad7576ee0a8d7d939&lt;SEP&gt;chunk-2fcd107140a8392ff7bebbf39a91b55e&lt;SEP&gt;chunk-5728e29c78d40b3eb85afb564c134054&lt;SEP&gt;chunk-3663fc423d1d4d71da91497484bacb88&lt;SEP&gt;chunk-e8739b6e7e649b8b9dc796c4504dd42a&lt;SEP&gt;chunk-7b73f7c4c4a3492c079dff4a6412393c&lt;SEP&gt;chunk-44f6316e8229e644a9edacdbb5a4c064&lt;SEP&gt;chunk-426468cd2762bd6e9bdf2ebecdeb5477&lt;SEP&gt;chunk-6bc65ada79e89fa2e56243d9e75d214d&lt;SEP&gt;chunk-6bbe40389dced8b8f34bb8b3994f58a7&lt;SEP&gt;chunk-5e48706702711cc37dc9b9ddb2002273&lt;SEP&gt;chunk-87d07278f360bf3b6b05a22579f3c156&lt;SEP&gt;chunk-48e1d9efcc783ee955c4eddd80aac1de&lt;SEP&gt;chunk-45b7ae17b906113fb6e3a3870ea3001b&lt;SEP&gt;chunk-1175e4798ab082c8a091a1c8a6e8e7cb&lt;SEP&gt;chunk-e9698e72a10b3c451b1304b7471f4ed8&lt;SEP&gt;chunk-098980a9925349d45550f71c0bebea7b</data>
+Throughout these descriptions, the Unnamed_Component's core characteristics and functionalities remain consistent, highlighting its importance within process flow and piping systems.&lt;SEP&gt;"Plate Chamber with Heating function")&lt;SEP&gt;"Processing Chamber with ID SP80B1E87317254ED2B14B798DEE432AE5_SE001")&lt;SEP&gt;"Unnamed component with ID SP06BEA591AF5C4565B72FE4CB688DD14A_SE002 and ActuatingFunctionNumber TV-4750.03")&lt;SEP&gt;"(ID: SPB52E735974724BD6816CED21DA255545_SE006) ShutOffValveReference defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Displacer Chamber defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"FlowInPipeConnectorSymbol defined in P&amp;ID")</data>
+  <data key="d3">chunk-e8739b6e7e649b8b9dc796c4504dd42a&lt;SEP&gt;chunk-8d4c829bf23cd3beef19e32a775663fb&lt;SEP&gt;chunk-87d07278f360bf3b6b05a22579f3c156&lt;SEP&gt;chunk-96c5a9291b611e707b2b57f2b29c9b71&lt;SEP&gt;chunk-2ea20b0fc2cd23dad7576ee0a8d7d939&lt;SEP&gt;chunk-7a5a7a5e1af0b829e0d073503035b219&lt;SEP&gt;chunk-6bbe40389dced8b8f34bb8b3994f58a7&lt;SEP&gt;chunk-56d879df6a78d8a3b971ee1a1d28b047&lt;SEP&gt;chunk-098980a9925349d45550f71c0bebea7b&lt;SEP&gt;chunk-45b7ae17b906113fb6e3a3870ea3001b&lt;SEP&gt;chunk-426468cd2762bd6e9bdf2ebecdeb5477&lt;SEP&gt;chunk-dea8093ea45fc0de167676a9ec1f18ec&lt;SEP&gt;chunk-7b73f7c4c4a3492c079dff4a6412393c&lt;SEP&gt;chunk-48e1d9efcc783ee955c4eddd80aac1de&lt;SEP&gt;chunk-577bdab9db34807493062e2f062f8756&lt;SEP&gt;chunk-4b64b72fadd0d12834e0ec234546ed9b&lt;SEP&gt;chunk-6bc65ada79e89fa2e56243d9e75d214d&lt;SEP&gt;chunk-7649224f26bfbfe8effefe1d822f938f&lt;SEP&gt;chunk-5e48706702711cc37dc9b9ddb2002273&lt;SEP&gt;chunk-3663fc423d1d4d71da91497484bacb88&lt;SEP&gt;chunk-041bc4002d1fc1ee42e838faafd6500a</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300451</data>
+  <data key="d5">1768304640</data>
   <data key="d6"></data>
 </node>
-<node id="PingingComponent_f7f60dc3-c853-492d-9f31-78fa6b15d5fa">
-  <data key="d0">PingingComponent_f7f60dc3-c853-492d-9f31-78fa6b15d5fa</data>
-  <data key="d3">chunk-a0662a2e6102ab44e8cdbcf410abdc8e</data>
-  <data key="d2">10)</data>
+<node id="Nozzle_686a3623-ffde-41b5-b553-c90046834829">
+  <data key="d0">Nozzle_686a3623-ffde-41b5-b553-c90046834829</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Nozzle defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"Nozzle defined in 'C01V01-HEX.EX03.xml' with Nozzle TagName N6")</data>
+  <data key="d3">chunk-928cb7b1c0e18c84c92e2e967a1ab183&lt;SEP&gt;chunk-a98a88b7abbc74d0fbf9745b6870b168</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304331</data>
+  <data key="d6"></data>
+</node>
+<node id="Displacer">
+  <data key="d0">Displacer</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Displacer description in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-8d4c829bf23cd3beef19e32a775663fb</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304191</data>
+  <data key="d6"></data>
+</node>
+<node id="1.4305">
+  <data key="d0">1.4305</data>
+  <data key="d1">data</data>
+  <data key="d2">"MaterialOfConstructionCode for Unnamed_Component")</data>
+  <data key="d3">chunk-8d4c829bf23cd3beef19e32a775663fb</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304191</data>
+  <data key="d6"></data>
+</node>
+<node id="PipingComponent_94279153-41c7-4cf5-a215-2ee76904159c">
+  <data key="d0">PipingComponent_94279153-41c7-4cf5-a215-2ee76904159c</data>
+  <data key="d1">piping</data>
+  <data key="d2">"ShutOffValve defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-e4e5d66b033191797574985d38075d5a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304195</data>
+  <data key="d6"></data>
+</node>
+<node id="` &quot;PipingComponent_2b0661dd-d0c0-4335-8d36-398b0204943a&quot; `">
+  <data key="d0">` "PipingComponent_2b0661dd-d0c0-4335-8d36-398b0204943a" `</data>
+  <data key="d1">`"piping"`</data>
+  <data key="d2">` "PlugValve flow control/isolation device")</data>
+  <data key="d3">chunk-3b465814ddfdcf51405f824b7bf0ca97</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304197</data>
+  <data key="d6"></data>
+</node>
+<node id="` &quot;&quot; `">
+  <data key="d0">` "" `</data>
+  <data key="d3">chunk-3b465814ddfdcf51405f824b7bf0ca97</data>
+  <data key="d2">` 10)</data>
   <data key="d1">UNKNOWN</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300035</data>
+  <data key="d5">1768304197</data>
+  <data key="d6"></data>
+</node>
+<node id="SY31A53D930F7F45F487B9F03340ECF678">
+  <data key="d0">SY31A53D930F7F45F487B9F03340ECF678</data>
+  <data key="d1">entity</data>
+  <data key="d2">"PipingNetworkSystem defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-a87c83aba981a4d02ccdb69317f4db84</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304200</data>
+  <data key="d6"></data>
+</node>
+<node id="PipingComponent_b74a0350-9c80-449c-9a0d-320fa8ad8934">
+  <data key="d0">PipingComponent_b74a0350-9c80-449c-9a0d-320fa8ad8934</data>
+  <data key="d1">piping</data>
+  <data key="d2">"Piping component")&lt;SEP&gt;"PipeTee definition in C01V01-HEX.EX03.xml with ID SP81777813681D4235A1CDFB06DD88AAA2")&lt;SEP&gt;"PipeTee defined in P&amp;ID Data")</data>
+  <data key="d3">chunk-47386572fec59b26ccf5dea5df5610ca&lt;SEP&gt;chunk-abb19ccdb4b1a8183d6454c91b0f3113&lt;SEP&gt;chunk-31087e434e49b24ab4de9d03739a6d67</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304517</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle_21f2ee0f-28e0-4ee7-8eda-15d5439af1f1">
+  <data key="d0">Nozzle_21f2ee0f-28e0-4ee7-8eda-15d5439af1f1</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Nozzle defined in C01V01-HEX.EX03.xml with properties: SubTagName='N1', SymbolRegistrationNumber='ISO10628_2:2012-X8160A-A', NominalDiameterStandard='Din2448ObjectDn80', NominalDiameterNumericalValueRepresentation='80', and NominalDiameterTypeRepresentation='DN'")&lt;SEP&gt;"Nozzle defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Nozzle entity")</data>
+  <data key="d3">chunk-85c3a4e66827b1d4a0bf61162b244447&lt;SEP&gt;chunk-7af2f5b588efc7e8b3b94c73a1e8e616&lt;SEP&gt;chunk-4e52d1a1b80ff9fcca39f0cfb891cb3f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304588</data>
+  <data key="d6"></data>
+</node>
+<node id="PV-4712.02">
+  <data key="d0">PV-4712.02</data>
+  <data key="d3">chunk-96c5a9291b611e707b2b57f2b29c9b71</data>
+  <data key="d2">9)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304208</data>
+  <data key="d6"></data>
+</node>
+<node id="PipingComponent_2985341f-fb10-44a6-9c64-56ee9e675c8f">
+  <data key="d0">PipingComponent_2985341f-fb10-44a6-9c64-56ee9e675c8f</data>
+  <data key="d1">piping</data>
+  <data key="d2">"ShutOffValve defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"ShutOffValve defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-9e6a8e37189ca46114ee9b2ca91552ae&lt;SEP&gt;chunk-aba832ffbf1f2933e893301ba7515c6b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304586</data>
+  <data key="d6"></data>
+</node>
+<node id="Valve V-103">
+  <data key="d0">Valve V-103</data>
+  <data key="d1">equipment</data>
+  <data key="d2">Control Valve designed for C-101&lt;SEP&gt;Control Valve&lt;SEP&gt;Control Valve</data>
+  <data key="d3">chunk-9e6a8e37189ca46114ee9b2ca91552ae&lt;SEP&gt;chunk-c12dad403852708175c21ac7bb948fe5&lt;SEP&gt;chunk-817b791bfab38de7914df5d9d7221217</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304593</data>
+  <data key="d6"></data>
+</node>
+<node id="Piping Seg-401">
+  <data key="d0">Piping Seg-401</data>
+  <data key="d1">piping</data>
+  <data key="d2">Pipe segment connecting pump to tank</data>
+  <data key="d3">chunk-9e6a8e37189ca46114ee9b2ca91552ae</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304214</data>
+  <data key="d6"></data>
+</node>
+<node id="Controller C-901">
+  <data key="d0">Controller C-901</data>
+  <data key="d1">instrument</data>
+  <data key="d2">Process control system with communication features&lt;SEP&gt;Automation Controller&lt;SEP&gt;Distributed control system for monitoring P&amp;ID</data>
+  <data key="d3">chunk-9e6a8e37189ca46114ee9b2ca91552ae&lt;SEP&gt;chunk-e9698e72a10b3c451b1304b7471f4ed8&lt;SEP&gt;chunk-096fec4db701ed77f9c25a8f9a4710d5</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304387</data>
   <data key="d6"></data>
 </node>
 <node id="Nozzle_5787d082-9186-4697-9660-2c77fbd2b945">
   <data key="d0">Nozzle_5787d082-9186-4697-9660-2c77fbd2b945</data>
   <data key="d1">artifact</data>
-  <data key="d2">"Nozzle defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Nozzle, SubTagName 'N1', SymbolRegistrationNumber 'ISO10628_2:2012-X8160A-A', NominalDiameterStandard 'Din2448ObjectDn50', NominalDiameterNumericalValueRepresentation '50', NominalDiameterRepresentation 'DN 50', NominalDiameterTypeRepresentation 'DN')</data>
-  <data key="d3">chunk-096fec4db701ed77f9c25a8f9a4710d5&lt;SEP&gt;chunk-1ec133d5aed2f2b3c82b221876e8be00</data>
+  <data key="d2">"Nozzle with SubTagName N1, SymbolRegistrationNumber ISO10628_2:2012-X8160A-A, NominalDiameterStandard Din2448ObjectDn50, NominalDiameterNumericalValueRepresentation 50, NominalDiameterRepresentation DN 50, and NominalDiameterTypeRepresentation DN")&lt;SEP&gt;"Nozzle defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-1ec133d5aed2f2b3c82b221876e8be00&lt;SEP&gt;chunk-096fec4db701ed77f9c25a8f9a4710d5</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300372</data>
+  <data key="d5">1768304387</data>
   <data key="d6"></data>
 </node>
-<node id="Invalid Entity Name">
-  <data key="d0">Invalid Entity Name</data>
-  <data key="d1">unknowndescription</data>
-  <data key="d2">(no description)</data>
-  <data key="d3">chunk-096fec4db701ed77f9c25a8f9a4710d5</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300038</data>
-  <data key="d6"></data>
-</node>
-<node id="Incorrectly Formatted Entity">
-  <data key="d0">Incorrectly Formatted Entity</data>
+<node id="Flange F-100">
+  <data key="d0">Flange F-100</data>
   <data key="d1">equipment</data>
-  <data key="d2">The entity incorrectly formatted in the previous extraction</data>
-  <data key="d3">chunk-096fec4db701ed77f9c25a8f9a4710d5</data>
+  <data key="d2">Flanged connection for Pipe Seg-400</data>
+  <data key="d3">chunk-1ec133d5aed2f2b3c82b221876e8be00</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300038</data>
+  <data key="d5">1768304215</data>
   <data key="d6"></data>
 </node>
-<node id="Truncation Error Entity">
-  <data key="d0">Truncation Error Entity</data>
-  <data key="d1">unknowntype</data>
-  <data key="d2">Some Brief Description (truncated earlier)</data>
-  <data key="d3">chunk-096fec4db701ed77f9c25a8f9a4710d5</data>
+<node id="Controller C-900">
+  <data key="d0">Controller C-900</data>
+  <data key="d1">instrument</data>
+  <data key="d2">Monitoring and control panel for the Process&lt;SEP&gt;("Controller unit for regulating processing parameters")</data>
+  <data key="d3">chunk-1ec133d5aed2f2b3c82b221876e8be00&lt;SEP&gt;chunk-63fe0e7de8e2bf14cedd0fe8dc4036b5</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300038</data>
+  <data key="d5">1768304444</data>
   <data key="d6"></data>
 </node>
-<node id="Entity A">
-  <data key="d0">Entity A</data>
-  <data key="d3">chunk-096fec4db701ed77f9c25a8f9a4710d5</data>
-  <data key="d2">Description of missing relationship strength 8</data>
+<node id="Solenoid Coil SC-300">
+  <data key="d0">Solenoid Coil SC-300</data>
+  <data key="d1">equipment</data>
+  <data key="d2">Electromagnetic coil controlling Valve V-101</data>
+  <data key="d3">chunk-1ec133d5aed2f2b3c82b221876e8be00</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304215</data>
+  <data key="d6"></data>
+</node>
+<node id="47126 (SYAEBFFC9AB2C94F5993EA8C4D89EC1125)">
+  <data key="d0">47126 (SYAEBFFC9AB2C94F5993EA8C4D89EC1125)</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"PipingNetworkSystem from C01V01-HEX.EX03.xml"))</data>
+  <data key="d3">chunk-9d0eb350f66248c3fa9a813319eef2c9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304218</data>
+  <data key="d6"></data>
+</node>
+<node id="ProcessInstrumentationFunction_f1c6f778-2e38-4869-b992-680ea5dc8079">
+  <data key="d0">ProcessInstrumentationFunction_f1c6f778-2e38-4869-b992-680ea5dc8079</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"Process Instrumentation Function defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Process instrumentation function defined in this P&amp;ID")&lt;SEP&gt;"'ProcessInstrumentationFunction' from 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-ac28fe1988095379a50b3d4533a963b3&lt;SEP&gt;chunk-7f85ff2654048c4d5778f249fa8674f1&lt;SEP&gt;chunk-1e1778a2c2b61ddd89f19e81fc301eb6</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304350</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle_34a02f33-cb6a-4165-9674-f767cc0716e1">
+  <data key="d0">Nozzle_34a02f33-cb6a-4165-9674-f767cc0716e1</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Artifact defined in SP063A131E83D445E5B8F91F011EE12EC9")&lt;SEP&gt;"Nozzle defined in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-7a744d99c1d9316e9bb8a0927fce8004&lt;SEP&gt;chunk-478ee53e91d133dffc0485b1a8aaf879</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304392</data>
+  <data key="d6"></data>
+</node>
+<node id="PipingComponent_47fbf26c-6ef3-4149-8d39-2735249786ff">
+  <data key="d0">PipingComponent_47fbf26c-6ef3-4149-8d39-2735249786ff</data>
+  <data key="d1">piping</data>
+  <data key="d2">"'PipeTee' defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"PipeTee defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-e0a28656be96fae9815ca400e4bbe03d&lt;SEP&gt;chunk-336e442945a6bb2770833fea0052725c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304550</data>
+  <data key="d6"></data>
+</node>
+<node id="SG4EADF07FD30D46F6A60DBD7D472AD216">
+  <data key="d0">SG4EADF07FD30D46F6A60DBD7D472AD216</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"PipingNetworkSegment defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-8164a80ac37a5286e7274a06451a79f8</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304225</data>
+  <data key="d6"></data>
+</node>
+<node id="PipingComponent_a883ee28-56c5-44b0-ad21-65992f934284">
+  <data key="d0">PipingComponent_a883ee28-56c5-44b0-ad21-65992f934284</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Flow control/isolation device - PlugValve")</data>
+  <data key="d3">chunk-8e1043d5b2f5eac86290d3402c95eddb</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304229</data>
+  <data key="d6"></data>
+</node>
+<node id="Valve V-201">
+  <data key="d0">Valve V-201</data>
+  <data key="d1">equipment</data>
+  <data key="d2">Control Valve</data>
+  <data key="d3">chunk-6bbe40389dced8b8f34bb8b3994f58a7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304234</data>
+  <data key="d6"></data>
+</node>
+<node id="Sensor S-301">
+  <data key="d0">Sensor S-301</data>
+  <data key="d1">instruments</data>
+  <data key="d2">Temperature Sensor</data>
+  <data key="d3">chunk-6bbe40389dced8b8f34bb8b3994f58a7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304234</data>
+  <data key="d6"></data>
+</node>
+<node id="Pump P-302">
+  <data key="d0">Pump P-302</data>
+  <data key="d1">equipment</data>
+  <data key="d2">Pumping Machine</data>
+  <data key="d3">chunk-6bbe40389dced8b8f34bb8b3994f58a7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304234</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle_586330b2-d15f-4932-ba58-72e47a7791d9">
+  <data key="d0">Nozzle_586330b2-d15f-4932-ba58-72e47a7791d9</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Nozzle defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"A nozzle entity (ID: SPC8C8632681B443E58B41AF6B952657FA)")</data>
+  <data key="d3">chunk-89b1c3b40301ff54563492d723cbfa14&lt;SEP&gt;chunk-18a93456c7d33af21224cdb833ea8824</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304254</data>
+  <data key="d6"></data>
+</node>
+<node id="ActuatingFunction">
+  <data key="d0">ActuatingFunction</data>
+  <data key="d3">chunk-098980a9925349d45550f71c0bebea7b</data>
+  <data key="d2">9)</data>
   <data key="d1">UNKNOWN</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300038</data>
+  <data key="d5">1768304244</data>
   <data key="d6"></data>
 </node>
-<node id="Missing Relationship A">
-  <data key="d0">Missing Relationship A</data>
-  <data key="d3">chunk-096fec4db701ed77f9c25a8f9a4710d5</data>
-  <data key="d2">Description of missing relationship strength 8</data>
+<node id="Valve V-102">
+  <data key="d0">Valve V-102</data>
+  <data key="d1">equipment</data>
+  <data key="d2">Pneumatic Valve&lt;SEP&gt;Pump Valve used for backflow prevention&lt;SEP&gt;Control Valve intended for process control</data>
+  <data key="d3">chunk-e9698e72a10b3c451b1304b7471f4ed8&lt;SEP&gt;chunk-096fec4db701ed77f9c25a8f9a4710d5&lt;SEP&gt;chunk-b2fb4cab7ff417aa741aecd48452ff38</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304581</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle">
+  <data key="d0">Nozzle</data>
+  <data key="d1">concept</data>
+  <data key="d2">"A type of equipment")</data>
+  <data key="d3">chunk-18a93456c7d33af21224cdb833ea8824</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304254</data>
+  <data key="d6"></data>
+</node>
+<node id="ActuatingSystemComponent_15a86a72-bc99-49db-b0ad-4b657adb90a0">
+  <data key="d0">ActuatingSystemComponent_15a86a72-bc99-49db-b0ad-4b657adb90a0</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"Controlled Actuator")&lt;SEP&gt;"ControlledActuator defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"'ControlledActuator' defined in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-131ccb9b881f59e75facc0bf0b92f53d&lt;SEP&gt;chunk-fde4388242f079eadae7b9c0d5ec166a&lt;SEP&gt;chunk-b2fb4cab7ff417aa741aecd48452ff38</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304581</data>
+  <data key="d6"></data>
+</node>
+<node id="ProcessInstrumentationFunction_5d8fde97-3be3-4cea-9e26-9620309eaad4">
+  <data key="d0">ProcessInstrumentationFunction_5d8fde97-3be3-4cea-9e26-9620309eaad4</data>
+  <data key="d3">chunk-131ccb9b881f59e75facc0bf0b92f53d&lt;SEP&gt;chunk-3766348c4313b28dbf2b817fbe29ae6f</data>
+  <data key="d2">10)&lt;SEP&gt;"Concept defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d1">information</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304506</data>
+  <data key="d6"></data>
+</node>
+<node id="PipingComponent_47ef5e57-78bf-42c1-9b92-146ba11259b1">
+  <data key="d0">PipingComponent_47ef5e57-78bf-42c1-9b92-146ba11259b1</data>
+  <data key="d1">piping</data>
+  <data key="d2">"ButterflyValve defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"Butterfly Valve defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-0c94ea18c490e9f4f202af0781c4bc40&lt;SEP&gt;chunk-63fe0e7de8e2bf14cedd0fe8dc4036b5</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304444</data>
+  <data key="d6"></data>
+</node>
+<node id="ButterflyValve">
+  <data key="d0">ButterflyValve</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Flow control/isolation device")</data>
+  <data key="d3">chunk-0c94ea18c490e9f4f202af0781c4bc40</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304261</data>
+  <data key="d6"></data>
+</node>
+<node id="SYF0E638DCE25148A0ADE8BE802F8AFAE3">
+  <data key="d0">SYF0E638DCE25148A0ADE8BE802F8AFAE3</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"PipingNetworkSystem defined in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-1dd94ddcea2a5dd1e49dc773567ea5bb</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304265</data>
+  <data key="d6"></data>
+</node>
+<node id="Pipe Segment-900|#">
+  <data key="d0">Pipe Segment-900|#</data>
+  <data key="d3">chunk-1dd94ddcea2a5dd1e49dc773567ea5bb</data>
+  <data key="d2">5)</data>
   <data key="d1">UNKNOWN</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300038</data>
+  <data key="d5">1768304265</data>
+  <data key="d6"></data>
+</node>
+<node id="Controller C-902|#">
+  <data key="d0">Controller C-902|#</data>
+  <data key="d3">chunk-1dd94ddcea2a5dd1e49dc773567ea5bb</data>
+  <data key="d2">8)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304265</data>
+  <data key="d6"></data>
+</node>
+<node id="Tank T-501|#">
+  <data key="d0">Tank T-501|#</data>
+  <data key="d3">chunk-1dd94ddcea2a5dd1e49dc773567ea5bb</data>
+  <data key="d2">5)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304265</data>
+  <data key="d6"></data>
+</node>
+<node id="Sensor S-203|#">
+  <data key="d0">Sensor S-203|#</data>
+  <data key="d3">chunk-1dd94ddcea2a5dd1e49dc773567ea5bb</data>
+  <data key="d2">8)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304265</data>
+  <data key="d6"></data>
+</node>
+<node id="ProcessInstrumentationFunction_7e82ebcc-eb06-4e15-8275-4f7c9f955e7a">
+  <data key="d0">ProcessInstrumentationFunction_7e82ebcc-eb06-4e15-8275-4f7c9f955e7a</data>
+  <data key="d1">concept</data>
+  <data key="d2">"Process instrumentation function")&lt;SEP&gt;"ProcessInstrumentationFunction defined in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-ee71a07e3fcaecee1d3f2fbae320babf&lt;SEP&gt;chunk-f96875ce0522454f18814cde66fe87ac</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304345</data>
+  <data key="d6"></data>
+</node>
+<node id="BlindFlange 'PipingComponent_d61b25cd-e04d-400f-96ef-d38a947a4da3'">
+  <data key="d0">BlindFlange 'PipingComponent_d61b25cd-e04d-400f-96ef-d38a947a4da3'</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Blind flange Piping component")&lt;SEP&gt;"'PipingComponent_d61b25cd-e04d-400f-96ef-d38a947a4da3' defined in P&amp;ID Data")</data>
+  <data key="d3">chunk-ee71a07e3fcaecee1d3f2fbae320babf&lt;SEP&gt;chunk-8b6b50a90788f2131db391dfd4cec684</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304609</data>
+  <data key="d6"></data>
+</node>
+<node id="UNIT1">
+  <data key="d0">UNIT1</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Plant Section ISO 10209-2012 defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-d0c2a534191596ff4be0c191fbb4484d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304270</data>
+  <data key="d6"></data>
+</node>
+<node id="Tank T-101">
+  <data key="d0">Tank T-101</data>
+  <data key="d1">equipment</data>
+  <data key="d2">Storage Tank defined in D06.xml</data>
+  <data key="d3">chunk-a7ed66f961b21fd202fe53e49baa0fe4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304272</data>
+  <data key="d6"></data>
+</node>
+<node id="Pipe Seg-150">
+  <data key="d0">Pipe Seg-150</data>
+  <data key="d1">piping</data>
+  <data key="d2">Piping segment connecting P-1 to T-101</data>
+  <data key="d3">chunk-a7ed66f961b21fd202fe53e49baa0fe4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304272</data>
+  <data key="d6"></data>
+</node>
+<node id="47126_7">
+  <data key="d0">47126_7</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"PipingNetworkSegment in 'C01V01-HEX.EX03.xml' with various attributes")</data>
+  <data key="d3">chunk-5644edb1e28a31fe34a282fa01d1a9ca</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304273</data>
+  <data key="d6"></data>
+</node>
+<node id="(no target entity specified)">
+  <data key="d0">(no target entity specified)</data>
+  <data key="d3">chunk-5644edb1e28a31fe34a282fa01d1a9ca</data>
+  <data key="d2">0)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304273</data>
+  <data key="d6"></data>
+</node>
+<node id="PipingComponent_2b0661dd-d0c0-4335-8d36-398b0204943a">
+  <data key="d0">PipingComponent_2b0661dd-d0c0-4335-8d36-398b0204943a</data>
+  <data key="d1">piping</data>
+  <data key="d2">"PlugValve")</data>
+  <data key="d3">chunk-148f3497f2dac887f8a87ce57822918d</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304274</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle Nozzle_2bb74ef3-3fa5-46ad-86b8-22aed5612e25">
+  <data key="d0">Nozzle Nozzle_2bb74ef3-3fa5-46ad-86b8-22aed5612e25</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Nozzle defined in P&amp;ID Data")</data>
+  <data key="d3">chunk-e28a3d6ae9b0d0a860dd9fbc0f970fde</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304290</data>
+  <data key="d6"></data>
+</node>
+<node id="ShutOffValve PipingComponent_94279153-41c7-4cf5-a215-2ee76904159c">
+  <data key="d0">ShutOffValve PipingComponent_94279153-41c7-4cf5-a215-2ee76904159c</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Piping component: Shut-off valve defined in P&amp;ID Data")</data>
+  <data key="d3">chunk-e28a3d6ae9b0d0a860dd9fbc0f970fde</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304290</data>
   <data key="d6"></data>
 </node>
 <node id="Nozzle_c0426cee-9f6f-4531-a35e-2daf46bdd533">
   <data key="d0">Nozzle_c0426cee-9f6f-4531-a35e-2daf46bdd533</data>
-  <data key="d1">entity</data>
-  <data key="d2">"Nozzle defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"Nozzle with ID SP7EB92322F4AC14299AB96093CA149E484")&lt;SEP&gt;"Nozzle defined in 'C01V01-HEX.EX03.xml'")</data>
-  <data key="d3">chunk-e4607d0347252e940fafb29814bd7f3c&lt;SEP&gt;chunk-4a28a7a4f1fda31e2e44999cb357e1bc&lt;SEP&gt;chunk-af6af6434068edb006b20dede4d70c43</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300248</data>
-  <data key="d6"></data>
-</node>
-<node id="Pipe Seg-400a">
-  <data key="d0">Pipe Seg-400a</data>
-  <data key="d1">piping</data>
-  <data key="d2">"Extension of Pipe Seg-400 for P-101 to T-500")</data>
-  <data key="d3">chunk-e4607d0347252e940fafb29814bd7f3c</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300041</data>
-  <data key="d6"></data>
-</node>
-<node id="Piping Segment 301">
-  <data key="d0">Piping Segment 301</data>
-  <data key="d1">piping</data>
-  <data key="d2">Pipeline segment connecting P-101 to T-500</data>
-  <data key="d3">chunk-609cbbd0b2253074b9b76c71d46fcf72</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300042</data>
-  <data key="d6"></data>
-</node>
-<node id="Temperature Sensor TS-103">
-  <data key="d0">Temperature Sensor TS-103</data>
-  <data key="d1">instrument</data>
-  <data key="d2">Temperature sensor monitoring process temperature</data>
-  <data key="d3">chunk-609cbbd0b2253074b9b76c71d46fcf72</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300042</data>
-  <data key="d6"></data>
-</node>
-<node id="Nozzle_9b45ab0c-a8c3-4e02-a8d7-696f6e93e4d3">
-  <data key="d0">Nozzle_9b45ab0c-a8c3-4e02-a8d7-696f6e93e4d3</data>
   <data key="d1">artifact</data>
-  <data key="d2">"Nozzle defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Nozzle defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-d894fc06d0ad6c82c07a8915f746a76c&lt;SEP&gt;chunk-fa3cb1981cde76673a63397de4ec1b96</data>
+  <data key="d2">"no description provided")&lt;SEP&gt;"Nozzle defined in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-e4607d0347252e940fafb29814bd7f3c&lt;SEP&gt;chunk-af6af6434068edb006b20dede4d70c43</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300139</data>
+  <data key="d5">1768304332</data>
+  <data key="d6"></data>
+</node>
+<node id="Equipment_fd9bc8e2-3206-4aef-9498-384641198b39">
+  <data key="d0">Equipment_fd9bc8e2-3206-4aef-9498-384641198b39</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Plate and Shell Heat Exchanger defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-27fa1a330a9ab5c753235e69b875cc1a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304301</data>
+  <data key="d6"></data>
+</node>
+<node id="SGFB17039076384904A167BA11552AC5A0">
+  <data key="d0">SGFB17039076384904A167BA11552AC5A0</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"PipingNetworkSegment defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-814d50d8cf144d2d323ea4ff77252660</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304306</data>
+  <data key="d6"></data>
+</node>
+<node id="PipeTee 'PipingComponent_f7f60dc3-c853-492d-9f31-78fa6b15d5fa'">
+  <data key="d0">PipeTee 'PipingComponent_f7f60dc3-c853-492d-9f31-78fa6b15d5fa'</data>
+  <data key="d1">piping</data>
+  <data key="d2">"Pipe segment")</data>
+  <data key="d3">chunk-20f3379081de012b8ed785fe17c4e716&lt;SEP&gt;chunk-530ae8ab8a56c4321fd4ba15d4080902</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304308</data>
+  <data key="d6"></data>
+</node>
+<node id="PlugValve 'PingingComponent_2b0661dd-d0c0-4335-8d36-398b0204943a'">
+  <data key="d0">PlugValve 'PingingComponent_2b0661dd-d0c0-4335-8d36-398b0204943a'</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Valve")</data>
+  <data key="d3">chunk-20f3379081de012b8ed785fe17c4e716</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304308</data>
+  <data key="d6"></data>
+</node>
+<node id="PipingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d">
+  <data key="d0">PipingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d</data>
+  <data key="d1">piping</data>
+  <data key="d2">"PipeTee defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"PipeTee defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"PipeTee defined in P&amp;ID Data")</data>
+  <data key="d3">chunk-dd35fdbb62fddee19bfcf69a4959d3e5&lt;SEP&gt;chunk-dacf31b00c185e8c704458f7197303a8&lt;SEP&gt;chunk-31087e434e49b24ab4de9d03739a6d67</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304517</data>
+  <data key="d6"></data>
+</node>
+<node id="ActuatingSystemComponent_44b9de42-8a3b-4142-86c9-1789877919f2">
+  <data key="d0">ActuatingSystemComponent_44b9de42-8a3b-4142-86c9-1789877919f2</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Controlled Actuator defined in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-2d623646e74bcdc82bc168da233e11df</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304311</data>
+  <data key="d6"></data>
+</node>
+<node id="ActuatingSystemComponent_4edbd630-5851-4d27-a9c2-55ffddd967d3">
+  <data key="d0">ActuatingSystemComponent_4edbd630-5851-4d27-a9c2-55ffddd967d3</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"Controlled Actuator")&lt;SEP&gt;"Entity defined in 'C01V01-HEX.EX03.xml' identifying a Controlled Actuator")&lt;SEP&gt;"Controlled Actuator defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-f474d90020fe94b9b9e873d5d4c28b19&lt;SEP&gt;chunk-878e388865b402f2781aa9dca6ee6a3b&lt;SEP&gt;chunk-a801c134f1cd015dbf53d6c8b79840a9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304546</data>
+  <data key="d6"></data>
+</node>
+<node id="ProcessInstrumentationFunction_a0bbbdda-560f-4d3a-aecd-b952485d2416">
+  <data key="d0">ProcessInstrumentationFunction_a0bbbdda-560f-4d3a-aecd-b952485d2416</data>
+  <data key="d1">processinstrumentationfunction</data>
+  <data key="d2">"Process Instrumentation Function")&lt;SEP&gt;"ProcessInstrumentationFunction defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"Concept")</data>
+  <data key="d3">chunk-f474d90020fe94b9b9e873d5d4c28b19&lt;SEP&gt;chunk-30fb6f43b6e73d578b24d6f1d1ef663f&lt;SEP&gt;chunk-d7ffaafc78206ba75f67497c8c40f860</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304624</data>
   <data key="d6"></data>
 </node>
 <node id="Nozzle_b299f38f-7779-489f-847c-766a121f4911">
   <data key="d0">Nozzle_b299f38f-7779-489f-847c-766a121f4911</data>
   <data key="d1">equipment</data>
-  <data key="d2">"Nozzle defined in P&amp;ID")&lt;SEP&gt;"'Nozzle' defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Nozzle defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-4e52d1a1b80ff9fcca39f0cfb891cb3f&lt;SEP&gt;chunk-d375ca89a565de2b168c0d382764a9b6&lt;SEP&gt;chunk-78f415d63bed350688c07ee98f3effe5</data>
+  <data key="d2">"NominalDiameterStandard" :.|&gt; 7)&lt;SEP&gt;"TagName" :.|&gt; 7)&lt;SEP&gt;"Nozzle")&lt;SEP&gt;"Nozzle defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"Nozzle entity")</data>
+  <data key="d3">chunk-d375ca89a565de2b168c0d382764a9b6&lt;SEP&gt;chunk-78f415d63bed350688c07ee98f3effe5&lt;SEP&gt;chunk-4e52d1a1b80ff9fcca39f0cfb891cb3f</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300160</data>
+  <data key="d5">1768304588</data>
   <data key="d6"></data>
 </node>
-<node id="Nozzle_21f2ee0f-28e0-4ee7-8eda-15d5439af1f1">
-  <data key="d0">Nozzle_21f2ee0f-28e0-4ee7-8eda-15d5439af1f1</data>
+<node id="Equipment_fc3b8e11-fc36-411a-963f-bdb0ebe35642">
+  <data key="d0">Equipment_fc3b8e11-fc36-411a-963f-bdb0ebe35642</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Shell and Tube Heat Exchanger defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Shell and Tube Heat Exchanger defined in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-50dc9d3d845d8fe5241382956936b1ea&lt;SEP&gt;chunk-914a753000b8cac23d4f817529ff9c55</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304647</data>
+  <data key="d6"></data>
+</node>
+<node id="SG31A53D930F7F45F487B9F03340ECF678">
+  <data key="d0">SG31A53D930F7F45F487B9F03340ECF678</data>
+  <data key="d1">pipingnetworksegment</data>
+  <data key="d2">"Description of Piping Network Segment")</data>
+  <data key="d3">chunk-0a400cda9b07fc92dc6c67a200be5fb2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304328</data>
+  <data key="d6"></data>
+</node>
+<node id="47131_1">
+  <data key="d0">47131_1</data>
+  <data key="d1">pipingnetworksegment</data>
+  <data key="d2">"Piping Network Segment in 'C01V01-HEX.EX03.xml' with various properties")</data>
+  <data key="d3">chunk-ef3201fa88bf247c3cfd762406361ead</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304328</data>
+  <data key="d6"></data>
+</node>
+<node id="PipeTee PipingComponent_47fbf26c-6ef3-4149-8d39-2735249786ff">
+  <data key="d0">PipeTee PipingComponent_47fbf26c-6ef3-4149-8d39-2735249786ff</data>
+  <data key="d1">piping</data>
+  <data key="d2">"Piping component connecting two pipes")</data>
+  <data key="d3">chunk-4a28a7a4f1fda31e2e44999cb357e1bc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304337</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle Nozzle_c0426cee-9f6f-4531-a35e-2daf46bdd533">
+  <data key="d0">Nozzle Nozzle_c0426cee-9f6f-4531-a35e-2daf46bdd533</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Process nozzle")</data>
+  <data key="d3">chunk-4a28a7a4f1fda31e2e44999cb357e1bc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304337</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle Nozzo_c0426cee-9f6f-4531-a35e-2daf46bdd533">
+  <data key="d0">Nozzle Nozzo_c0426cee-9f6f-4531-a35e-2daf46bdd533</data>
+  <data key="d3">chunk-4a28a7a4f1fda31e2e44999cb357e1bc</data>
+  <data key="d2">10)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304337</data>
+  <data key="d6"></data>
+</node>
+<node id="BlindFlange 'PipingComponent_ba4365dc-5700-4575-a722-0b972c031389'">
+  <data key="d0">BlindFlange 'PipingComponent_ba4365dc-5700-4575-a722-0b972c031389'</data>
   <data key="d1">artifact</data>
-  <data key="d2">"Nozzle defined in P&amp;ID")&lt;SEP&gt;"A nozzle defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Nozzle defined in 'C01V01-HEX.EX03.xml'")</data>
-  <data key="d3">chunk-4e52d1a1b80ff9fcca39f0cfb891cb3f&lt;SEP&gt;chunk-7af2f5b588efc7e8b3b94c73a1e8e616&lt;SEP&gt;chunk-85c3a4e66827b1d4a0bf61162b244447</data>
+  <data key="d2">"Blind flange connecting ProcessInstrumentationFunction_f1c6f778-2e38-4869-b992-680ea5dc8079")</data>
+  <data key="d3">chunk-7f85ff2654048c4d5778f249fa8674f1</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300465</data>
+  <data key="d5">1768304340</data>
   <data key="d6"></data>
 </node>
-<node id="ProcessInstrumentationFunction_7e82ebcc-eb06-4e15-8275-4f7c9f955e7a">
-  <data key="d0">ProcessInstrumentationFunction_7e82ebcc-eb06-4e15-8275-4f7c9f955e7a</data>
-  <data key="d1">method</data>
-  <data key="d2">"Process Instrumentation Function defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"ProcessInstrumentationFunction defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;'ProcessInstrumentationFunction defined in P&amp;ID data')</data>
-  <data key="d3">chunk-4489628a641e7d0af9831cef4412830f&lt;SEP&gt;chunk-f96875ce0522454f18814cde66fe87ac&lt;SEP&gt;chunk-ee71a07e3fcaecee1d3f2fbae320babf</data>
+<node id="Nozzle_5eb26288-e540-4650-b72d-e2cb72fea8ec">
+  <data key="d0">Nozzle_5eb26288-e540-4650-b72d-e2cb72fea8ec</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Nozzle defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Nozzle defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-5ba741f695ff16dc66867d8ad6af8c62&lt;SEP&gt;chunk-f2487abeabab80a1fb95697ef144e108</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300367</data>
+  <data key="d5">1768304402</data>
+  <data key="d6"></data>
+</node>
+<node id="The Nozzle 'Nozzle_e36d2abc-bac7-438d-9dab-0d79054a53a6'">
+  <data key="d0">The Nozzle 'Nozzle_e36d2abc-bac7-438d-9dab-0d79054a53a6'</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"Nozzle defined in P&amp;ID data")</data>
+  <data key="d3">chunk-ee119798ba5f2c5afaa4a28d1be60708</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304351</data>
+  <data key="d6"></data>
+</node>
+<node id="The Nozzle 'Nozzle_686a3623-ffde-41b5-b553-c90046834829'">
+  <data key="d0">The Nozzle 'Nozzle_686a3623-ffde-41b5-b553-c90046834829'</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"Nozzle defined in P&amp;ID data")</data>
+  <data key="d3">chunk-ee119798ba5f2c5afaa4a28d1be60708</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304351</data>
+  <data key="d6"></data>
+</node>
+<node id="47123">
+  <data key="d0">47123</data>
+  <data key="d1">pipingnetworksystem</data>
+  <data key="d2">"'PipingNetworkSystem' defined in C01V01-HEX.EX03.xml; FluidCode='MNb'; PipingClassCode='75HB13';...")</data>
+  <data key="d3">chunk-33623d10430bf2a93e7225bdf7353724</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304354</data>
+  <data key="d6"></data>
+</node>
+<node id="The SpringLoadedAngleGlobeSafetyValve 'PipingComponent_f981ba82-33db-4c62-a398-94e0cdbec9e8'">
+  <data key="d0">The SpringLoadedAngleGlobeSafetyValve 'PipingComponent_f981ba82-33db-4c62-a398-94e0cdbec9e8'</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Spring-loaded angle globe safety valve")</data>
+  <data key="d3">chunk-2a3e52a7d10b0426e55be81d442eb423</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304359</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle 'Nozzle_1acc3e45-636c-4b8f-84a8-706629262ca2'">
+  <data key="d0">Nozzle 'Nozzle_1acc3e45-636c-4b8f-84a8-706629262ca2'</data>
+  <data key="d1">piping</data>
+  <data key="d2">"Nozzle '1acc3e45-636c-4b8f-84a8-706629262ca2' ")</data>
+  <data key="d3">chunk-2a3e52a7d10b0426e55be81d442eb423</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304359</data>
+  <data key="d6"></data>
+</node>
+<node id="PipingComponent_51d3f48a-9a2a-4583-bf87-e1b65f0524ab">
+  <data key="d0">PipingComponent_51d3f48a-9a2a-4583-bf87-e1b65f0524ab</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"PlugValve defined in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-8ac8dcef6664a429cd1f7f7379e5f313</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304363</data>
+  <data key="d6"></data>
+</node>
+<node id="47141_1">
+  <data key="d0">47141_1</data>
+  <data key="d1">pipingnetworksegment</data>
+  <data key="d2">"'SG823ED83CA9884DDCB4FC998AF641D8A2' Piping Network Segment defined in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-35ad6de9a641903dd5663b24c34c6ce6</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304365</data>
+  <data key="d6"></data>
+</node>
+<node id="&lt;self&gt;">
+  <data key="d0">&lt;self&gt;</data>
+  <data key="d3">chunk-35ad6de9a641903dd5663b24c34c6ce6</data>
+  <data key="d2">10)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304365</data>
+  <data key="d6"></data>
+</node>
+<node id="47125">
+  <data key="d0">47125</data>
+  <data key="d1">entity</data>
+  <data key="d2">"SY1F37391ED2314597A4A128606FDD1B01 - PipingNetworkSystem")</data>
+  <data key="d3">chunk-1b2099f302b242cc7c91aece698109e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304370</data>
+  <data key="d6"></data>
+</node>
+<node id="PipeTee">
+  <data key="d0">PipeTee</data>
+  <data key="d1">piping</data>
+  <data key="d2">"Piping component that connects to SpringLoadedAngleGlobeSafetyValve")</data>
+  <data key="d3">chunk-3058d35a65d02cc248afd8f8475aa547</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304376</data>
+  <data key="d6"></data>
+</node>
+<node id="&quot;'PipingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d'&quot;ague'">
+  <data key="d0">"'PipingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d'"ague'</data>
+  <data key="d1">piping</data>
+  <data key="d2">"Unique ID for PipeTee")</data>
+  <data key="d3">chunk-3058d35a65d02cc248afd8f8475aa547</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304376</data>
+  <data key="d6"></data>
+</node>
+<node id="&quot;SpringLoadedAngleGlobeSafetyValve&quot;gae'">
+  <data key="d0">"SpringLoadedAngleGlobeSafetyValve"gae'</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Spring-loaded angle globe safety valve")</data>
+  <data key="d3">chunk-3058d35a65d02cc248afd8f8475aa547</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304376</data>
+  <data key="d6"></data>
+</node>
+<node id="&quot;'PipingComponent_f981ba82-33db-4c62-a398-94e0cdbec9e8'&quot;age'">
+  <data key="d0">"'PipingComponent_f981ba82-33db-4c62-a398-94e0cdbec9e8'"age'</data>
+  <data key="d1">piping</data>
+  <data key="d2">"Unique ID for SpringLoadedAngleGlobeSafetyValve")</data>
+  <data key="d3">chunk-3058d35a65d02cc248afd8f8475aa547</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304376</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle_7251ca21-a88b-4f64-9c15-00a36dbfed27">
+  <data key="d0">Nozzle_7251ca21-a88b-4f64-9c15-00a36dbfed27</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"Nozzle defined in file C01V01-HEX.EX03.xml")&lt;SEP&gt;"Nozzle entity in 'C01V01-HEX.EX03.xml' with ID SPDA2A488F0428494D9F30353CBF08A8B8 and SubTagName N7")</data>
+  <data key="d3">chunk-3750440bcecc38186ec3792a4a3284a0&lt;SEP&gt;chunk-e3e372af2a6c24e1d8a81626831488fc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304568</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle_1acc3e45-636c-4b8f-84a8-706629262ca2">
+  <data key="d0">Nozzle_1acc3e45-636c-4b8f-84a8-706629262ca2</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Nozzle defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Nozzle with SubTagName N5, SymbolRegistrationNumber ISO10628_2:2012-X8160A-A, NominalDiameterStandard Din2448ObjectDn50, NominalDiameterNumericalValueRepresentation 50, NominalDiameterRepresentation DN 50, NominalDiameterTypeRepresentation DN")</data>
+  <data key="d3">chunk-46439addc77b728ff085ac5bdf01f688&lt;SEP&gt;chunk-4e5f82139e8c6b046bf75e5cad024680</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304573</data>
   <data key="d6"></data>
 </node>
 <node id="PipingComponent_cbef5c42-7117-46bb-bad1-12f7f07d7e40">
   <data key="d0">PipingComponent_cbef5c42-7117-46bb-bad1-12f7f07d7e40</data>
   <data key="d1">piping</data>
-  <data key="d2">"Plug Valve defined in C01V01-HEX.EX03.xml with ID _cbef5c42-7117-46bb-bad1-12f7f07d7e40")&lt;SEP&gt;"PlugValve acting as flow control/isolation device in C01V01-HEX.EX03.xml")</data>
+  <data key="d2">"PlugValve defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"PipingComponent defined in C01V01-HEX.EX03.xml")</data>
   <data key="d3">chunk-099f81d04863fec5b955ac48acaf33d0&lt;SEP&gt;chunk-8f1ed818deee57fee2d6ded4b2c96457</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300261</data>
+  <data key="d5">1768304407</data>
   <data key="d6"></data>
 </node>
-<node id="PlugValve">
-  <data key="d0">PlugValve</data>
+<node id="47126_5">
+  <data key="d0">47126_5</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"PipingNetworkSegment defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-d1e26c04b591e19b47e08918a0ee1ad3</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304384</data>
+  <data key="d6"></data>
+</node>
+<node id="Signal S-204">
+  <data key="d0">Signal S-204</data>
+  <data key="d1">signal</data>
+  <data key="d2">Alarm signal indicating pressure loss</data>
+  <data key="d3">chunk-096fec4db701ed77f9c25a8f9a4710d5</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304387</data>
+  <data key="d6"></data>
+</node>
+<node id="Pipe Seg-401">
+  <data key="d0">Pipe Seg-401</data>
+  <data key="d1">piping</data>
+  <data key="d2">Pumping system return line&lt;SEP&gt;Piping segment connecting P-102 to T-501</data>
+  <data key="d3">chunk-096fec4db701ed77f9c25a8f9a4710d5&lt;SEP&gt;chunk-c12dad403852708175c21ac7bb948fe5</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304417</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle_4bb36d76-dd05-48c5-aaf7-ce3175a0d82b">
+  <data key="d0">Nozzle_4bb36d76-dd05-48c5-aaf7-ce3175a0d82b</data>
   <data key="d1">equipment</data>
-  <data key="d2">"Flow control/isolation device")</data>
-  <data key="d3">chunk-099f81d04863fec5b955ac48acaf33d0</data>
+  <data key="d2">"Nozzle defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;Nozzle defined in C01V01-HEX.EX03.xml with ID SP64597F3023124EE98BE9ED0BBF23C0F8</data>
+  <data key="d3">chunk-9ddfa0d6a508b46d83dbb432b560f751&lt;SEP&gt;chunk-c0b1a22d1e0cadf143e06486932470e9</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300051</data>
-  <data key="d6"></data>
-</node>
-<node id="ProcessInstrumentationFunction_a0bbbdda-560f-4d3a-aecd-b952485d2416">
-  <data key="d0">ProcessInstrumentationFunction_a0bbbdda-560f-4d3a-aecd-b952485d2416</data>
-  <data key="d1">instruments</data>
-  <data key="d2">"ProcessInstrumentationFunction defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"ProcessInstrumentationFunction defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Process Instrumentation Function defined in P&amp;ID")</data>
-  <data key="d3">chunk-30fb6f43b6e73d578b24d6f1d1ef663f&lt;SEP&gt;chunk-d7ffaafc78206ba75f67497c8c40f860&lt;SEP&gt;chunk-f474d90020fe94b9b9e873d5d4c28b19</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300433</data>
-  <data key="d6"></data>
-</node>
-<node id="SGAEBFFC9AB2C94F5993EA8C4D89EC1125">
-  <data key="d0">SGAEBFFC9AB2C94F5993EA8C4D89EC1125</data>
-  <data key="d1">pipingnetworksegment</data>
-  <data key="d2">"Piping Network Segment in 'C01V01-HEX.EX03.xml'")</data>
-  <data key="d3">chunk-ab426c9d018e8137f128e38340d9e4aa</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300057</data>
-  <data key="d6"></data>
-</node>
-<node id="Nozzle_bbf90eb2-f069-4e29-9992-b7e816c6d079">
-  <data key="d0">Nozzle_bbf90eb2-f069-4e29-9992-b7e816c6d079</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"Nozzle defined in Context: Process Engineering P&amp;ID Data")&lt;SEP&gt;"'Nozzle' defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Nozzle defined in C01V01-HEX.EX03.xml with ID SP39A8AAF30B144BEE8F4C8428E42D2871 and SubTagName N1")</data>
-  <data key="d3">chunk-041bc4002d1fc1ee42e838faafd6500a&lt;SEP&gt;chunk-7e4de31ebf54462eef1564a23593098a&lt;SEP&gt;chunk-dc67b429095f803bc20b616d3617e68b</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300471</data>
-  <data key="d6"></data>
-</node>
-<node id="Some Pump">
-  <data key="d0">Some Pump</data>
-  <data key="d1">equipment</data>
-  <data key="d2">Not specified in the input text</data>
-  <data key="d3">chunk-ef3201fa88bf247c3cfd762406361ead</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300064</data>
-  <data key="d6"></data>
-</node>
-<node id="Unspecified Controller">
-  <data key="d0">Unspecified Controller</data>
-  <data key="d1">instrument</data>
-  <data key="d2">Controller unit</data>
-  <data key="d3">chunk-ef3201fa88bf247c3cfd762406361ead</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300064</data>
+  <data key="d5">1768304573</data>
   <data key="d6"></data>
 </node>
 <node id="47124_1">
@@ -272,1771 +909,898 @@ Note: The formatting inconsistencies in the original descriptions were preserved
   <data key="d2">"PipingNetworkSegment defined in C01V01-HEX.EX03.xml")</data>
   <data key="d3">chunk-07a065552972236d21ba088c8ae61e8d</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300069</data>
+  <data key="d5">1768304397</data>
   <data key="d6"></data>
 </node>
-<node id="SG11933F04339546E2BB3FAE0C30B7D6AA">
-  <data key="d0">SG11933F04339546E2BB3FAE0C30B7D6AA</data>
-  <data key="d1">"pipingnetworksegment"={</data>
-  <data key="d2">"Piping Network Segment defined in C01V01-HEX.EX03.xml with FluidCode MNb, PipingClassCode 75HB13, HeatTracingType NoHeatTracingSystem, JacketedPipe UnjacketedPipe, NominalDiameterStandard Din2448ObjectDn80, OnHold NotOnHold, NominalDiameterNumericalValueRepresentation 80, NominalDiameterRepresentation DN 80, NominalDiameterTypeRepresentation DN, SegmentNumber 47122_1, SymbolRegistrationNumber ISO10628_2:2012-405-A, Slope UnslopedPipingNetworkSegment, PrimarySecondaryPipingNetworkSegment PrimaryPipingNetworkSegment"&lt;&gt;)</data>
-  <data key="d3">chunk-dee7c97ccb290b08b82d24acdeccd1d0</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300070</data>
-  <data key="d6"></data>
-</node>
-<node id="SG1F37391ED2314597A4A128606FDD1B01">
-  <data key="d0">SG1F37391ED2314597A4A128606FDD1B01</data>
-  <data key="d1">entity</data>
-  <data key="d2">"PipingNetworkSegment defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-bc3b6edf8696edf7497b344652035fff</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300072</data>
-  <data key="d6"></data>
-</node>
-<node id="PipingComponent_2985341f-fb10-44a6-9c64-56ee9e675c8f">
-  <data key="d0">PipingComponent_2985341f-fb10-44a6-9c64-56ee9e675c8f</data>
+<node id="New Pump">
+  <data key="d0">New Pump</data>
   <data key="d1">equipment</data>
-  <data key="d2">"ShutOffValve defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"ShutOffValve defined in 'C01V01-HEX.EX03.xml'")</data>
-  <data key="d3">chunk-9e6a8e37189ca46114ee9b2ca91552ae&lt;SEP&gt;chunk-aba832ffbf1f2933e893301ba7515c6b</data>
+  <data key="d2">New Centrifugal Pump just installed</data>
+  <data key="d3">chunk-ec06cd61ee0a6726a5f120ce2cf7705c</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300201</data>
+  <data key="d5">1768304399</data>
+  <data key="d6"></data>
+</node>
+<node id="New Tank">
+  <data key="d0">New Tank</data>
+  <data key="d1">equipment</data>
+  <data key="d2">New Storage Tank recently added to the process</data>
+  <data key="d3">chunk-ec06cd61ee0a6726a5f120ce2cf7705c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304399</data>
   <data key="d6"></data>
 </node>
 <node id="PipingComponent_5e0f45aa-5138-45d0-ac16-b38cf462f2fa">
   <data key="d0">PipingComponent_5e0f45aa-5138-45d0-ac16-b38cf462f2fa</data>
   <data key="d1">equipment</data>
-  <data key="d2">"Plug Valve defined in C01V01-HEX.EX03.xml, acts as flow control/isolation device, OnHold: NotOnHold")&lt;SEP&gt;"Plug Valve defined in 'C01V01-HEX.EX03.xml' and acts as flow control/isolation device")</data>
+  <data key="d2">"PlugValve defined in C01V01-HEX.EX03.xml, acts as flow control/isolation device")&lt;SEP&gt;"PlugValve acting as flow control/isolation device in 'C01V01-HEX.EX03.xml'")</data>
   <data key="d3">chunk-68cd8410dfec1f6bdf3969e84bbcc391&lt;SEP&gt;chunk-68c54f2f112f42480e3eb66772756aa0</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300224</data>
+  <data key="d5">1768304492</data>
   <data key="d6"></data>
 </node>
-<node id="MNc-">
-  <data key="d0">MNc-</data>
-  <data key="d1">pipingnetworksystem</data>
-  <data key="d2">"Piping Network System defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-937d7461dd007aae4cb35e3b06c9507f</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300081</data>
-  <data key="d6"></data>
-</node>
-<node id="Nozzle_34a02f33-cb6a-4165-9674-f767cc0716e1">
-  <data key="d0">Nozzle_34a02f33-cb6a-4165-9674-f767cc0716e1</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"Nozzle defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Nozzle defined in 'C01V01-HEX.EX03.xml' (ID: SP063A131E83D445E5B8F91F011EE12EC9), SubTagName='N8', SymbolRegistrationNumber='ISO10628_2:2012-X8159A-A')</data>
-  <data key="d3">chunk-478ee53e91d133dffc0485b1a8aaf879&lt;SEP&gt;chunk-7a744d99c1d9316e9bb8a0927fce8004</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300376</data>
-  <data key="d6"></data>
-</node>
-<node id="47140">
-  <data key="d0">47140</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"'PipingNetworkSystem defined in C01V01-HEX.EX03.xml'")</data>
-  <data key="d3">chunk-93ccf81d694775a563cea71726cd6bd6</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300088</data>
-  <data key="d6"></data>
-</node>
-<node id="Nozzle_95fdf5bd-27d3-4488-94d1-6938129c3340">
-  <data key="d0">Nozzle_95fdf5bd-27d3-4488-94d1-6938129c3340</data>
+<node id="PlugValve">
+  <data key="d0">PlugValve</data>
   <data key="d1">equipment</data>
-  <data key="d2">"Nozzle defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"Nozzle defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-0857f786dfed4d614592e29806a3783d&lt;SEP&gt;chunk-eb518c5160012a57750b5743225455e1</data>
+  <data key="d2">"Flow control/isolation device defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-8f1ed818deee57fee2d6ded4b2c96457</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300257</data>
-  <data key="d6"></data>
-</node>
-<node id="PipingComponent_51d3f48a-9a2a-4583-bf87-e1b65f0524ab">
-  <data key="d0">PipingComponent_51d3f48a-9a2a-4583-bf87-e1b65f0524ab</data>
-  <data key="d1">piping</data>
-  <data key="d2">"PlugValve defined in 'C01V01-HEX.EX03.xml'")</data>
-  <data key="d3">chunk-8ac8dcef6664a429cd1f7f7379e5f313</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300093</data>
-  <data key="d6"></data>
-</node>
-<node id="PipingComponent_47ef5e57-78bf-42c1-9b92-146ba11259b1">
-  <data key="d0">PipingComponent_47ef5e57-78bf-42c1-9b92-146ba11259b1</data>
-  <data key="d1">piping</data>
-  <data key="d2">"Piping component ID: _47ef5e57-78bf-42c1-9b92-146ba11259b1, acts as a flow control/isolation device")&lt;SEP&gt;"ButterflyValve defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-0c94ea18c490e9f4f202af0781c4bc40&lt;SEP&gt;chunk-63fe0e7de8e2bf14cedd0fe8dc4036b5</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300471</data>
-  <data key="d6"></data>
-</node>
-<node id="ButterflyValve">
-  <data key="d0">ButterflyValve</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"Flow control/isolation device")&lt;SEP&gt;"Flow control/isolation device")</data>
-  <data key="d3">chunk-0c94ea18c490e9f4f202af0781c4bc40&lt;SEP&gt;chunk-63fe0e7de8e2bf14cedd0fe8dc4036b5</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300471</data>
-  <data key="d6"></data>
-</node>
-<node id="Nozzle_d47c9ad3-1126-4124-9b49-7514e82938ec">
-  <data key="d0">Nozzle_d47c9ad3-1126-4124-9b49-7514e82938ec</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"'Nozzle' with attributes: SubTagName='N4', SymbolRegistrationNumber='ISO10628_2:2012-X8160A-A', NominalDiameterStandard='Din2448ObjectDn50', NominalDiameterNumericalValueRepresentation='50', NominalDiameterRepresentation='DN 50', NominalDiameterTypeRepresentation='DN'")&lt;SEP&gt;"Nozzle defined in 'C01V01-HEX.EX03.xml'")</data>
-  <data key="d3">chunk-d5b6a533c5523e497e8625b02722854f&lt;SEP&gt;chunk-eb6cba85d805e221e1049661fdc9c163</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300418</data>
+  <data key="d5">1768304407</data>
   <data key="d6"></data>
 </node>
 <node id="Nozzle_e36d2abc-bac7-438d-9dab-0d79054a53a6">
   <data key="d0">Nozzle_e36d2abc-bac7-438d-9dab-0d79054a53a6</data>
   <data key="d1">equipment</data>
-  <data key="d2">"Nozzle defined by ID SP473D6A2419E14773AEF6F990666B9D9D")&lt;SEP&gt;"Nozzle defined in C01V01-HEX.EX03.xml with ID SP473D6A2419E14773AEF6F990666B9D9D, SubTagName N2, SymbolRegistrationNumber ISO10628_2:2012-X8160A-A, NominalDiameterStandard Din2448ObjectDn50, NominalDiameterNumericalValueRepresentation 50, NominalDiameterRepresentation DN 50, and NominalDiameterTypeRepresentation DN")&lt;SEP&gt;"Nozzle defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-ee119798ba5f2c5afaa4a28d1be60708&lt;SEP&gt;chunk-27ef397d210cd8c140611eed9c2753f5&lt;SEP&gt;chunk-6b1c2808ec82e9a85a4226e26869a8cd</data>
+  <data key="d2">"Nozzle defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Nozzle defined in 'C01V01-HEX.EX03.xml' with SubTagName N2, SymbolRegistrationNumber ISO10628_2:2012-X8160A-A, NominalDiameterStandard Din2448ObjectDn50, NominalDiameterNumericalValueRepresentation 50, NominalDiameterRepresentation DN 50, NominalDiameterTypeRepresentation DN")</data>
+  <data key="d3">chunk-6b1c2808ec82e9a85a4226e26869a8cd&lt;SEP&gt;chunk-27ef397d210cd8c140611eed9c2753f5</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300372</data>
+  <data key="d5">1768304501</data>
   <data key="d6"></data>
 </node>
-<node id="Nozzle_686a3623-ffde-41b5-b553-c90046834829">
-  <data key="d0">Nozzle_686a3623-ffde-41b5-b553-c90046834829</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"Nozzle defined by ID SP27BED72B9DAE4F75B08AF06B4F88B102")&lt;SEP&gt;"Nozzle defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Nozzle defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-ee119798ba5f2c5afaa4a28d1be60708&lt;SEP&gt;chunk-928cb7b1c0e18c84c92e2e967a1ab183&lt;SEP&gt;chunk-a98a88b7abbc74d0fbf9745b6870b168</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300458</data>
-  <data key="d6"></data>
-</node>
-<node id="Nozzle_757b6700-5b2f-478c-a2f4-b02c1b747d0d">
-  <data key="d0">Nozzle_757b6700-5b2f-478c-a2f4-b02c1b747d0d</data>
-  <data key="d1">""equipment"</data>
-  <data key="d2">"Nozzle")&lt;SEP&gt;"Nozzle defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-b1be36d041c7b04fd8bf17fb4d546414&lt;SEP&gt;chunk-59fb51fba138ecc83e95732b72298ed7</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300231</data>
-  <data key="d6"></data>
-</node>
-<node id="Nozzle_2bb74ef3-3fa5-46ad-86b8-22aed5612e25">
-  <data key="d0">Nozzle_2bb74ef3-3fa5-46ad-86b8-22aed5612e25</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"Nozzle defined in P&amp;ID Data")&lt;SEP&gt;"'Nozzle' with SubTagName='N2', SymbolRegistrationNumber='ISO10628_2:2012-X8160A-A', NominalDiameterStandard='Din2448ObjectDn80', NominalDiameterNumericalValueRepresentation='80', NominalDiameterRepresentation='DN 80', NominalDiameterTypeRepresentation='DN'")</data>
-  <data key="d3">chunk-e28a3d6ae9b0d0a860dd9fbc0f970fde&lt;SEP&gt;chunk-a1e00da900143d073a036acacee4cf76</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300447</data>
-  <data key="d6"></data>
-</node>
-<node id="PipingComponent_94279153-41c7-4cf5-a215-2ee76904159c">
-  <data key="d0">PipingComponent_94279153-41c7-4cf5-a215-2ee76904159c</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"ShutOffValve defined in P&amp;ID Data")&lt;SEP&gt;"ShutOffValve entity with ID SP44F79E87D3EA426E8E77CECF7C3C86FA")&lt;SEP&gt;"ShutOffValve defined in 'C01V01-HEX.EX03.xml'")</data>
-  <data key="d3">chunk-e28a3d6ae9b0d0a860dd9fbc0f970fde&lt;SEP&gt;chunk-6ac99e803de3160d49fcd4601f97a852&lt;SEP&gt;chunk-e4e5d66b033191797574985d38075d5a</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300334</data>
-  <data key="d6"></data>
-</node>
-<node id="SY31A53D930F7F45F487B9F03340ECF678">
-  <data key="d0">SY31A53D930F7F45F487B9F03340ECF678</data>
-  <data key="d1">entity</data>
-  <data key="d2">"'PipingNetworkSystem' defined in 'C01V01-HEX.EX03.xml'")</data>
-  <data key="d3">chunk-a87c83aba981a4d02ccdb69317f4db84</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300120</data>
-  <data key="d6"></data>
-</node>
-<node id="PipingNetworkSystem">
-  <data key="d0">PipingNetworkSystem</data>
-  <data key="d1">sy043c45c1f8ed42c092cdcc5bf3456cb4</data>
-  <data key="d2">"")&lt;SEP&gt;"A Piping Network System defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"associated_to" {| 10})</data>
-  <data key="d3">chunk-a87c83aba981a4d02ccdb69317f4db84&lt;SEP&gt;chunk-33623d10430bf2a93e7225bdf7353724&lt;SEP&gt;chunk-3ec85c4c6cc133c55466245654423b2d</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300387</data>
-  <data key="d6"></data>
-</node>
-<node id="FluidCode">
-  <data key="d0">FluidCode</data>
-  <data key="d1">signal</data>
-  <data key="d2">"")</data>
-  <data key="d3">chunk-a87c83aba981a4d02ccdb69317f4db84</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300120</data>
-  <data key="d6"></data>
-</node>
-<node id="Instrument C-900">
-  <data key="d0">Instrument C-900</data>
-  <data key="d1">instrument</data>
-  <data key="d2">"Controller unit")</data>
-  <data key="d3">chunk-1bddb5bd83c712bcba89b0e314d659a0</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300122</data>
-  <data key="d6"></data>
-</node>
-<node id="Controller C-900">
-  <data key="d0">Controller C-900</data>
-  <data key="d1">instrument</data>
-  <data key="d2">"generates_signal_from" \| 10)&lt;SEP&gt;Automated control system for process parameters)</data>
-  <data key="d3">chunk-1bddb5bd83c712bcba89b0e314d659a0&lt;SEP&gt;chunk-754d204b106fb33ded38a18db6023713&lt;SEP&gt;chunk-c0a09a082c7ab6e2c3891613ce7a2e66&lt;SEP&gt;chunk-ec06cd61ee0a6726a5f120ce2cf7705c&lt;SEP&gt;chunk-33623d10430bf2a93e7225bdf7353724&lt;SEP&gt;chunk-46439addc77b728ff085ac5bdf01f688&lt;SEP&gt;chunk-1ec133d5aed2f2b3c82b221876e8be00&lt;SEP&gt;chunk-20f3379081de012b8ed785fe17c4e716</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300149</data>
-  <data key="d6"></data>
-</node>
-<node id="Signal S-202">
-  <data key="d0">Signal S-202</data>
-  <data key="d3">chunk-1bddb5bd83c712bcba89b0e314d659a0&lt;SEP&gt;chunk-33623d10430bf2a93e7225bdf7353724&lt;SEP&gt;chunk-46439addc77b728ff085ac5bdf01f688&lt;SEP&gt;chunk-1ec133d5aed2f2b3c82b221876e8be00&lt;SEP&gt;chunk-20f3379081de012b8ed785fe17c4e716</data>
-  <data key="d2">9)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300122</data>
-  <data key="d6"></data>
-</node>
-<node id="Valve V-101">
-  <data key="d0">Valve V-101</data>
-  <data key="d3">chunk-1bddb5bd83c712bcba89b0e314d659a0&lt;SEP&gt;chunk-33623d10430bf2a93e7225bdf7353724&lt;SEP&gt;chunk-754d204b106fb33ded38a18db6023713&lt;SEP&gt;chunk-c0a09a082c7ab6e2c3891613ce7a2e66&lt;SEP&gt;chunk-ec06cd61ee0a6726a5f120ce2cf7705c</data>
-  <data key="d2">9)&lt;SEP&gt;A Control Valve&lt;SEP&gt;Control Valve defined in C01.xml</data>
-  <data key="d1">equipment</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300325</data>
-  <data key="d6"></data>
-</node>
-<node id="Pipe seg-400">
-  <data key="d0">Pipe seg-400</data>
-  <data key="d1">piping</data>
-  <data key="d2">Piping segment connecting valves and pumps</data>
-  <data key="d3">chunk-33623d10430bf2a93e7225bdf7353724</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300124</data>
-  <data key="d6"></data>
-</node>
-<node id="ActuatingSystemComponent_4edbd630-5851-4d27-a9c2-55ffddd967d3">
-  <data key="d0">ActuatingSystemComponent_4edbd630-5851-4d27-a9c2-55ffddd967d3</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"Controlled Actuator defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Controlled Actuator defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"Controlled Actuator defined in P&amp;ID")</data>
-  <data key="d3">chunk-a801c134f1cd015dbf53d6c8b79840a9&lt;SEP&gt;chunk-878e388865b402f2781aa9dca6ee6a3b&lt;SEP&gt;chunk-f474d90020fe94b9b9e873d5d4c28b19</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300433</data>
-  <data key="d6"></data>
-</node>
-<node id="Nozzle_7251ca21-a88b-4f64-9c15-00a36dbfed27">
-  <data key="d0">Nozzle_7251ca21-a88b-4f64-9c15-00a36dbfed27</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"'Nozzle' defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-e3e372af2a6c24e1d8a81626831488fc</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300128</data>
-  <data key="d6"></data>
-</node>
-<node id="Din2448ObjectDn50">
-  <data key="d0">Din2448ObjectDn50</data>
-  <data key="d1">concept</data>
-  <data key="d2">"Standard for nominal diameter representation")</data>
-  <data key="d3">chunk-56d879df6a78d8a3b971ee1a1d28b047</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300137</data>
-  <data key="d6"></data>
-</node>
-<node id="DN 50">
-  <data key="d0">DN 50</data>
-  <data key="d1">concept</data>
-  <data key="d2">"Representation of nominal diameter value")</data>
-  <data key="d3">chunk-56d879df6a78d8a3b971ee1a1d28b047</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300137</data>
-  <data key="d6"></data>
-</node>
-<node id="None">
-  <data key="d0">None</data>
-  <data key="d3">chunk-56d879df6a78d8a3b971ee1a1d28b047&lt;SEP&gt;chunk-2ea20b0fc2cd23dad7576ee0a8d7d939&lt;SEP&gt;chunk-3b4e3a1c281f625f44bc9972b15a797b&lt;SEP&gt;chunk-eb518c5160012a57750b5743225455e1&lt;SEP&gt;chunk-814d50d8cf144d2d323ea4ff77252660</data>
-  <data key="d2">5)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300137</data>
-  <data key="d6"></data>
-</node>
-<node id="Pump P-101">
-  <data key="d0">Pump P-101</data>
-  <data key="d3">chunk-2fcd107140a8392ff7bebbf39a91b55e&lt;SEP&gt;chunk-3058d35a65d02cc248afd8f8475aa547&lt;SEP&gt;chunk-1ec133d5aed2f2b3c82b221876e8be00&lt;SEP&gt;chunk-20f3379081de012b8ed785fe17c4e716</data>
-  <data key="d2">8)&lt;SEP&gt;connected_to "#|&gt; 10)</data>
-  <data key="d1">pipeseg-400"</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300292</data>
-  <data key="d6"></data>
-</node>
-<node id="Tank T-500">
-  <data key="d0">Tank T-500</data>
-  <data key="d3">chunk-2fcd107140a8392ff7bebbf39a91b55e&lt;SEP&gt;chunk-754d204b106fb33ded38a18db6023713</data>
-  <data key="d2">8)&lt;SEP&gt;Storage tank for liquid chemical storage)</data>
-  <data key="d1">equipment</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300149</data>
-  <data key="d6"></data>
-</node>
-<node id="PipingComponent_f981ba82-33db-4c62-a398-94e0cdbec9e8">
-  <data key="d0">PipingComponent_f981ba82-33db-4c62-a398-94e0cdbec9e8</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"SpringLoadedAngleGlobeSafetyValve defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"SpringLoadedAngleGlobeSafetyValve, acts as flow control/isolation device, OnHold-NotOnHold")</data>
-  <data key="d3">chunk-754d204b106fb33ded38a18db6023713&lt;SEP&gt;chunk-0a380448f6dd95da51d576e9410f0f22</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300249</data>
-  <data key="d6"></data>
-</node>
-<node id="Pipe Seg-400">
-  <data key="d0">Pipe Seg-400</data>
-  <data key="d3">chunk-754d204b106fb33ded38a18db6023713&lt;SEP&gt;chunk-ec06cd61ee0a6726a5f120ce2cf7705c&lt;SEP&gt;chunk-1ec133d5aed2f2b3c82b221876e8be00&lt;SEP&gt;chunk-20f3379081de012b8ed785fe17c4e716</data>
-  <data key="d2">10)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300149</data>
-  <data key="d6"></data>
-</node>
-<node id="ActuatingSystemComponent_15a86a72-bc99-49db-b0ad-4b657adb90a0">
-  <data key="d0">ActuatingSystemComponent_15a86a72-bc99-49db-b0ad-4b657adb90a0</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"Entity 'ActuatingSystemComponent_15a86a72-bc99-49db-b0ad-4b657adb90a0' defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"Controlled Actuator defined in SP09D3D7B19B01476CA35CC217A81E50B1")</data>
-  <data key="d3">chunk-b2fb4cab7ff417aa741aecd48452ff38&lt;SEP&gt;chunk-131ccb9b881f59e75facc0bf0b92f53d</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300466</data>
-  <data key="d6"></data>
-</node>
-<node id="ControlledActuator">
-  <data key="d0">ControlledActuator</data>
-  <data key="d1">method</data>
-  <data key="d2">"Description of the entity's attributes and activities")</data>
-  <data key="d3">chunk-b2fb4cab7ff417aa741aecd48452ff38</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300153</data>
-  <data key="d6"></data>
-</node>
-<node id="P-4712.01">
-  <data key="d0">P-4712.01</data>
-  <data key="d1">instrument</data>
-  <data key="d2">"Instrumentation Loop Function identified in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-7ca66a8f54c88b1a7015830c9203ca17</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300153</data>
-  <data key="d6"></data>
-</node>
-<node id="&quot;&quot;P-4712.01&quot;&quot;">
-  <data key="d0">""P-4712.01""</data>
-  <data key="d1">instrumentationloopfunctionnumber</data>
-  <data key="d2">"Unique identifier and identifier string for the Instrumentation Loop Function")</data>
-  <data key="d3">chunk-7ca66a8f54c88b1a7015830c9203ca17</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300153</data>
-  <data key="d6"></data>
-</node>
-<node id="Nozzle_1acc3e45-636c-4b8f-84a8-706629262ca2">
-  <data key="d0">Nozzle_1acc3e45-636c-4b8f-84a8-706629262ca2</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"Nozzle defined in C01V01-HEX.EX03.xml with SubTagName N5, SymbolRegistrationNumber ISO10628_2:2012-X8160A-A, NominalDiameterStandard Din2448ObjectDn50, NominalDiameterNumericalValueRepresentation 50, NominalDiameterRepresentation DN 50, and NominalDiameterTypeRepresentation DN")&lt;SEP&gt;"Nozzle defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-4e5f82139e8c6b046bf75e5cad024680&lt;SEP&gt;chunk-46439addc77b728ff085ac5bdf01f688</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300339</data>
-  <data key="d6"></data>
-</node>
-<node id="Entity Name">
-  <data key="d0">Entity Name</data>
-  <data key="d1">entitytype</data>
-  <data key="d2">Entity Description&lt;SEP&gt;Entity Description</data>
-  <data key="d3">chunk-4e5f82139e8c6b046bf75e5cad024680&lt;SEP&gt;chunk-3b465814ddfdcf51405f824b7bf0ca97</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300391</data>
-  <data key="d6"></data>
-</node>
-<node id="Source Entity">
-  <data key="d0">Source Entity</data>
-  <data key="d3">chunk-4e5f82139e8c6b046bf75e5cad024680&lt;SEP&gt;chunk-3b465814ddfdcf51405f824b7bf0ca97</data>
-  <data key="d2">Relationship Strength</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300157</data>
-  <data key="d6"></data>
-</node>
-<node id="?#-101">
-  <data key="d0">?#-101</data>
-  <data key="d3">chunk-4e5f82139e8c6b046bf75e5cad024680</data>
-  <data key="d2">10  (incorrectly formatted relationship strength)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300157</data>
-  <data key="d6"></data>
-</node>
-<node id="?Pipe Seg-400">
-  <data key="d0">?Pipe Seg-400</data>
-  <data key="d3">chunk-4e5f82139e8c6b046bf75e5cad024680</data>
-  <data key="d2">10  (incorrectly formatted relationship strength)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300157</data>
-  <data key="d6"></data>
-</node>
-<node id="Target Entity">
-  <data key="d0">Target Entity</data>
-  <data key="d3">chunk-4e5f82139e8c6b046bf75e5cad024680&lt;SEP&gt;chunk-3b465814ddfdcf51405f824b7bf0ca97</data>
-  <data key="d2">Relationship Strength</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300157</data>
-  <data key="d6"></data>
-</node>
-<node id="&lt;null&gt;">
-  <data key="d0">&lt;null&gt;</data>
-  <data key="d3">chunk-d375ca89a565de2b168c0d382764a9b6</data>
-  <data key="d2">5)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300158</data>
-  <data key="d6"></data>
-</node>
-<node id="Wirkungslinie">
-  <data key="d0">Wirkungslinie</data>
-  <data key="d1">signal</data>
-  <data key="d2">"Signal conveying function")</data>
-  <data key="d3">chunk-0c64846e464e69e40210dd65a0bcbb88</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300166</data>
-  <data key="d6"></data>
-</node>
-<node id="null">
-  <data key="d0">null</data>
-  <data key="d3">chunk-0c64846e464e69e40210dd65a0bcbb88</data>
-  <data key="d2">10)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300166</data>
-  <data key="d6"></data>
-</node>
-<node id="BlindFlange 'PipingComponent_ba4365dc-5700-4575-a722-0b972c031389'">
-  <data key="d0">BlindFlange 'PipingComponent_ba4365dc-5700-4575-a722-0b972c031389'</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"Blind Flange defined in SP3D14F870DEB44B129D3E37D162D6A661")</data>
-  <data key="d3">chunk-6754190e756b8c7e34581578b7088e36</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300171</data>
-  <data key="d6"></data>
-</node>
-<node id="Equipment_cac143b0-ee89-49a6-8923-ea72645f9749">
-  <data key="d0">Equipment_cac143b0-ee89-49a6-8923-ea72645f9749</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"CENTRIFUGAL PUMP defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Centrifugal Pump defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-b1b411a050a8a42eebf4e89d82c7ab0e&lt;SEP&gt;chunk-a5782e6d55ac9021f363c086ad62cf2a</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300397</data>
-  <data key="d6"></data>
-</node>
-<node id="H-4750.01">
-  <data key="d0">H-4750.01</data>
-  <data key="d1">instrument</data>
-  <data key="d2">"In 'C01V01-HEX.EX03.xml', entity 'H-4750.01' (ID: SP9E7094B112EB4D7E815DFCC6F786349B) is a 'InstrumentationLoopFunction'. Its InstrumentationLoopFunctionNumber is 'H-4750.01'")</data>
-  <data key="d3">chunk-7c5aada41cf6c93aa2ea318b1bcab499</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300177</data>
-  <data key="d6"></data>
-</node>
-<node id="PipingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d">
-  <data key="d0">PipingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d</data>
-  <data key="d1">piping</data>
-  <data key="d2">"'PipeTee' defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"PipeTee defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-dd35fdbb62fddee19bfcf69a4959d3e5&lt;SEP&gt;chunk-dacf31b00c185e8c704458f7197303a8</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300254</data>
-  <data key="d6"></data>
-</node>
-<node id="SG87DEBCF9FAC64245A593D771DBF71633">
-  <data key="d0">SG87DEBCF9FAC64245A593D771DBF71633</data>
-  <data key="d1">pipingnetworksegment</data>
-  <data key="d2">"PipingNetworkSegment defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-5fe3c2c30dbe91884b740ca729a8da4e</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300195</data>
-  <data key="d6"></data>
-</node>
-<node id="&lt;no target entity&gt;">
-  <data key="d0">&lt;no target entity&gt;</data>
-  <data key="d3">chunk-5fe3c2c30dbe91884b740ca729a8da4e&lt;SEP&gt;chunk-e4e5d66b033191797574985d38075d5a</data>
-  <data key="d2">1)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300195</data>
-  <data key="d6"></data>
-</node>
-<node id="-">
-  <data key="d0">-</data>
-  <data key="d3">chunk-1e1778a2c2b61ddd89f19e81fc301eb6</data>
-  <data key="d2">0)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300197</data>
-  <data key="d6"></data>
-</node>
-<node id="PipingComponent_2eec4e5f-afbf-4d21-8088-b650de8843f0">
-  <data key="d0">PipingComponent_2eec4e5f-afbf-4d21-8088-b650de8843f0</data>
-  <data key="d1">piping</data>
-  <data key="d2">"PipeReducer defined in C01V01-HEX.EX03.xml and having ID SP15D8798E32674D37895509EF2BCB204B")&lt;SEP&gt;"PipeReducer defined in 'C01V01-HEX.EX03.xml'")</data>
-  <data key="d3">chunk-c12dad403852708175c21ac7bb948fe5&lt;SEP&gt;chunk-c4da924a6ec4af9bb60f4516748ae8e2</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300335</data>
-  <data key="d6"></data>
-</node>
-<node id="PipingComponent_47fbf26c-6ef3-4149-8d39-2735249786ff">
-  <data key="d0">PipingComponent_47fbf26c-6ef3-4149-8d39-2735249786ff</data>
-  <data key="d1">piping</data>
-  <data key="d2">"PipeTee defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"PipeTee defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-e0a28656be96fae9815ca400e4bbe03d&lt;SEP&gt;chunk-336e442945a6bb2770833fea0052725c</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300261</data>
-  <data key="d6"></data>
-</node>
-<node id="47125_2">
-  <data key="d0">47125_2</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"PipingNetworkSegment defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-3b4e3a1c281f625f44bc9972b15a797b</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300207</data>
-  <data key="d6"></data>
-</node>
-<node id="PipingNetworkSegment">
-  <data key="d0">PipingNetworkSegment</data>
-  <data key="d3">chunk-3b4e3a1c281f625f44bc9972b15a797b&lt;SEP&gt;chunk-35ad6de9a641903dd5663b24c34c6ce6</data>
-  <data key="d2">5)&lt;SEP&gt;PipingNetworkSegment defined in C01V01-HEX.EX03.xml</data>
-  <data key="d1">piping</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300271</data>
-  <data key="d6"></data>
-</node>
-<node id="PipingComponent_5b71776c-d5ef-4994-8199-ab65f8e771e0">
-  <data key="d0">PipingComponent_5b71776c-d5ef-4994-8199-ab65f8e771e0</data>
-  <data key="d1">piping</data>
-  <data key="d2">"ButterflyValve defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-a945f6a578901cc4932212125c151a83</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300208</data>
-  <data key="d6"></data>
-</node>
-<node id="PipingComponent_a883ee28-56c5-44b0-ad21-65992f934284">
-  <data key="d0">PipingComponent_a883ee28-56c5-44b0-ad21-65992f934284</data>
-  <data key="d1">piping</data>
-  <data key="d2">"Flow control/isolation device in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"Plug Valve defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-8e1043d5b2f5eac86290d3402c95eddb&lt;SEP&gt;chunk-b516b7bbed77ac857e1c5e6ef58fa271</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300308</data>
-  <data key="d6"></data>
-</node>
-<node id="&quot;&quot; (no target entity)">
-  <data key="d0">"" (no target entity)</data>
-  <data key="d3">chunk-8e1043d5b2f5eac86290d3402c95eddb&lt;SEP&gt;chunk-7b73f7c4c4a3492c079dff4a6412393c</data>
-  <data key="d2">8)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300211</data>
-  <data key="d6"></data>
-</node>
-<node id="PipeTee 'PipingComponent_aec8fef3-b085-42c6-9e22-85bbf512406f'">
-  <data key="d0">PipeTee 'PipingComponent_aec8fef3-b085-42c6-9e22-85bbf512406f'</data>
-  <data key="d1">artifact</data>
-  <data key="d2">" Pipe Tee defined in P&amp;ID data")</data>
-  <data key="d3">chunk-f27af30b67b6fd8da61653fb1280974b</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300215</data>
-  <data key="d6"></data>
-</node>
-<node id="PlugValve 'PipingComponent_cbef5c42-7117-46bb-bad1-12f7f07d7e40'">
-  <data key="d0">PlugValve 'PipingComponent_cbef5c42-7117-46bb-bad1-12f7f07d7e40'</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"Plug Valve defined in P&amp;ID data")</data>
-  <data key="d3">chunk-f27af30b67b6fd8da61653fb1280974b</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300215</data>
-  <data key="d6"></data>
-</node>
-<node id="Nozzle_4bb36d76-dd05-48c5-aaf7-ce3175a0d82b">
-  <data key="d0">Nozzle_4bb36d76-dd05-48c5-aaf7-ce3175a0d82b</data>
+<node id="Nozzle_9b45ab0c-a8c3-4e02-a8d7-696f6e93e4d3">
+  <data key="d0">Nozzle_9b45ab0c-a8c3-4e02-a8d7-696f6e93e4d3</data>
   <data key="d1">equipment</data>
   <data key="d2">"Nozzle defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Nozzle defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-9ddfa0d6a508b46d83dbb432b560f751&lt;SEP&gt;chunk-c0b1a22d1e0cadf143e06486932470e9</data>
+  <data key="d3">chunk-d894fc06d0ad6c82c07a8915f746a76c&lt;SEP&gt;chunk-fa3cb1981cde76673a63397de4ec1b96</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300413</data>
-  <data key="d6"></data>
-</node>
-<node id="47126_2">
-  <data key="d0">47126_2</data>
-  <data key="d1">pipingnetworksegment</data>
-  <data key="d2">"SG50752A9D1D594DDABF1CE2574A7F183F, MNc, 75HB13, NoHeatTracingSystem, UnjacketedPipe, Din2448ObjectDn50, NotOnHold, 50, DN50, DN, 47126_2, Absperrhahn allgemein, UnslopedPipingNetworkSegment, PrimaryPipingNetworkSegment, NoSiphon, PipingClassArtefact, DN 50, TwoPortValve, ContinuousOperation, T")</data>
-  <data key="d3">chunk-e6e9bc887ee31c119206969208187692</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300220</data>
-  <data key="d6"></data>
-</node>
-<node id="47126_3">
-  <data key="d0">47126_3</data>
-  <data key="d1">pipingnetworksegment</data>
-  <data key="d2">"PipingNetworkSegment defined in C01V01-HEX.EX03.xml with FluidCode MNc, PipingClassCode 73KH12, HeatTracingType NoHeatTracingSystem, JacketedPipe UnjacketedPipe, NominalDiameterStandard Din2448ObjectDn25, OnHold NotOnHold, NominalDiameterNumericalValueRepresentation 25, NominalDiameterRepresentation DN 25, NominalDiameterTypeRepresentation DN, SegmentNumber 47126_3, SymbolRegistrationNumber Reducing Blindflansch mit Bohrung, Slope UnslopedPipingNetworkSegment, PrimarySecondaryPipingNetworkSegment SecondaryPipingNetworkSegment, Siphon NoSiphon, PipingClassArtefact PipingClassArtefact, NominalDiametersRepresentation 25, NumberOfPorts TwoPortValve, Operation ContinuousOperation")</data>
-  <data key="d3">chunk-8164a80ac37a5286e7274a06451a79f8</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300222</data>
-  <data key="d6"></data>
-</node>
-<node id="PipeTee PipingComponent_47fbf26c-6ef3-4149-8d39-2735249786ff">
-  <data key="d0">PipeTee PipingComponent_47fbf26c-6ef3-4149-8d39-2735249786ff</data>
-  <data key="d1">piping</data>
-  <data key="d2">"Piping component SPCA10B4040FAF4C2EA31DC31B1B80A966")</data>
-  <data key="d3">chunk-4a28a7a4f1fda31e2e44999cb357e1bc</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300231</data>
-  <data key="d6"></data>
-</node>
-<node id="PipingComponent_ba4365dc-5700-4575-a722-0b972c031389">
-  <data key="d0">PipingComponent_ba4365dc-5700-4575-a722-0b972c031389</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"Blind Flange defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"BlindFlange in 'C01V01-HEX.EX03.xml' with ID SP3D14F870DEB44B129D3E37D162D6A661, OnHold: NotOnHold, PipingClassArtefact, FluidCode: MNc, SymbolRegistrationNumber: Reducing Blindflansch mit Bohrung, HeatTracingType: NoHeatTracingSystem, NominalDiameterStandard: Din2448ObjectDn25, NominalDiameterNumericalValueRepresentation: 25, NominalDiameterRepresentation: DN 25, NominalDiameterTypeRepresentation: DN")</data>
-  <data key="d3">chunk-33f7e417ac70ad9afbdfd9930dadb998&lt;SEP&gt;chunk-e50044cc9a3750d0b957b63dbede1645</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300438</data>
-  <data key="d6"></data>
-</node>
-<node id="PipeTee' PipingComponent_aec8fef3-b085-42c6-9e22-85bbf512406f">
-  <data key="d0">PipeTee' PipingComponent_aec8fef3-b085-42c6-9e22-85bbf512406f</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"PipeTee with ID SP4DC0DD74113544F5BCC07B3BF5107D29")</data>
-  <data key="d3">chunk-f9ce4d65c30f7a2b2f5b88ea17e1901e</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300241</data>
-  <data key="d6"></data>
-</node>
-<node id="PipingClassArtefant">
-  <data key="d0">PipingClassArtefant</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"PipingClassArtefact entity")</data>
-  <data key="d3">chunk-6ac99e803de3160d49fcd4601f97a852</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300242</data>
-  <data key="d6"></data>
-</node>
-<node id="SymbolRegistrationNumber">
-  <data key="d0">SymbolRegistrationNumber</data>
-  <data key="d1">concept</data>
-  <data key="d2">"Symbol registration number")</data>
-  <data key="d3">chunk-6ac99e803de3160d49fcd4601f97a852</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300242</data>
-  <data key="d6"></data>
-</node>
-<node id="47126_9">
-  <data key="d0">47126_9</data>
-  <data key="d1">pipingnetworksegment</data>
-  <data key="d2">"Piping segment with ID SG7AB7647E910F4C5E9A09C13379B5738B")</data>
-  <data key="d3">chunk-e18b5e91a49114c4a64caec30ac800b3</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300244</data>
-  <data key="d6"></data>
-</node>
-<node id="Github">
-  <data key="d0">Github</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"Repository entity with ID PBS945900F29F424D32A292F07BB90792E2 and ISO 10209-2012 identifier")</data>
-  <data key="d3">chunk-660fad4b782200f703ffb7585741600f</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300245</data>
-  <data key="d6"></data>
-</node>
-<node id="TubeBundle">
-  <data key="d0">TubeBundle</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"Description of a tube bundle component")</data>
-  <data key="d3">chunk-44f6316e8229e644a9edacdbb5a4c064</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300257</data>
-  <data key="d6"></data>
-</node>
-<node id="None-101">
-  <data key="d0">None-101</data>
-  <data key="d1">equipment</data>
-  <data key="d2">Unconnected component</data>
-  <data key="d3">chunk-44f6316e8229e644a9edacdbb5a4c064</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300257</data>
-  <data key="d6"></data>
-</node>
-<node id="Signal S-202-P-101">
-  <data key="d0">Signal S-202-P-101</data>
-  <data key="d1">signal</data>
-  <data key="d2">Control signal for V-101</data>
-  <data key="d3">chunk-336e442945a6bb2770833fea0052725c</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300261</data>
-  <data key="d6"></data>
-</node>
-<node id="Unnamed_Component (ID: SP8F1256539D684240959558BAA5FA2EF5_SE002)">
-  <data key="d0">Unnamed_Component (ID: SP8F1256539D684240959558BAA5FA2EF5_SE002)</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"'Chamber' entity with Plate Chamber functionality; utilized for Heating ; SubTagName 'Chamber 2'")</data>
-  <data key="d3">chunk-4b64b72fadd0d12834e0ec234546ed9b</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300266</data>
-  <data key="d6"></data>
-</node>
-<node id="ProcessInstrumentationFunction_5d8fde97-3be3-4cea-9e26-9620309eaad4">
-  <data key="d0">ProcessInstrumentationFunction_5d8fde97-3be3-4cea-9e26-9620309eaad4</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"ProcessInstrumentationFunction with category H, modifier S, and number H-4750.01 defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"ProcessInstrumentationFunction defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"Process Instrumentation Function defined in SP394804117CEC4E45917514CDC302C825")</data>
-  <data key="d3">chunk-7174dc542d9c298400155db3428709b2&lt;SEP&gt;chunk-3766348c4313b28dbf2b817fbe29ae6f&lt;SEP&gt;chunk-131ccb9b881f59e75facc0bf0b92f53d</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300466</data>
-  <data key="d6"></data>
-</node>
-<node id="CentralLocation">
-  <data key="d0">CentralLocation</data>
-  <data key="d3">chunk-7174dc542d9c298400155db3428709b2</data>
-  <data key="d2">7)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300267</data>
-  <data key="d6"></data>
-</node>
-<node id="HV-4750.01">
-  <data key="d0">HV-4750.01</data>
-  <data key="d3">chunk-7174dc542d9c298400155db3428709b2&lt;SEP&gt;chunk-098980a9925349d45550f71c0bebea7b</data>
-  <data key="d2">6)&lt;SEP&gt;"ActuatingFunctionNumber of Unnamed_Component")</data>
-  <data key="d1">method</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300451</data>
-  <data key="d6"></data>
-</node>
-<node id="47141_1">
-  <data key="d0">47141_1</data>
-  <data key="d1">pipingnetworksegment</data>
-  <data key="d2">Entity '47141_1' (ID: SG823ED83CA9884DDCB4FC998AF641D8A2) is a PipingNetworkSegment</data>
-  <data key="d3">chunk-35ad6de9a641903dd5663b24c34c6ce6</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300271</data>
-  <data key="d6"></data>
-</node>
-<node id="Flow Arrow">
-  <data key="d0">Flow Arrow</data>
-  <data key="d1">label</data>
-  <data key="d2">Label with representation 'Fliesspfeil.sym'</data>
-  <data key="d3">chunk-35ad6de9a641903dd5663b24c34c6ce6</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300271</data>
-  <data key="d6"></data>
-</node>
-<node id="47131">
-  <data key="d0">47131</data>
-  <data key="d1">pipingnetworksystem</data>
-  <data key="d2">"PipingNetworkSystem defined in 'C01V01-HEX.EX03.xml' with FluidCode 'WKb', PipingClassCode '75HB13', HeatTracingType 'NoHeatTracingSystem', JacketedPipe 'UnjacketedPipe', NominalDiameterStandard 'Din2448ObjectDn50', OnHold 'NotOnHold', ...")</data>
-  <data key="d3">chunk-bd65421b5affcead722df2136a7ab912</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300276</data>
-  <data key="d6"></data>
-</node>
-<node id="47124_2">
-  <data key="d0">47124_2</data>
-  <data key="d1">pipingnetworksegment</data>
-  <data key="d2">"'SGF2C61F6FA6C04D32B8D40D09ABC4B458' entity with FluidCode 'MNc', PipingClassCode '73HG12', HeatTracingType 'NoHeatTracingSystem', JacketedPipe 'UnjacketedPipe', NominalDiameterStandard 'Din2448ObjectDn50', OnHold 'NotOnHold', NominalDiameterNumericalValueRepresentation '50', NominalDiameterRepresentation 'DN 50', NominalDiameterTypeRepresentation 'DN', SegmentNumber '47124_2', SymbolRegistrationNumber 'ISO10628_2:2012-516-A', Slope 'UnslopedPipingNetworkSegment', PrimarySecondaryPipingNetworkSegment 'PrimaryPipingNetworkSegment', Siphon 'NoSiphon', PipingClassArtefact 'PipingClassArtefact', NominalDiametersRepresentation '80'")</data>
-  <data key="d3">chunk-9e1ea40add3c41188f4e8ec6542ea970</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300282</data>
-  <data key="d6"></data>
-</node>
-<node id="Equipment_2cf00380-7981-487e-bbda-aaa900394264">
-  <data key="d0">Equipment_2cf00380-7981-487e-bbda-aaa900394264</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"Reciprocating Pump providing pressure to move fluids. TagNamePrefix: P, TagNameSequenceNumber: 4711, SymbolRegistrationNumber: ISO10628_2:2012-X8160A-A, EquipmentDescription: DISPLACEMENT PUMP")&lt;SEP&gt;"Reciprocating Pump defined in 'C01V01-HEX.EX03.xml'")</data>
-  <data key="d3">chunk-4779d47b5e2dd5d31c33ac52476ebf4f&lt;SEP&gt;chunk-f10d8a7764711b7a1d90f2d800c761d6</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300415</data>
-  <data key="d6"></data>
-</node>
-<node id="Nozzle_a43edcb9-5fc5-4b3f-9e1c-7f6fa51fd6a0">
-  <data key="d0">Nozzle_a43edcb9-5fc5-4b3f-9e1c-7f6fa51fd6a0</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"Nozzle defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-45e4ed1a7a5cf3551f022c31d7c04ad2</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300286</data>
-  <data key="d6"></data>
-</node>
-<node id="47140_1">
-  <data key="d0">47140_1</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"'PipingNetworkSegment' defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-72dfe823e396a8a8af74803f67e3d7f3</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300290</data>
-  <data key="d6"></data>
-</node>
-<node id="PipeTee 'PipingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d'">
-  <data key="d0">PipeTee 'PipingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d'</data>
-  <data key="d1">piping</data>
-  <data key="d2">"Piping component with ID SP9474776A0C2943639E3DF14A26B87FAA")&lt;SEP&gt;"PipeTee defined in P&amp;ID Data")</data>
-  <data key="d3">chunk-3058d35a65d02cc248afd8f8475aa547&lt;SEP&gt;chunk-dd4710f2d5cc318b4b9c670070477899&lt;SEP&gt;chunk-31087e434e49b24ab4de9d03739a6d67</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300389</data>
+  <data key="d5">1768304612</data>
   <data key="d6"></data>
 </node>
 <node id="Pump P-102">
   <data key="d0">Pump P-102</data>
   <data key="d1">equipment</data>
-  <data key="d2">Centrifugal Pump defined in C02.xml)</data>
-  <data key="d3">chunk-3058d35a65d02cc248afd8f8475aa547</data>
+  <data key="d2">Centrifugal Pump defined in C02.xml</data>
+  <data key="d3">chunk-c12dad403852708175c21ac7bb948fe5</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300292</data>
+  <data key="d5">1768304417</data>
   <data key="d6"></data>
 </node>
-<node id="Valve V-103">
-  <data key="d0">Valve V-103</data>
+<node id="Tank T-501">
+  <data key="d0">Tank T-501</data>
   <data key="d1">equipment</data>
-  <data key="d2">Flow Control Valve)</data>
-  <data key="d3">chunk-3058d35a65d02cc248afd8f8475aa547</data>
+  <data key="d2">Storage Tank defined in C02.xml</data>
+  <data key="d3">chunk-c12dad403852708175c21ac7bb948fe5</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300292</data>
+  <data key="d5">1768304417</data>
   <data key="d6"></data>
 </node>
-<node id="Sensor S-203">
-  <data key="d0">Sensor S-203</data>
-  <data key="d1">instrument</data>
-  <data key="d2">Temperature Measurement Device)</data>
-  <data key="d3">chunk-3058d35a65d02cc248afd8f8475aa547</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300292</data>
-  <data key="d6"></data>
-</node>
-<node id="Pipe Seg-402 &quot;">
-  <data key="d0">Pipe Seg-402 "</data>
-  <data key="d1">tankt-600"</data>
-  <data key="d2">flows_into "#|&gt; 9)</data>
-  <data key="d3">chunk-3058d35a65d02cc248afd8f8475aa547</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300292</data>
-  <data key="d6"></data>
-</node>
-<node id="SpringLoadedAngleGlobeSafetyValve 'PipingComponent_f981ba82-33db-4c62-a398-94e0cdbec9e8'">
-  <data key="d0">SpringLoadedAngleGlobeSafetyValve 'PipingComponent_f981ba82-33db-4c62-a398-94e0cdbec9e8'</data>
-  <data key="d3">chunk-3058d35a65d02cc248afd8f8475aa547</data>
-  <data key="d2">10)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300292</data>
-  <data key="d6"></data>
-</node>
-<node id="ShutOffValve 'PipingComponent_94279153-41c7-4cf5-a215-2ee76904159c'">
-  <data key="d0">ShutOffValve 'PipingComponent_94279153-41c7-4cf5-a215-2ee76904159c'</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"Shut-off valve defined in P&amp;ID data")</data>
-  <data key="d3">chunk-367e95b7ba74e11a4d32b18edaea7aba</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300296</data>
-  <data key="d6"></data>
-</node>
-<node id="Nozzle 'Nozzle_757b6700-5b2f-478c-a2f4-b02c1b747d0d'">
-  <data key="d0">Nozzle 'Nozzle_757b6700-5b2f-478c-a2f4-b02c1b747d0d'</data>
-  <data key="d1">piping</data>
-  <data key="d2">"Nozzle component connected to SP44F79E87D3EA426E8E77CECF7C3C86FA")</data>
-  <data key="d3">chunk-367e95b7ba74e11a4d32b18edaea7aba</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300296</data>
-  <data key="d6"></data>
-</node>
-<node id="UNIT1">
-  <data key="d0">UNIT1</data>
-  <data key="d1">naturalobject</data>
-  <data key="d2">"'PBS21965A6820724688BB443B3EB454E19E' identifier of UNIT1, a PlantSectionIso10209-2012")</data>
-  <data key="d3">chunk-d0c2a534191596ff4be0c191fbb4484d</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300300</data>
-  <data key="d6"></data>
-</node>
-<node id="unit itself">
-  <data key="d0">unit itself</data>
-  <data key="d3">chunk-d0c2a534191596ff4be0c191fbb4484d</data>
-  <data key="d2">5)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300300</data>
-  <data key="d6"></data>
-</node>
-<node id="PipingComponent_d61b25cd-e04d-400f-96ef-d38a947a4da3">
-  <data key="d0">PipingComponent_d61b25cd-e04d-400f-96ef-d38a947a4da3</data>
-  <data key="d1">piping</data>
-  <data key="d2">"BlindFlange defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"BlindFlange")</data>
-  <data key="d3">chunk-296762af1e462e7e7fb91510884735c6&lt;SEP&gt;chunk-252c2c4f320973f63e464087d1f3b93f</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300435</data>
-  <data key="d6"></data>
-</node>
-<node id="ActuatingSystemComponent_44b9de42-8a3b-4142-86c9-1789877919f2">
-  <data key="d0">ActuatingSystemComponent_44b9de42-8a3b-4142-86c9-1789877919f2</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"Controlled Actuator defined in 'C01V01-HEX.EX03.xml'")</data>
-  <data key="d3">chunk-9867f73f32934eb0187d58e4f5db85a6</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300304</data>
-  <data key="d6"></data>
-</node>
-<node id="P-4712.02">
-  <data key="d0">P-4712.02</data>
+<node id="Wirkungslinie">
+  <data key="d0">Wirkungslinie</data>
   <data key="d1">signal</data>
-  <data key="d2">"SP7CB5E06906584E36932563B0FFFEABAF, Instrumentation Loop Function")</data>
-  <data key="d3">chunk-e9fc316485020d3e656ff4f647fff4a3</data>
+  <data key="d2">"Signal conveying function defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"SignalConveyingFunction defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"SignalConveyingFunction defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-838982c3f9438505b6608ce4f67274a2&lt;SEP&gt;chunk-0c64846e464e69e40210dd65a0bcbb88&lt;SEP&gt;chunk-4fd7ef1157c462a1cef1aaf15f9c95a5</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300316</data>
+  <data key="d5">1768304497</data>
   <data key="d6"></data>
 </node>
-<node id="47130_1_1">
-  <data key="d0">47130_1_1</data>
+<node id="47124_2">
+  <data key="d0">47124_2</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"'PipingNetworkSegment' defined in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-9e1ea40add3c41188f4e8ec6542ea970</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304429</data>
+  <data key="d6"></data>
+</node>
+<node id="SGF2C61F6FA6C04D32B8D40D09ABC4B458">
+  <data key="d0">SGF2C61F6FA6C04D32B8D40D09ABC4B458</data>
+  <data key="d1">identifier</data>
+  <data key="d2">"Unique identifier for P&amp;ID data")</data>
+  <data key="d3">chunk-9e1ea40add3c41188f4e8ec6542ea970</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304429</data>
+  <data key="d6"></data>
+</node>
+<node id="47123_1">
+  <data key="d0">47123_1</data>
   <data key="d1">pipingnetworksegment</data>
-  <data key="d2">"PipingNetworkSegment as defined in 'C01V01-HEX.EX03.xml' - Seg.47130_1, FluidCode: WKa, PipingClassCode: 75HB13, Type: UnjacketedPipe,...")</data>
-  <data key="d3">chunk-473a013f6eab4c1c82782e110a4d480a</data>
+  <data key="d2">Entity defined in C01V01-HEX.EX03.xml</data>
+  <data key="d3">chunk-d805c45b78f15f8155ae881490163f23</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300319</data>
+  <data key="d5">1768304437</data>
   <data key="d6"></data>
 </node>
-<node id="(none)">
-  <data key="d0">(none)</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"File: C01V01-HEX.EX03.xml, containing process engineering data")</data>
-  <data key="d3">chunk-473a013f6eab4c1c82782e110a4d480a</data>
+<node id="SG1D329D8EFB14468CB0F4807D9312F472">
+  <data key="d0">SG1D329D8EFB14468CB0F4807D9312F472</data>
+  <data key="d1">concept</data>
+  <data key="d2">Label and various properties of a Piping Network Segment entity</data>
+  <data key="d3">chunk-d805c45b78f15f8155ae881490163f23</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300319</data>
+  <data key="d5">1768304437</data>
   <data key="d6"></data>
 </node>
-<node id="PipeReducer PipingComponent_2eec4e5f-afbf-4d21-8088-b650de8843f0">
-  <data key="d0">PipeReducer PipingComponent_2eec4e5f-afbf-4d21-8088-b650de8843f0</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"PipeReducer defined in SP15D8798E32674D37895509EF2BCB204B")</data>
-  <data key="d3">chunk-c0a09a082c7ab6e2c3891613ce7a2e66</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300325</data>
-  <data key="d6"></data>
-</node>
-<node id="Nozzle Nozzle_5787d082-9186-4697-9660-2c77fbd2b945">
-  <data key="d0">Nozzle Nozzle_5787d082-9186-4697-9660-2c77fbd2b945</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"Nozzle defined in SP5DE5B0281BC74D0AB470383D03E679CC")</data>
-  <data key="d3">chunk-c0a09a082c7ab6e2c3891613ce7a2e66</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300325</data>
-  <data key="d6"></data>
-</node>
-<node id="Signal S-203">
-  <data key="d0">Signal S-203</data>
-  <data key="d1">signal</data>
-  <data key="d2">Pressure sensor output signal</data>
-  <data key="d3">chunk-c0a09a082c7ab6e2c3891613ce7a2e66</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300325</data>
-  <data key="d6"></data>
-</node>
-<node id="Piping Segment PS-500">
-  <data key="d0">Piping Segment PS-500</data>
+<node id="PipeTee 'PipingComponent_47fbf26c-6ef3-4149-8d39-2735249786ff'">
+  <data key="d0">PipeTee 'PipingComponent_47fbf26c-6ef3-4149-8d39-2735249786ff'</data>
   <data key="d1">piping</data>
-  <data key="d2">Flexible piping for Tank T-550</data>
-  <data key="d3">chunk-c0a09a082c7ab6e2c3891613ce7a2e66</data>
+  <data key="d2">"Piping Component defined in P&amp;ID data")&lt;SEP&gt;""Another connected pipe ")</data>
+  <data key="d3">chunk-530ae8ab8a56c4321fd4ba15d4080902&lt;SEP&gt;chunk-9c69a608ffa0edae51beb5d2785da456</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300325</data>
+  <data key="d5">1768304549</data>
   <data key="d6"></data>
 </node>
-<node id="Tank T-550">
-  <data key="d0">Tank T-550</data>
-  <data key="d1">equipment</data>
-  <data key="d2">Storage tank for hydraulic fluid</data>
-  <data key="d3">chunk-c0a09a082c7ab6e2c3891613ce7a2e66</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300325</data>
-  <data key="d6"></data>
-</node>
-<node id="47123_2">
-  <data key="d0">47123_2</data>
-  <data key="d1">entity</data>
-  <data key="d2">"Piping network segment defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-ec06cd61ee0a6726a5f120ce2cf7705c</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300325</data>
-  <data key="d6"></data>
-</node>
-<node id="Piping">
-  <data key="d0">Piping</data>
-  <data key="d1">piping</data>
-  <data key="d2">"Pipe network connecting equipment")</data>
-  <data key="d3">chunk-ec06cd61ee0a6726a5f120ce2cf7705c</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300325</data>
-  <data key="d6"></data>
-</node>
-<node id="Flow Meter F-500">
-  <data key="d0">Flow Meter F-500</data>
-  <data key="d1">instrument</data>
-  <data key="d2">"Measures process flow rate")</data>
-  <data key="d3">chunk-ec06cd61ee0a6726a5f120ce2cf7705c</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300325</data>
-  <data key="d6"></data>
-</node>
-<node id="C01V01-HEX.EX03.xml">
-  <data key="d0">C01V01-HEX.EX03.xml</data>
-  <data key="d3">chunk-ec06cd61ee0a6726a5f120ce2cf7705c</data>
+<node id="PipeTee 'PingingComponent_47fbf26c-6ef3-4149-8d39-2735249786ff'">
+  <data key="d0">PipeTee 'PingingComponent_47fbf26c-6ef3-4149-8d39-2735249786ff'</data>
+  <data key="d3">chunk-530ae8ab8a56c4321fd4ba15d4080902</data>
   <data key="d2">10)</data>
   <data key="d1">UNKNOWN</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300326</data>
+  <data key="d5">1768304438</data>
   <data key="d6"></data>
 </node>
-<node id="PlateAndShellHeatExchanger">
-  <data key="d0">PlateAndShellHeatExchanger</data>
+<node id="Pump P-101">
+  <data key="d0">Pump P-101</data>
   <data key="d1">equipment</data>
-  <data key="d2">"PLATE HEAT EXCHANGER, Plate Chamber, ChamberFunction: Heating")</data>
-  <data key="d3">chunk-a9230d66133712d2058d19b29da809f1</data>
+  <data key="d2">("Centrifugal Pump defined in P&amp;ID")&lt;SEP&gt;Centrifugal Pump with additional description</data>
+  <data key="d3">chunk-63fe0e7de8e2bf14cedd0fe8dc4036b5&lt;SEP&gt;chunk-817b791bfab38de7914df5d9d7221217</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300330</data>
+  <data key="d5">1768304593</data>
   <data key="d6"></data>
 </node>
-<node id="Missing Entity Name">
-  <data key="d0">Missing Entity Name</data>
+<node id="Pipe Seg-400">
+  <data key="d0">Pipe Seg-400</data>
+  <data key="d1">piping</data>
+  <data key="d2">("Piping segment connecting equipment and process units")&lt;SEP&gt;Piping segment connecting P-101 to T-500</data>
+  <data key="d3">chunk-63fe0e7de8e2bf14cedd0fe8dc4036b5&lt;SEP&gt;chunk-817b791bfab38de7914df5d9d7221217</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304593</data>
+  <data key="d6"></data>
+</node>
+<node id="Signal S-202">
+  <data key="d0">Signal S-202</data>
+  <data key="d1">signal</data>
+  <data key="d2">("Control signal for Valve V-101 and other instrumented devices")</data>
+  <data key="d3">chunk-63fe0e7de8e2bf14cedd0fe8dc4036b5</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304444</data>
+  <data key="d6"></data>
+</node>
+<node id="PipingComponent_2eec4e5f-afbf-4d21-8088-b650de8843f0">
+  <data key="d0">PipingComponent_2eec4e5f-afbf-4d21-8088-b650de8843f0</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"PipingComponent with ID _2eec4e5f-afbf-4d21-8088-b650de8843f0 and type PipeReducer defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-c4da924a6ec4af9bb60f4516748ae8e2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304445</data>
+  <data key="d6"></data>
+</node>
+<node id="&quot;&quot; (no target entity)">
+  <data key="d0">"" (no target entity)</data>
+  <data key="d3">chunk-c4da924a6ec4af9bb60f4516748ae8e2</data>
+  <data key="d2">10)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304445</data>
+  <data key="d6"></data>
+</node>
+<node id="PipingComponent_5b71776c-d5ef-4994-8199-ab65f8e771e0">
+  <data key="d0">PipingComponent_5b71776c-d5ef-4994-8199-ab65f8e771e0</data>
+  <data key="d1">piping</data>
+  <data key="d2">"Butterfly Valve defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"Flanged end valve for piping system")</data>
+  <data key="d3">chunk-a945f6a578901cc4932212125c151a83&lt;SEP&gt;chunk-ebd7f55f7ee230b341d3814d4c8b4a78</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304620</data>
+  <data key="d6"></data>
+</node>
+<node id="P-4712.01">
+  <data key="d0">P-4712.01</data>
+  <data key="d1">instrumentationloopfunction</data>
+  <data key="d2">"Entity ID: SP9E2456B1170C4B83A7E1E2363F36E647, Instrumentation Loop Function Number: P-4712.01")</data>
+  <data key="d3">chunk-7ca66a8f54c88b1a7015830c9203ca17</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304453</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle_95fdf5bd-27d3-4488-94d1-6938129c3340">
+  <data key="d0">Nozzle_95fdf5bd-27d3-4488-94d1-6938129c3340</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"Nozzle defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-eb518c5160012a57750b5743225455e1</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304453</data>
+  <data key="d6"></data>
+</node>
+<node id="Unnamed_Component (ID: SP8F1256539D684240959558BAA5FA2EF5_SE001)">
+  <data key="d0">Unnamed_Component (ID: SP8F1256539D684240959558BAA5FA2EF5_SE001)</data>
+  <data key="d1">entity</data>
+  <data key="d2">"Chamber defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-609cbbd0b2253074b9b76c71d46fcf72</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304456</data>
+  <data key="d6"></data>
+</node>
+<node id="&lt;no target&gt;">
+  <data key="d0">&lt;no target&gt;</data>
+  <data key="d3">chunk-609cbbd0b2253074b9b76c71d46fcf72</data>
+  <data key="d2">0)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304456</data>
+  <data key="d6"></data>
+</node>
+<node id="47141">
+  <data key="d0">47141</data>
+  <data key="d1">pipingnetworksystem</data>
+  <data key="d2">"Piping Network System defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-7fb7f9c0145d80754dce8f4601b93a24</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304467</data>
+  <data key="d6"></data>
+</node>
+<node id="&lt;null&gt;">
+  <data key="d0">&lt;null&gt;</data>
+  <data key="d3">chunk-0a380448f6dd95da51d576e9410f0f22</data>
+  <data key="d2">10)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304470</data>
+  <data key="d6"></data>
+</node>
+<node id="ProcessInstrumentationFunction 'ProcessInstrumentationFunction_7e82ebcc-eb06-4e15-8275-4f7c9f955e7a'">
+  <data key="d0">ProcessInstrumentationFunction 'ProcessInstrumentationFunction_7e82ebcc-eb06-4e15-8275-4f7c9f955e7a'</data>
+  <data key="d1">method</data>
+  <data key="d2">"ProcessInstrumentationFunction defined in P&amp;ID data")</data>
+  <data key="d3">chunk-01d33d446bb9614e7dfead6ccfeabbeb</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304480</data>
+  <data key="d6"></data>
+</node>
+<node id="ControlledActuator 'ActuatingSystemComponent_44b9de42-8a3b-4142-86c9-1789877919f2'">
+  <data key="d0">ControlledActuator 'ActuatingSystemComponent_44b9de42-8a3b-4142-86c9-1789877919f2'</data>
   <data key="d1">equipment</data>
-  <data key="d2">"Description of Missing Entity")</data>
+  <data key="d2">"Automated valve actuator")</data>
+  <data key="d3">chunk-01d33d446bb9614e7dfead6ccfeabbeb</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304480</data>
+  <data key="d6"></data>
+</node>
+<node id="Entity_types">
+  <data key="d0">Entity_types</data>
   <data key="d3">chunk-6bc65ada79e89fa2e56243d9e75d214d</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300338</data>
-  <data key="d6"></data>
-</node>
-<node id="Controller C-900 Submodule">
-  <data key="d0">Controller C-900 Submodule</data>
-  <data key="d1">instrument</data>
-  <data key="d2">"Submodule of Controller")</data>
-  <data key="d3">chunk-46439addc77b728ff085ac5bdf01f688</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300339</data>
-  <data key="d6"></data>
-</node>
-<node id="Artifact">
-  <data key="d0">Artifact</data>
-  <data key="d3">chunk-5e48706702711cc37dc9b9ddb2002273</data>
   <data key="d2">8)</data>
   <data key="d1">UNKNOWN</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300344</data>
+  <data key="d5">1768304484</data>
   <data key="d6"></data>
 </node>
-<node id="Equipment_fc3b8e11-fc36-411a-963f-bdb0ebe35642">
-  <data key="d0">Equipment_fc3b8e11-fc36-411a-963f-bdb0ebe35642</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"Shell And Tube Heat Exchanger defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"ShellAndTubeHeatExchanger defined in 'C01V01-HEX.EX03.xml'")</data>
-  <data key="d3">chunk-50dc9d3d845d8fe5241382956936b1ea&lt;SEP&gt;chunk-914a753000b8cac23d4f817529ff9c55</data>
+<node id="SP3BE681BEDA96436B84118587E1090C45">
+  <data key="d0">SP3BE681BEDA96436B84118587E1090C45</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"'ActuatingSystemComponent_44b9de42-8a3b-4142-86c9-1789877919f2' is an entity controlled by a 'ControlledActuator'.")</data>
+  <data key="d3">chunk-9867f73f32934eb0187d58e4f5db85a6</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300396</data>
+  <data key="d5">1768304487</data>
   <data key="d6"></data>
 </node>
-<node id="&quot;&quot;Untitled&quot;">
-  <data key="d0">""Untitled"</data>
-  <data key="d1">location</data>
-  <data key="d2">"'Data source location'") (</data>
-  <data key="d3">chunk-87d07278f360bf3b6b05a22579f3c156</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300352</data>
-  <data key="d6"></data>
-</node>
-<node id="47126_4">
-  <data key="d0">47126_4</data>
-  <data key="d1">pipingnetworksegment</data>
-  <data key="d2">"PipingNetworkSegment in C01V01-HEX.EX03.xml with ID SGFB17039076384904A167BA11552AC5A0")</data>
-  <data key="d3">chunk-814d50d8cf144d2d323ea4ff77252660</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300359</data>
-  <data key="d6"></data>
-</node>
-<node id="Entity 47126_4">
-  <data key="d0">Entity 47126_4</data>
-  <data key="d3">chunk-814d50d8cf144d2d323ea4ff77252660</data>
-  <data key="d2">10)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300359</data>
-  <data key="d6"></data>
-</node>
-<node id="SY1F37391ED2314597A4A128606FDD1B01">
-  <data key="d0">SY1F37391ED2314597A4A128606FDD1B01</data>
-  <data key="d1">entity</data>
-  <data key="d2">"PipingNetworkSystem entity defined in C01V01-HEX.EX03.xml, FluidCode: MNc, PipingClassCode: 75HB13")</data>
-  <data key="d3">chunk-1b2099f302b242cc7c91aece698109e4</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300362</data>
-  <data key="d6"></data>
-</node>
-<node id="SlopedPipingNetworkSegment">
-  <data key="d0">SlopedPipingNetworkSegment</data>
-  <data key="d1">content</data>
-  <data key="d2">"Description of the sloping piping network segment")</data>
-  <data key="d3">chunk-1b2099f302b242cc7c91aece698109e4</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300362</data>
-  <data key="d6"></data>
-</node>
-<node id="Equipment_2c287f19-7a5a-48f9-8e14-47840c329b77">
-  <data key="d0">Equipment_2c287f19-7a5a-48f9-8e14-47840c329b77</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"Tank storing fluid inventory with various attributes")</data>
-  <data key="d3">chunk-84c0106789c2b90a6427d9ddb0629470</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300364</data>
-  <data key="d6"></data>
-</node>
-<node id="BlindFlange PipingComponent_d61b25cd-e04d-400f-96ef-d38a947a4da3">
-  <data key="d0">BlindFlange PipingComponent_d61b25cd-e04d-400f-96ef-d38a947a4da3</data>
+<node id="PipeReducer 'PipingComponent_2eec4e5f-afbf-4d21-8088-b650de8843f0'">
+  <data key="d0">PipeReducer 'PipingComponent_2eec4e5f-afbf-4d21-8088-b650de8843f0'</data>
   <data key="d1">piping</data>
-  <data key="d2">'Blind Flange component')</data>
-  <data key="d3">chunk-ee71a07e3fcaecee1d3f2fbae320babf</data>
+  <data key="d2">"'PipingComponent_2eec4e5f-afbf-4d21-8088-b650de8843f0' defined in P&amp;ID Data")</data>
+  <data key="d3">chunk-c0a09a082c7ab6e2c3891613ce7a2e66</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300367</data>
+  <data key="d5">1768304498</data>
   <data key="d6"></data>
 </node>
-<node id="BlindFlane PipingComponent_d61b25cd-e04d-400f-96ef-d38a947a4da3">
-  <data key="d0">BlindFlane PipingComponent_d61b25cd-e04d-400f-96ef-d38a947a4da3</data>
-  <data key="d3">chunk-ee71a07e3fcaecee1d3f2fbae320babf</data>
-  <data key="d2">10)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300367</data>
-  <data key="d6"></data>
-</node>
-<node id="Temperature Sensor T-103">
-  <data key="d0">Temperature Sensor T-103</data>
-  <data key="d1">instrument</data>
-  <data key="d2">"Monitors temperature levels in C-01")</data>
-  <data key="d3">chunk-1ec133d5aed2f2b3c82b221876e8be00</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300372</data>
-  <data key="d6"></data>
-</node>
-<node id="Flow Meter F-102">
-  <data key="d0">Flow Meter F-102</data>
-  <data key="d1">instrument</data>
-  <data key="d2">"Measures flow rate")</data>
-  <data key="d3">chunk-1ec133d5aed2f2b3c82b221876e8be00</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300372</data>
-  <data key="d6"></data>
-</node>
-<node id="Valve Actuator V-104">
-  <data key="d0">Valve Actuator V-104</data>
+<node id="Nozzle 'Nozzle_5787d082-9186-4697-9660-2c77fbd2b945'">
+  <data key="d0">Nozzle 'Nozzle_5787d082-9186-4697-9660-2c77fbd2b945'</data>
   <data key="d1">equipment</data>
-  <data key="d2">"Operates valves in automation mode")</data>
-  <data key="d3">chunk-1ec133d5aed2f2b3c82b221876e8be00</data>
+  <data key="d2">"'Nozzle_5787d082-9186-4697-9660-2c77fbd2b945' defined in P&amp;ID Data")</data>
+  <data key="d3">chunk-c0a09a082c7ab6e2c3891613ce7a2e66</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300372</data>
+  <data key="d5">1768304498</data>
   <data key="d6"></data>
 </node>
-<node id="Process">
-  <data key="d0">Process</data>
-  <data key="d1">process</data>
-  <data key="d2">Definition of process variables)</data>
-  <data key="d3">chunk-6b1c2808ec82e9a85a4226e26869a8cd</data>
+<node id="Equipment_2cf00380-7981-487e-bbda-aaa900394264">
+  <data key="d0">Equipment_2cf00380-7981-487e-bbda-aaa900394264</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Reciprocating Pump defined in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-f10d8a7764711b7a1d90f2d800c761d6</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300372</data>
+  <data key="d5">1768304502</data>
   <data key="d6"></data>
 </node>
-<node id="sg1D329d8efb14468cb0f4807d9312f472">
-  <data key="d0">sg1D329d8efb14468cb0f4807d9312f472</data>
-  <data key="d1">pipingnetworksegment</data>
-  <data key="d2">"In 'C01V01-HEX.EX03.xml' PipingNetworkSegment 47123_1 (ID: SG1D329D8EFB14468CB0F4807D9312F472) is a 'PipingNetworkSegment'.Its FluidCode is 'MNb'.Its NominalDiameterStandard is 'Din2448ObjectDn80'.Its NominalDiameterTypeRepresentation is 'DN'.")</data>
-  <data key="d3">chunk-d805c45b78f15f8155ae881490163f23</data>
+<node id="The BlindFlange 'PipingComponent_ba4365dc-5700-4575-a722-0b972c031389'">
+  <data key="d0">The BlindFlange 'PipingComponent_ba4365dc-5700-4575-a722-0b972c031389'</data>
+  <data key="d1">piping</data>
+  <data key="d2">"Blind Flange defined in SP3D14F870DEB44B129D3E37D162D6A661")</data>
+  <data key="d3">chunk-6754190e756b8c7e34581578b7088e36</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300381</data>
+  <data key="d5">1768304507</data>
   <data key="d6"></data>
 </node>
 <node id="PipeTee 'PipingComponent_b74a0350-9c80-449c-9a0d-320fa8ad8934'">
   <data key="d0">PipeTee 'PipingComponent_b74a0350-9c80-449c-9a0d-320fa8ad8934'</data>
   <data key="d1">piping</data>
-  <data key="d2">"PipeTee defined in P&amp;ID Data")</data>
-  <data key="d3">chunk-9c69a608ffa0edae51beb5d2785da456</data>
+  <data key="d2">"Pipe Tee defined in SP81777813681D4235A1CDFB06DD88AAA2")&lt;SEP&gt;""The PipeTee connected to another pipe")</data>
+  <data key="d3">chunk-6754190e756b8c7e34581578b7088e36&lt;SEP&gt;chunk-9c69a608ffa0edae51beb5d2785da456</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300383</data>
+  <data key="d5">1768304549</data>
   <data key="d6"></data>
 </node>
-<node id="47121">
-  <data key="d0">47121</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"PipingNetworkSystem defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-3ec85c4c6cc133c55466245654423b2d</data>
+<node id="47126_8">
+  <data key="d0">47126_8</data>
+  <data key="d1">pipingnetworksegment</data>
+  <data key="d2">"PipingNetworkSegment defined in C01V01-HEX.EX03.xml, FluidCode MNc, PipingClassCode 75HB13")</data>
+  <data key="d3">chunk-107d87b27fa6649469d56447ca452ae2</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300387</data>
+  <data key="d5">1768304511</data>
   <data key="d6"></data>
 </node>
-<node id="SY043C45C1F8ED42C092CDCC5BF3456CB4">
-  <data key="d0">SY043C45C1F8ED42C092CDCC5BF3456CB4</data>
-  <data key="d1">data</data>
-  <data key="d2">"")</data>
-  <data key="d3">chunk-3ec85c4c6cc133c55466245654423b2d</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300387</data>
-  <data key="d6"></data>
-</node>
-<node id="PingingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d">
-  <data key="d0">PingingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d</data>
-  <data key="d3">chunk-dd4710f2d5cc318b4b9c670070477899</data>
-  <data key="d2">10)</data>
+<node id="67126_8">
+  <data key="d0">67126_8</data>
+  <data key="d3">chunk-107d87b27fa6649469d56447ca452ae2</data>
+  <data key="d2">1)</data>
   <data key="d1">UNKNOWN</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300389</data>
+  <data key="d5">1768304511</data>
   <data key="d6"></data>
 </node>
-<node id="T-4750.03">
-  <data key="d0">T-4750.03</data>
-  <data key="d1">signal</data>
-  <data key="d2">"Instrumentation Loop Function defined in C01V01-HEX.EX03.xml, ID: SPFD70BA494F2443DDA45E2A16B4739E13")</data>
-  <data key="d3">chunk-4bdc9c53cf30840eeec616a4466ef48c</data>
+<node id="unknown">
+  <data key="d0">unknown</data>
+  <data key="d3">chunk-107d87b27fa6649469d56447ca452ae2</data>
+  <data key="d2">1)</data>
+  <data key="d1">UNKNOWN</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300392</data>
+  <data key="d5">1768304511</data>
   <data key="d6"></data>
 </node>
-<node id="&quot;&quot; &quot;|&gt; &quot;T-4750.03&quot;">
-  <data key="d0">"" "|&gt; "T-4750.03"</data>
-  <data key="d1">is_a</data>
-  <data key="d2">10)</data>
-  <data key="d3">chunk-4bdc9c53cf30840eeec616a4466ef48c</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300392</data>
-  <data key="d6"></data>
-</node>
-<node id="&quot;H1007&quot; '|' &quot;Tag&quot;">
-  <data key="d0">"H1007" '|' "Tag"</data>
-  <data key="d1">content</data>
-  <data key="d2">"")</data>
-  <data key="d3">chunk-914a753000b8cac23d4f817529ff9c55</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300396</data>
-  <data key="d6"></data>
-</node>
-<node id="Nozzle_586330b2-d15f-4932-ba58-72e47a7791d9">
-  <data key="d0">Nozzle_586330b2-d15f-4932-ba58-72e47a7791d9</data>
-  <data key="d1">equipment</data>
-  <data key="d2">"Nozzle defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-18a93456c7d33af21224cdb833ea8824</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300399</data>
-  <data key="d6"></data>
-</node>
-<node id="SGC8600D3134C846DCAA8B22D0869C220A">
-  <data key="d0">SGC8600D3134C846DCAA8B22D0869C220A</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"PipingNetworkSegment defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-d1e26c04b591e19b47e08918a0ee1ad3</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300405</data>
-  <data key="d6"></data>
-</node>
-<node id="47126">
-  <data key="d0">47126</data>
+<node id="47122">
+  <data key="d0">47122</data>
   <data key="d1">entity</data>
-  <data key="d2">"'PipingNetworkSystem defined in C01V01-HEX.EX03.xml'")</data>
-  <data key="d3">chunk-9d0eb350f66248c3fa9a813319eef2c9</data>
+  <data key="d2">"'SY11933F04339546E2BB3FAE0C30B7D6AA' (ID: SY11933F04339546E2BB3FAE0C30B7D6AA)")</data>
+  <data key="d3">chunk-0e4c476b4fb0cc047cc4840682ae9064</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300408</data>
+  <data key="d5">1768304512</data>
+  <data key="d6"></data>
+</node>
+<node id="&quot;&quot;PipingNetworkSystem&quot;&quot;">
+  <data key="d0">""PipingNetworkSystem""</data>
+  <data key="d1">entity</data>
+  <data key="d2">"")</data>
+  <data key="d3">chunk-0e4c476b4fb0cc047cc4840682ae9064</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304512</data>
+  <data key="d6"></data>
+</node>
+<node id="P-4712.02">
+  <data key="d0">P-4712.02</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"SP7CB5E06906584E36932563B0FFFEABAF: Instrumentation Loop Function")</data>
+  <data key="d3">chunk-e9fc316485020d3e656ff4f647fff4a3</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304527</data>
+  <data key="d6"></data>
+</node>
+<node id="SG11933F04339546E2BB3FAE0C30B7D6AA">
+  <data key="d0">SG11933F04339546E2BB3FAE0C30B7D6AA</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"PipingNetworkSegment entity in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-dee7c97ccb290b08b82d24acdeccd1d0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304532</data>
+  <data key="d6"></data>
+</node>
+<node id="&quot;&quot; (no target)">
+  <data key="d0">"" (no target)</data>
+  <data key="d3">chunk-dee7c97ccb290b08b82d24acdeccd1d0</data>
+  <data key="d2">8)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304532</data>
+  <data key="d6"></data>
+</node>
+<node id="Entity_2c287f19-7a5a-48f9-8e14-47840c329b77">
+  <data key="d0">Entity_2c287f19-7a5a-48f9-8e14-47840c329b77</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Tank that stores fluid inventory, ID: SP80B1E87317254ED2B14B798DEE432AE5")</data>
+  <data key="d3">chunk-84c0106789c2b90a6427d9ddb0629470</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304535</data>
+  <data key="d6"></data>
+</node>
+<node id="SP80B1E87317254ED2B14B798DEE432AE5_SE002__Unnamed_Component">
+  <data key="d0">SP80B1E87317254ED2B14B798DEE432AE5_SE002__Unnamed_Component</data>
+  <data key="d1">artifact</data>
+  <data key="d2">"'Unified_Parcel_ID': SP80B1E87317254ED2B14B798DEE432AE5, 'SPDT': SE002, Component: Unnamed_Component; Description: 'Jacket Chamber'; Function: 'Heating'; LowerLimitDesignPressure: '-0.10', LowerLimitDesignTemperature: '-45.00', MaterialOfConstructionCode: '1.4305', SubTagName: 'Chamber 2', UpperLimitDesignPressure: '0.05', UpperLimitDesignTemperature: '100.00'")</data>
+  <data key="d3">chunk-a3a044f98c5ca58df4bc766e69b8b2b4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304537</data>
+  <data key="d6"></data>
+</node>
+<node id="&lt;empty&gt;">
+  <data key="d0">&lt;empty&gt;</data>
+  <data key="d3">chunk-a3a044f98c5ca58df4bc766e69b8b2b4</data>
+  <data key="d2">)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304537</data>
   <data key="d6"></data>
 </node>
 <node id="PipingComponent_1a435236-07f5-45f4-95a9-dd5ed6fcb330">
   <data key="d0">PipingComponent_1a435236-07f5-45f4-95a9-dd5ed6fcb330</data>
   <data key="d1">piping</data>
-  <data key="d2">"ShutOffValve defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"ShutOffValve defined in C01V01-HEX(EX03.xml)")&lt;SEP&gt;"acts_as_flow_control" "|" 10)</data>
+  <data key="d2">"ShutOffValve defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"ShutOffValve defined in C01V01-HEX.EX03.xml")</data>
   <data key="d3">chunk-3bc0e50d8770591cc1e7a7212e69b341&lt;SEP&gt;chunk-d801f81e6b7d14c1bc20f3a1f48c893a</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300429</data>
+  <data key="d5">1768304637</data>
   <data key="d6"></data>
 </node>
-<node id="itself">
-  <data key="d0">itself</data>
+<node id="null">
+  <data key="d0">null</data>
   <data key="d3">chunk-3bc0e50d8770591cc1e7a7212e69b341</data>
   <data key="d2">8)</data>
   <data key="d1">UNKNOWN</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300409</data>
+  <data key="d5">1768304542</data>
   <data key="d6"></data>
 </node>
-<node id="&lt;blank&gt;">
-  <data key="d0">&lt;blank&gt;</data>
-  <data key="d3">chunk-f10d8a7764711b7a1d90f2d800c761d6</data>
-  <data key="d2">8)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300415</data>
-  <data key="d6"></data>
-</node>
-<node id="47141">
-  <data key="d0">47141</data>
-  <data key="d1">data</data>
-  <data key="d2">"PipingNetworkSystem with FluidCode QSb, PipingClassCode 75HB13, InsulationType Q, HeatTracingType NoHeatTracingSystem, JacketedPipe UnjacketedPipe...")</data>
-  <data key="d3">chunk-7fb7f9c0145d80754dce8f4601b93a24</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300430</data>
-  <data key="d6"></data>
-</node>
-<node id="SP_DisableFlipText">
-  <data key="d0">SP_DisableFlipText</data>
-  <data key="d3">chunk-7fb7f9c0145d80754dce8f4601b93a24</data>
-  <data key="d2">5)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300430</data>
-  <data key="d6"></data>
-</node>
-<node id="File Name">
-  <data key="d0">File Name</data>
-  <data key="d3">chunk-7fb7f9c0145d80754dce8f4601b93a24</data>
-  <data key="d2">7)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300430</data>
-  <data key="d6"></data>
-</node>
-<node id="SP_DrawingID">
-  <data key="d0">SP_DrawingID</data>
-  <data key="d3">chunk-7fb7f9c0145d80754dce8f4601b93a24</data>
-  <data key="d2">5)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300430</data>
-  <data key="d6"></data>
-</node>
-<node id="Fliesspfeil.sym">
-  <data key="d0">Fliesspfeil.sym</data>
-  <data key="d3">chunk-7fb7f9c0145d80754dce8f4601b93a24</data>
-  <data key="d2">7)</data>
-  <data key="d1">UNKNOWN</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300430</data>
-  <data key="d6"></data>
-</node>
-<node id="PipingComponent_b74a0350-9c80-449c-9a0d-320fa8ad8934">
-  <data key="d0">PipingComponent_b74a0350-9c80-449c-9a0d-320fa8ad8934</data>
-  <data key="d1">piping</data>
-  <data key="d2">"PipeTee defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-abb19ccdb4b1a8183d6454c91b0f3113&lt;SEP&gt;chunk-31087e434e49b24ab4de9d03739a6d67</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300440</data>
-  <data key="d6"></data>
-</node>
-<node id="47130">
-  <data key="d0">47130</data>
+<node id="MNc-">
+  <data key="d0">MNc-</data>
   <data key="d1">pipingnetworksystem</data>
-  <data key="d2">PipingNetworkSystem defined in C01V01-HEX.EX03.xml as a system for conveying fluids</data>
-  <data key="d3">chunk-1dd94ddcea2a5dd1e49dc773567ea5bb</data>
+  <data key="d2">"Piping network system defined in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-937d7461dd007aae4cb35e3b06c9507f</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300444</data>
+  <data key="d5">1768304545</data>
   <data key="d6"></data>
 </node>
-<node id="SYF0E638DCE25148A0ADE8BE802F8AFAE3">
-  <data key="d0">SYF0E638DCE25148A0ADE8BE802F8AFAE3</data>
+<node id="none available">
+  <data key="d0">none available</data>
+  <data key="d3">chunk-a801c134f1cd015dbf53d6c8b79840a9</data>
+  <data key="d2">0)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304546</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle_757b6700-5b2f-478c-a2f4-b02c1b747d0d">
+  <data key="d0">Nozzle_757b6700-5b2f-478c-a2f4-b02c1b747d0d</data>
   <data key="d1">artifact</data>
-  <data key="d2">Unique identifier for the PipingNetworkSystem entity</data>
-  <data key="d3">chunk-1dd94ddcea2a5dd1e49dc773567ea5bb</data>
+  <data key="d2">"Nozzle defined in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"SPF7AFC3A4E3604190BB66C6F5A4500D27,Nozzle,N1,ISO10628_2:2012-X8160A-A,Din2448ObjectDn80,80,DN 80,DN")</data>
+  <data key="d3">chunk-b1be36d041c7b04fd8bf17fb4d546414&lt;SEP&gt;chunk-59fb51fba138ecc83e95732b72298ed7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300444</data>
+  <data key="d5">1768304633</data>
   <data key="d6"></data>
 </node>
-<node id="Pump P-101A">
-  <data key="d0">Pump P-101A</data>
-  <data key="d1">equipment</data>
-  <data key="d2">Backup Centrifugal Pump for testing purposes</data>
-  <data key="d3">chunk-1dd94ddcea2a5dd1e49dc773567ea5bb</data>
+<node id="PipingComponent_f7f60dc3-c853-492d-9f31-78fa6b15d5fa">
+  <data key="d0">PipingComponent_f7f60dc3-c853-492d-9f31-78fa6b15d5fa</data>
+  <data key="d1">piping</data>
+  <data key="d2">"PipeTee in 'C01V01-HEX.EX03.xml'")&lt;SEP&gt;"'PipeTee' defined in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-a8ae23ffc983ae9e63956fb5687e2654&lt;SEP&gt;chunk-817b791bfab38de7914df5d9d7221217</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300444</data>
+  <data key="d5">1768304593</data>
   <data key="d6"></data>
 </node>
-<node id="Flare F-1000">
-  <data key="d0">Flare F-1000</data>
-  <data key="d1">signal</data>
-  <data key="d2">Pressure indicator signal at flarestack F-1000</data>
-  <data key="d3">chunk-1dd94ddcea2a5dd1e49dc773567ea5bb</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300444</data>
-  <data key="d6"></data>
-</node>
-<node id="Controller C-901">
-  <data key="d0">Controller C-901</data>
-  <data key="d1">instrument</data>
-  <data key="d2">Programmable Logic Controller</data>
-  <data key="d3">chunk-1dd94ddcea2a5dd1e49dc773567ea5bb</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300444</data>
-  <data key="d6"></data>
-</node>
-<node id="47126_7">
-  <data key="d0">47126_7</data>
-  <data key="d1">artifact</data>
-  <data key="d2">"PipingNetworkSegment defined in C01V01-HEX.EX03.xml")</data>
-  <data key="d3">chunk-5644edb1e28a31fe34a282fa01d1a9ca</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300448</data>
-  <data key="d6"></data>
-</node>
-<node id="47126_10">
-  <data key="d0">47126_10</data>
-  <data key="d1">na</data>
-  <data key="d2">"PipingNetworkSegment defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"has_PipingClassCode" "|&gt; 73KH12")&lt;SEP&gt;"has_FluidCode" "|&gt; MNc")</data>
+<node id="SGDBC754C5951E4010AF7E034C6059FA46">
+  <data key="d0">SGDBC754C5951E4010AF7E034C6059FA46</data>
+  <data key="d1">entity</data>
+  <data key="d2">"unknown: SGDBC754C5951E4010AF7E034C6059FA46 has a piping network segment")&lt;SEP&gt;"Unknown: Data storage entity"}</data>
   <data key="d3">chunk-d2645ddec0c480fb619ed3072d2bc141</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300453</data>
+  <data key="d5">1768304560</data>
   <data key="d6"></data>
 </node>
-<node id="47124_3">
-  <data key="d0">47124_3</data>
-  <data key="d1">pipingnetworksegment</data>
-  <data key="d2">"'SGF20C52D52A81A42D19331F749B484A9D9' Piping Network Segment defined in 'C01V01-HEX.EX03.xml'")</data>
-  <data key="d3">chunk-d3fe9bc1425455a1af6ee8a2b3e420e7</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300461</data>
-  <data key="d6"></data>
-</node>
-<node id="The SpringLoadedAngleGlobeSafetyValve PipingComponent_f981ba82-33db-4c62-a398-94e0cdbec9e8">
-  <data key="d0">The SpringLoadedAngleGlobeSafetyValve PipingComponent_f981ba82-33db-4c62-a398-94e0cdbec9e8</data>
+<node id="Equipment_2c287f19-7a5a-48f9-8e14-47840c329b77">
+  <data key="d0">Equipment_2c287f19-7a5a-48f9-8e14-47840c329b77</data>
   <data key="d1">equipment</data>
-  <data key="d2">"'Spring Loaded Angle Globe Safety Valve' identified by its unique ID SPCF8DE10464C048448FA156FBEB55A809")</data>
-  <data key="d3">chunk-2a3e52a7d10b0426e55be81d442eb423</data>
+  <data key="d2">"Tank defined in C01V01-HEX.EX03.xml")&lt;SEP&gt;"stores_fluid_inventory" |&gt; 10)</data>
+  <data key="d3">chunk-166e4a5e1e9d88879eaddd3c168653c3</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300462</data>
+  <data key="d5">1768304563</data>
   <data key="d6"></data>
 </node>
-<node id="Nozzle 1acc3e45-636c-4b8f-84a8-706629262ca2">
-  <data key="d0">Nozzle 1acc3e45-636c-4b8f-84a8-706629262ca2</data>
+<node id="Valve V-2015">
+  <data key="d0">Valve V-2015</data>
   <data key="d1">equipment</data>
-  <data key="d2">"'Nozzle' identified by its unique ID SP18CAC1D0B42B47CF9549705D595140B3")</data>
-  <data key="d3">chunk-2a3e52a7d10b0426e55be81d442eb423</data>
+  <data key="d2">Control Valve)</data>
+  <data key="d3">chunk-e3e372af2a6c24e1d8a81626831488fc</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300462</data>
+  <data key="d5">1768304568</data>
   <data key="d6"></data>
 </node>
-<node id="Connection">
-  <data key="d0">Connection</data>
-  <data key="d1">relationship</data>
-  <data key="d2">"Piping component connection (connected_to) between SpringLoadedAngleGlobeSafetyValve and Nozzle")</data>
-  <data key="d3">chunk-2a3e52a7d10b0426e55be81d442eb423</data>
+<node id="Conductor Line CL-1010">
+  <data key="d0">Conductor Line CL-1010</data>
+  <data key="d1">piping</data>
+  <data key="d2">Piping segment for V-2015 to P-3050)</data>
+  <data key="d3">chunk-e3e372af2a6c24e1d8a81626831488fc</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300462</data>
+  <data key="d5">1768304568</data>
+  <data key="d6"></data>
+</node>
+<node id="Pressure Transmitter PT-1030">
+  <data key="d0">Pressure Transmitter PT-1030</data>
+  <data key="d1">instrument</data>
+  <data key="d2">Pressure measurement device for V-2015)</data>
+  <data key="d3">chunk-e3e372af2a6c24e1d8a81626831488fc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304568</data>
+  <data key="d6"></data>
+</node>
+<node id="T-4750.03">
+  <data key="d0">T-4750.03</data>
+  <data key="d1">instrument</data>
+  <data key="d2">"'T-4750.03' (ID: SPFD70BA494F2443DDA45E2A16B4739E13) is a 'InstrumentationLoopFunction'")</data>
+  <data key="d3">chunk-4bdc9c53cf30840eeec616a4466ef48c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304577</data>
+  <data key="d6"></data>
+</node>
+<node id="none">
+  <data key="d0">none</data>
+  <data key="d3">chunk-4bdc9c53cf30840eeec616a4466ef48c</data>
+  <data key="d2">10)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304577</data>
+  <data key="d6"></data>
+</node>
+<node id="Signal S-203">
+  <data key="d0">Signal S-203</data>
+  <data key="d1">signal</data>
+  <data key="d2">Process reading from Control C-902</data>
+  <data key="d3">chunk-b2fb4cab7ff417aa741aecd48452ff38</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304581</data>
+  <data key="d6"></data>
+</node>
+<node id="Pump P-103">
+  <data key="d0">Pump P-103</data>
+  <data key="d1">equipment</data>
+  <data key="d2">Centrifugal Pump serving M-500</data>
+  <data key="d3">chunk-b2fb4cab7ff417aa741aecd48452ff38</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304581</data>
+  <data key="d6"></data>
+</node>
+<node id="Meter M-501">
+  <data key="d0">Meter M-501</data>
+  <data key="d1">instrument</data>
+  <data key="d2">Flow meter for pump monitoring</data>
+  <data key="d3">chunk-b2fb4cab7ff417aa741aecd48452ff38</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304581</data>
   <data key="d6"></data>
 </node>
 <node id="DEXPI">
   <data key="d0">DEXPI</data>
   <data key="d1">entity</data>
-  <data key="d2">"process engineering entity defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d2">"Process Plant identified in C01V01-HEX.EX03.xml")</data>
   <data key="d3">chunk-70843cda954492455ce92a082af5b8af</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300476</data>
+  <data key="d5">1768304582</data>
   <data key="d6"></data>
 </node>
-<node id="PBS0D9331D91F4D4144B93903B01D5C7F4A">
-  <data key="d0">PBS0D9331D91F4D4144B93903B01D5C7F4A</data>
-  <data key="d1">data</data>
-  <data key="d2">"unique identifier for DEXPI entity")</data>
+<node id="&quot;&quot; (empty string)">
+  <data key="d0">"" (empty string)</data>
   <data key="d3">chunk-70843cda954492455ce92a082af5b8af</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1768300476</data>
-  <data key="d6"></data>
-</node>
-<node id="PLEX">
-  <data key="d0">PLEX</data>
-  <data key="d3">chunk-70843cda954492455ce92a082af5b8af</data>
-  <data key="d2">8)</data>
+  <data key="d2">0)|COMPLETE</data>
   <data key="d1">UNKNOWN</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300476</data>
+  <data key="d5">1768304582</data>
   <data key="d6"></data>
 </node>
-<node id="PipeTee 'PipingComponent_f7f60dc3-c853-492d-9f31-78fa6b15d5fa'">
-  <data key="d0">PipeTee 'PipingComponent_f7f60dc3-c853-492d-9f31-78fa6b15d5fa'</data>
-  <data key="d1">piping</data>
-  <data key="d2">"Pipe Tee")</data>
-  <data key="d3">chunk-20f3379081de012b8ed785fe17c4e716</data>
+<node id="47125_1">
+  <data key="d0">47125_1</data>
+  <data key="d1">"artifac"t"</data>
+  <data key="d2">"PipingNetworkSegment defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-bc3b6edf8696edf7497b344652035fff</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300477</data>
+  <data key="d5">1768304591</data>
+  <data key="d6"></data>
+</node>
+<node id="PipingComponent_d61b25cd-e04d-400f-96ef-d38a947a4da3">
+  <data key="d0">PipingComponent_d61b25cd-e04d-400f-96ef-d38a947a4da3</data>
+  <data key="d1">entity</data>
+  <data key="d2">"Artifact")</data>
+  <data key="d3">chunk-252c2c4f320973f63e464087d1f3b93f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304597</data>
+  <data key="d6"></data>
+</node>
+<node id="47140_1">
+  <data key="d0">47140_1</data>
+  <data key="d1">piping</data>
+  <data key="d2">"SG708551978F43471FA98F8244FC0A913F | Piping Network Segment with FluidCode QSa, PipingClassCode 75HB13, InsulationType Q, HeatTracingType NoHeatTracingSystem, JacketedPipe UnjacketedPipe, NominalDiameterStandard Din2448ObjectDn50, NominalDiameterNumericalValueRepresentation 50, NominalDiameterRepresentation DN 50, NominalDiameterTypeRepresentation DN, SegmentNumber 47140_1, SymbolRegistrationNumber ISO10628_2:2012-X8156A, Slope UnslopedPipingNetworkSegment, PrimarySecondaryPipingNetworkSegment SecondaryPipingNetworkSegment, Siphon NoSiphon")</data>
+  <data key="d3">chunk-72dfe823e396a8a8af74803f67e3d7f3</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304602</data>
   <data key="d6"></data>
 </node>
 <node id="PlugValve 'PipingComponent_2b0661dd-d0c0-4335-8d36-398b0204943a'">
   <data key="d0">PlugValve 'PipingComponent_2b0661dd-d0c0-4335-8d36-398b0204943a'</data>
   <data key="d1">equipment</data>
-  <data key="d2">"Plug Valve defined in C01.xml")</data>
-  <data key="d3">chunk-20f3379081de012b8ed785fe17c4e716</data>
+  <data key="d2">"'PipingComponent_2b0661dd-d0c0-4335-8d36-398b0204943a' defined in P&amp;ID Data")</data>
+  <data key="d3">chunk-8b6b50a90788f2131db391dfd4cec684</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300477</data>
+  <data key="d5">1768304609</data>
   <data key="d6"></data>
 </node>
-<node id="Pressure Gauge P-102">
-  <data key="d0">Pressure Gauge P-102</data>
+<node id="Missing Entity 1">
+  <data key="d0">Missing Entity 1</data>
+  <data key="d1">equipment</data>
+  <data key="d2">Missing Equipment Description</data>
+  <data key="d3">chunk-fa3cb1981cde76673a63397de4ec1b96</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304612</data>
+  <data key="d6"></data>
+</node>
+<node id="Incorrectly Formatted Entity 2">
+  <data key="d0">Incorrectly Formatted Entity 2</data>
+  <data key="d1">piping</data>
+  <data key="d2">Incorrectly Formatted Pipe Segment</data>
+  <data key="d3">chunk-fa3cb1981cde76673a63397de4ec1b96</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304612</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle_2bb74ef3-3fa5-46ad-86b8-22aed5612e25">
+  <data key="d0">Nozzle_2bb74ef3-3fa5-46ad-86b8-22aed5612e25</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Nozzle defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-a1e00da900143d073a036acacee4cf76</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304613</data>
+  <data key="d6"></data>
+</node>
+<node id="Piping Segment-300">
+  <data key="d0">Piping Segment-300</data>
+  <data key="d1">piping</data>
+  <data key="d2">"Inspection Piping segment")</data>
+  <data key="d3">chunk-a1e00da900143d073a036acacee4cf76</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304613</data>
+  <data key="d6"></data>
+</node>
+<node id="Analyzer A-102">
+  <data key="d0">Analyzer A-102</data>
   <data key="d1">instrument</data>
-  <data key="d2">"Pressure gauge for monitoring process conditions")</data>
-  <data key="d3">chunk-20f3379081de012b8ed785fe17c4e716</data>
+  <data key="d2">"Gas analyzer for quality control")</data>
+  <data key="d3">chunk-a1e00da900143d073a036acacee4cf76</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300477</data>
+  <data key="d5">1768304613</data>
   <data key="d6"></data>
 </node>
-<node id="Flow Meter FM-101">
-  <data key="d0">Flow Meter FM-101</data>
+<node id="Flow Sensor F-202">
+  <data key="d0">Flow Sensor F-202</data>
   <data key="d1">instrument</data>
-  <data key="d2">"Flow meter for measuring fluid flow rates")</data>
-  <data key="d3">chunk-20f3379081de012b8ed785fe17c4e716</data>
+  <data key="d2">"Flow rate measurement device")</data>
+  <data key="d3">chunk-a1e00da900143d073a036acacee4cf76</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1768300477</data>
+  <data key="d5">1768304613</data>
   <data key="d6"></data>
 </node>
-<edge source="ProcessInstrumentationFunction_f1c6f778-2e38-4869-b992-680ea5dc8079" target="-">
+<node id="_5b71776c-d5ef-4994-8199-ab65f8e771e0">
+  <data key="d0">_5b71776c-d5ef-4994-8199-ab65f8e771e0</data>
+  <data key="d3">chunk-ebd7f55f7ee230b341d3814d4c8b4a78</data>
+  <data key="d2">10)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304620</data>
+  <data key="d6"></data>
+</node>
+<node id="ShutOffValve 'PipingComponent_94279153-41c7-4cf5-a215-2ee76904159c'">
+  <data key="d0">ShutOffValve 'PipingComponent_94279153-41c7-4cf5-a215-2ee76904159c'</data>
+  <data key="d1">equipment</data>
+  <data key="d2">"Shut-off valve connected to Nozzle according to P&amp;ID data")</data>
+  <data key="d3">chunk-367e95b7ba74e11a4d32b18edaea7aba</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304625</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle 'Nozell_757b6700-5b2f-478c-a2f4-b02c1b747d0d'">
+  <data key="d0">Nozzle 'Nozell_757b6700-5b2f-478c-a2f4-b02c1b747d0d'</data>
+  <data key="d1">piping</data>
+  <data key="d2">"Nozzle component of Process Engineering system")</data>
+  <data key="d3">chunk-367e95b7ba74e11a4d32b18edaea7aba</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304625</data>
+  <data key="d6"></data>
+</node>
+<node id="&quot;ShutOffValve 'PipingComponent_94279153-41c7-4cf5-a215-2ee76904159c'&quot; '|' 'Nozzle 'Nozell_757b6700-5b2f-478c-a2f4-b02c1b747d0d''">
+  <data key="d0">"ShutOffValve 'PipingComponent_94279153-41c7-4cf5-a215-2ee76904159c'" '|' 'Nozzle 'Nozell_757b6700-5b2f-478c-a2f4-b02c1b747d0d''</data>
+  <data key="d1">connected_to</data>
+  <data key="d2">10)</data>
+  <data key="d3">chunk-367e95b7ba74e11a4d32b18edaea7aba</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304625</data>
+  <data key="d6"></data>
+</node>
+<node id="47126_1">
+  <data key="d0">47126_1</data>
+  <data key="d1">entity</data>
+  <data key="d2">"PipingNetworkSegment in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-ab426c9d018e8137f128e38340d9e4aa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304628</data>
+  <data key="d6"></data>
+</node>
+<node id="47124_3">
+  <data key="d0">47124_3</data>
+  <data key="d1">pipingnetworksegment</data>
+  <data key="d2">"SGF20C52D52DAB81A42D19331F749B484A9D9, a PipingNetworkSegment defined in 'C01V01-HEX.EX03.xml'")</data>
+  <data key="d3">chunk-d3fe9bc1425455a1af6ee8a2b3e420e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304629</data>
+  <data key="d6"></data>
+</node>
+<node id="PipingComponent_ba4365dc-5700-4575-a722-0b972c031389">
+  <data key="d0">PipingComponent_ba4365dc-5700-4575-a722-0b972c031389</data>
+  <data key="d1">piping</data>
+  <data key="d2">"BlindFlange defined in C01V01-HEX.EX03.xml, OnHold: NotOnHold")&lt;SEP&gt;"BlindFlange defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-e50044cc9a3750d0b957b63dbede1645&lt;SEP&gt;chunk-33f7e417ac70ad9afbdfd9930dadb998</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304643</data>
+  <data key="d6"></data>
+</node>
+<node id="NULL">
+  <data key="d0">NULL</data>
+  <data key="d3">chunk-e50044cc9a3750d0b957b63dbede1645</data>
+  <data key="d2">10)</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304634</data>
+  <data key="d6"></data>
+</node>
+<node id="PipingComponent_aec8fef3-b085-42c6-9e22-85bbf512406f">
+  <data key="d0">PipingComponent_aec8fef3-b085-42c6-9e22-85bbf512406f</data>
+  <data key="d1">piping</data>
+  <data key="d2">"PipeTee defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d3">chunk-e9dffceebeebfffb1620f11cce9b2029</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304637</data>
+  <data key="d6"></data>
+</node>
+<node id="Nozzle_bbf90eb2-f069-4e29-9992-b7e816c6d079">
+  <data key="d0">Nozzle_bbf90eb2-f069-4e29-9992-b7e816c6d079</data>
+  <data key="d3">chunk-041bc4002d1fc1ee42e838faafd6500a&lt;SEP&gt;chunk-dc67b429095f803bc20b616d3617e68b</data>
+  <data key="d2">10)&lt;SEP&gt;"Nozzle defined in C01V01-HEX.EX03.xml")</data>
+  <data key="d1">artifact</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1768304644</data>
+  <data key="d6"></data>
+</node>
+<edge source="Entity_47130_1" target="None">
   <data key="d7">1.0</data>
-  <data key="d8">0)</data>
-  <data key="d9">referenced_by</data>
-  <data key="d10">chunk-1e1778a2c2b61ddd89f19e81fc301eb6</data>
+  <data key="d8">10)</data>
+  <data key="d9">is_defined_by</data>
+  <data key="d10">chunk-473a013f6eab4c1c82782e110a4d480a</data>
   <data key="d11">unknown_source</data>
-  <data key="d12">1768300197</data>
+  <data key="d12">1768304173</data>
   <data key="d13"></data>
 </edge>
-<edge source="PipingComponent_aec8fef3-b085-42c6-9e22-85bbf512406f" target="PingingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d">
+<edge source="None" target="Unnamed_Component">
+  <data key="d7">1.0</data>
+  <data key="d8">5)</data>
+  <data key="d9">instance_of</data>
+  <data key="d10">chunk-7a5a7a5e1af0b829e0d073503035b219</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304226</data>
+  <data key="d13"></data>
+</edge>
+<edge source="None" target="PipingComponent_5b71776c-d5ef-4994-8199-ab65f8e771e0">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">defined_by</data>
+  <data key="d10">chunk-a945f6a578901cc4932212125c151a83</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304449</data>
+  <data key="d13"></data>
+</edge>
+<edge source="PipingComponent_f981ba82-33db-4c62-a398-94e0cdbec9e8" target="&lt;null&gt;">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">acts_as</data>
+  <data key="d10">chunk-0a380448f6dd95da51d576e9410f0f22</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304470</data>
+  <data key="d13"></data>
+</edge>
+<edge source="SY8B12D6816E9F432695222500F08A648F" target="PipingClassBreak">
+  <data key="d7">1.0</data>
+  <data key="d8">2)</data>
+  <data key="d9">break_away_from</data>
+  <data key="d10">chunk-a5221d9a5ab20acdf02731ce61721475</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304177</data>
+  <data key="d13"></data>
+</edge>
+<edge source="PipeTee 'PipingComponent_aec8fef3-b085-42c6-9e22-85bbf512406f'" target="PipeTee 'PipingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d'">
   <data key="d7">1.0</data>
   <data key="d8">10)</data>
   <data key="d9">connected_to</data>
   <data key="d10">chunk-dd4710f2d5cc318b4b9c670070477899</data>
   <data key="d11">unknown_source</data>
-  <data key="d12">1768300389</data>
+  <data key="d12">1768304185</data>
   <data key="d13"></data>
 </edge>
-<edge source="Unnamed_Component" target="PingingComponent_f7f60dc3-c853-492d-9f31-78fa6b15d5fa">
+<edge source="Unnamed_Component" target="PV-4712.02">
   <data key="d7">1.0</data>
-  <data key="d8">10)</data>
-  <data key="d9">connected_to</data>
-  <data key="d10">chunk-a0662a2e6102ab44e8cdbcf410abdc8e</data>
+  <data key="d8">9)</data>
+  <data key="d9">contains</data>
+  <data key="d10">chunk-96c5a9291b611e707b2b57f2b29c9b71</data>
   <data key="d11">unknown_source</data>
-  <data key="d12">1768300035</data>
+  <data key="d12">1768304208</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Unnamed_Component" target="ActuatingFunction">
+  <data key="d7">1.0</data>
+  <data key="d8">9)</data>
+  <data key="d9">is type of</data>
+  <data key="d10">chunk-098980a9925349d45550f71c0bebea7b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304244</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Unnamed_Component" target="Entity_types">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">is_a</data>
+  <data key="d10">chunk-6bc65ada79e89fa2e56243d9e75d214d</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304484</data>
   <data key="d13"></data>
 </edge>
 <edge source="Unnamed_Component" target="Nozzle_bbf90eb2-f069-4e29-9992-b7e816c6d079">
   <data key="d7">1.0</data>
   <data key="d8">10)</data>
-  <data key="d9">connected_to</data>
+  <data key="d9">is_connected_to</data>
   <data key="d10">chunk-041bc4002d1fc1ee42e838faafd6500a</data>
   <data key="d11">unknown_source</data>
-  <data key="d12">1768300060</data>
+  <data key="d12">1768304640</data>
   <data key="d13"></data>
 </edge>
-<edge source="Unnamed_Component" target="None">
-  <data key="d7">2.0</data>
-  <data key="d8">5)&lt;SEP&gt;10)</data>
-  <data key="d9">defined_as,instance_of</data>
-  <data key="d10">chunk-56d879df6a78d8a3b971ee1a1d28b047&lt;SEP&gt;chunk-2ea20b0fc2cd23dad7576ee0a8d7d939</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300146</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Unnamed_Component" target="Din2448ObjectDn50">
+<edge source="` &quot;PipingComponent_2b0661dd-d0c0-4335-8d36-398b0204943a&quot; `" target="` &quot;&quot; `">
   <data key="d7">1.0</data>
-  <data key="d8">7)</data>
-  <data key="d9">uses</data>
-  <data key="d10">chunk-56d879df6a78d8a3b971ee1a1d28b047</data>
+  <data key="d8">` 10)</data>
+  <data key="d9">` "represents" `</data>
+  <data key="d10">chunk-3b465814ddfdcf51405f824b7bf0ca97</data>
   <data key="d11">unknown_source</data>
-  <data key="d12">1768300137</data>
+  <data key="d12">1768304197</data>
   <data key="d13"></data>
 </edge>
-<edge source="Unnamed_Component" target="DN 50">
-  <data key="d7">1.0</data>
-  <data key="d8">8)</data>
-  <data key="d9">represents</data>
-  <data key="d10">chunk-56d879df6a78d8a3b971ee1a1d28b047</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300137</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Unnamed_Component" target="&quot;&quot; (no target entity)">
-  <data key="d7">1.0</data>
-  <data key="d8">5)</data>
-  <data key="d9">defined_by</data>
-  <data key="d10">chunk-7b73f7c4c4a3492c079dff4a6412393c</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300234</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Unnamed_Component" target="TubeBundle">
-  <data key="d7">1.0</data>
-  <data key="d8">9)</data>
-  <data key="d9">is_a</data>
-  <data key="d10">chunk-44f6316e8229e644a9edacdbb5a4c064</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300257</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Unnamed_Component" target="Artifact">
-  <data key="d7">1.0</data>
-  <data key="d8">8)</data>
-  <data key="d9">refers_to</data>
-  <data key="d10">chunk-5e48706702711cc37dc9b9ddb2002273</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300344</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Entity A" target="Missing Relationship A">
-  <data key="d7">1.0</data>
-  <data key="d8">Description of missing relationship strength 8</data>
-  <data key="d9">Target Entity</data>
-  <data key="d10">chunk-096fec4db701ed77f9c25a8f9a4710d5</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300038</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Nozzle_c0426cee-9f6f-4531-a35e-2daf46bdd533" target="PipeTee PipingComponent_47fbf26c-6ef3-4149-8d39-2735249786ff">
+<edge source="PipingComponent_b74a0350-9c80-449c-9a0d-320fa8ad8934" target="PipingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d">
   <data key="d7">1.0</data>
   <data key="d8">10)</data>
   <data key="d9">connected_to</data>
-  <data key="d10">chunk-4a28a7a4f1fda31e2e44999cb357e1bc</data>
+  <data key="d10">chunk-31087e434e49b24ab4de9d03739a6d67</data>
   <data key="d11">unknown_source</data>
-  <data key="d12">1768300231</data>
+  <data key="d12">1768304517</data>
   <data key="d13"></data>
 </edge>
-<edge source="Nozzle_b299f38f-7779-489f-847c-766a121f4911" target="Nozzle_21f2ee0f-28e0-4ee7-8eda-15d5439af1f1">
+<edge source="Nozzle_21f2ee0f-28e0-4ee7-8eda-15d5439af1f1" target="Nozzle_b299f38f-7779-489f-847c-766a121f4911">
   <data key="d7">1.0</data>
   <data key="d8">10)</data>
   <data key="d9">connected_to</data>
   <data key="d10">chunk-4e52d1a1b80ff9fcca39f0cfb891cb3f</data>
   <data key="d11">unknown_source</data>
-  <data key="d12">1768300047</data>
+  <data key="d12">1768304588</data>
   <data key="d13"></data>
 </edge>
-<edge source="Nozzle_b299f38f-7779-489f-847c-766a121f4911" target="&lt;null&gt;">
-  <data key="d7">1.0</data>
-  <data key="d8">5)</data>
-  <data key="d9">defined_by</data>
-  <data key="d10">chunk-d375ca89a565de2b168c0d382764a9b6</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300158</data>
-  <data key="d13"></data>
-</edge>
-<edge source="ProcessInstrumentationFunction_7e82ebcc-eb06-4e15-8275-4f7c9f955e7a" target="BlindFlane PipingComponent_d61b25cd-e04d-400f-96ef-d38a947a4da3">
+<edge source="ProcessInstrumentationFunction_f1c6f778-2e38-4869-b992-680ea5dc8079" target="BlindFlange 'PipingComponent_ba4365dc-5700-4575-a722-0b972c031389'">
   <data key="d7">1.0</data>
   <data key="d8">10)</data>
   <data key="d9">connected_to</data>
-  <data key="d10">chunk-ee71a07e3fcaecee1d3f2fbae320babf</data>
+  <data key="d10">chunk-7f85ff2654048c4d5778f249fa8674f1</data>
   <data key="d11">unknown_source</data>
-  <data key="d12">1768300368</data>
-  <data key="d13"></data>
-</edge>
-<edge source="ProcessInstrumentationFunction_a0bbbdda-560f-4d3a-aecd-b952485d2416" target="ActuatingSystemComponent_4edbd630-5851-4d27-a9c2-55ffddd967d3">
-  <data key="d7">1.0</data>
-  <data key="d8">10)</data>
-  <data key="d9">connected_to</data>
-  <data key="d10">chunk-f474d90020fe94b9b9e873d5d4c28b19</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300433</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Nozzle_95fdf5bd-27d3-4488-94d1-6938129c3340" target="None">
-  <data key="d7">1.0</data>
-  <data key="d8">10)</data>
-  <data key="d9">is_a</data>
-  <data key="d10">chunk-eb518c5160012a57750b5743225455e1</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300258</data>
-  <data key="d13"></data>
-</edge>
-<edge source="PipingComponent_47ef5e57-78bf-42c1-9b92-146ba11259b1" target="ButterflyValve">
-  <data key="d7">1.0</data>
-  <data key="d8">10)&lt;|COMPLETE|</data>
-  <data key="d9">is_instance_of</data>
-  <data key="d10">chunk-0c94ea18c490e9f4f202af0781c4bc40</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300096</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Nozzle_e36d2abc-bac7-438d-9dab-0d79054a53a6" target="Nozzle_686a3623-ffde-41b5-b553-c90046834829">
-  <data key="d7">1.0</data>
-  <data key="d8">10)</data>
-  <data key="d9">connected_to</data>
-  <data key="d10">chunk-ee119798ba5f2c5afaa4a28d1be60708</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300105</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Nozzle_2bb74ef3-3fa5-46ad-86b8-22aed5612e25" target="PipingComponent_94279153-41c7-4cf5-a215-2ee76904159c">
-  <data key="d7">1.0</data>
-  <data key="d8">10)</data>
-  <data key="d9">connected_to</data>
-  <data key="d10">chunk-e28a3d6ae9b0d0a860dd9fbc0f970fde</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300110</data>
-  <data key="d13"></data>
-</edge>
-<edge source="PipingComponent_94279153-41c7-4cf5-a215-2ee76904159c" target="&lt;no target entity&gt;">
-  <data key="d7">1.0</data>
-  <data key="d8">10)</data>
-  <data key="d9">acts_as</data>
-  <data key="d10">chunk-e4e5d66b033191797574985d38075d5a</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300334</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Controller C-900" target="Valve V-101">
-  <data key="d7">1.0</data>
-  <data key="d8">9)</data>
-  <data key="d9">controlled_by</data>
-  <data key="d10">chunk-c0a09a082c7ab6e2c3891613ce7a2e66&lt;SEP&gt;chunk-ec06cd61ee0a6726a5f120ce2cf7705c</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300326</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Controller C-900" target="Signal S-202">
-  <data key="d7">3.0</data>
-  <data key="d8">8)&lt;SEP&gt;9)&lt;SEP&gt;9)</data>
-  <data key="d9">generates_signal,originates_from,sends_signal</data>
-  <data key="d10">chunk-33623d10430bf2a93e7225bdf7353724&lt;SEP&gt;chunk-46439addc77b728ff085ac5bdf01f688&lt;SEP&gt;chunk-1ec133d5aed2f2b3c82b221876e8be00&lt;SEP&gt;chunk-20f3379081de012b8ed785fe17c4e716</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300477</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Signal S-202" target="Valve V-101">
-  <data key="d7">1.0</data>
-  <data key="d8">9)</data>
-  <data key="d9">sent_signal_via</data>
-  <data key="d10">chunk-1bddb5bd83c712bcba89b0e314d659a0</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300123</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Valve V-101" target="Pipe Seg-400">
-  <data key="d7">1.0</data>
-  <data key="d8">10)</data>
-  <data key="d9">flows_into</data>
-  <data key="d10">chunk-754d204b106fb33ded38a18db6023713</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300149</data>
-  <data key="d13"></data>
-</edge>
-<edge source="None" target="PipingNetworkSegment">
-  <data key="d7">1.0</data>
-  <data key="d8">5)</data>
-  <data key="d9">defines P&amp;ID Data</data>
-  <data key="d10">chunk-3b4e3a1c281f625f44bc9972b15a797b</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300207</data>
-  <data key="d13"></data>
-</edge>
-<edge source="None" target="Entity 47126_4">
-  <data key="d7">1.0</data>
-  <data key="d8">10)</data>
-  <data key="d9">defined_by P&amp;ID data</data>
-  <data key="d10">chunk-814d50d8cf144d2d323ea4ff77252660</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300359</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Pump P-101" target="Tank T-500">
-  <data key="d7">1.0</data>
-  <data key="d8">8)</data>
-  <data key="d9">flows_into</data>
-  <data key="d10">chunk-2fcd107140a8392ff7bebbf39a91b55e</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300146</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Pump P-101" target="Pipe Seg-400">
-  <data key="d7">2.0</data>
-  <data key="d8">10)&lt;SEP&gt;10)</data>
-  <data key="d9">connected_to</data>
-  <data key="d10">chunk-1ec133d5aed2f2b3c82b221876e8be00&lt;SEP&gt;chunk-20f3379081de012b8ed785fe17c4e716</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300477</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Pipe Seg-400" target="Flow Meter F-500">
-  <data key="d7">1.0</data>
-  <data key="d8">8)</data>
-  <data key="d9">measures_flow_in</data>
-  <data key="d10">chunk-ec06cd61ee0a6726a5f120ce2cf7705c</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300326</data>
+  <data key="d12">1768304341</data>
   <data key="d13"></data>
 </edge>
 <edge source="ActuatingSystemComponent_15a86a72-bc99-49db-b0ad-4b657adb90a0" target="ProcessInstrumentationFunction_5d8fde97-3be3-4cea-9e26-9620309eaad4">
@@ -2045,178 +1809,295 @@ Note: The formatting inconsistencies in the original descriptions were preserved
   <data key="d9">connected_to</data>
   <data key="d10">chunk-131ccb9b881f59e75facc0bf0b92f53d</data>
   <data key="d11">unknown_source</data>
-  <data key="d12">1768300466</data>
+  <data key="d12">1768304259</data>
   <data key="d13"></data>
 </edge>
-<edge source="Source Entity" target="Target Entity">
-  <data key="d7">2.0</data>
-  <data key="d8">Relationship Strength&lt;SEP&gt;Relationship Strength</data>
-  <data key="d9">Relationship Description</data>
-  <data key="d10">chunk-4e5f82139e8c6b046bf75e5cad024680&lt;SEP&gt;chunk-3b465814ddfdcf51405f824b7bf0ca97</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300391</data>
-  <data key="d13"></data>
-</edge>
-<edge source="?#-101" target="?Pipe Seg-400">
-  <data key="d7">1.0</data>
-  <data key="d8">10  (incorrectly formatted relationship strength)</data>
-  <data key="d9">?connected_to</data>
-  <data key="d10">chunk-4e5f82139e8c6b046bf75e5cad024680</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300157</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Wirkungslinie" target="null">
-  <data key="d7">1.0</data>
-  <data key="d8">10)</data>
-  <data key="d9">is_a</data>
-  <data key="d10">chunk-0c64846e464e69e40210dd65a0bcbb88</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300166</data>
-  <data key="d13"></data>
-</edge>
-<edge source="SG87DEBCF9FAC64245A593D771DBF71633" target="&lt;no target entity&gt;">
-  <data key="d7">1.0</data>
-  <data key="d8">1)</data>
-  <data key="d9">&lt;no relationship description&gt;</data>
-  <data key="d10">chunk-5fe3c2c30dbe91884b740ca729a8da4e</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300195</data>
-  <data key="d13"></data>
-</edge>
-<edge source="PipingComponent_a883ee28-56c5-44b0-ad21-65992f934284" target="&quot;&quot; (no target entity)">
-  <data key="d7">1.0</data>
-  <data key="d8">8)</data>
-  <data key="d9">acts_as</data>
-  <data key="d10">chunk-8e1043d5b2f5eac86290d3402c95eddb</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300211</data>
-  <data key="d13"></data>
-</edge>
-<edge source="PipeTee 'PipingComponent_aec8fef3-b085-42c6-9e22-85bbf512406f'" target="PlugValve 'PipingComponent_cbef5c42-7117-46bb-bad1-12f7f07d7e40'">
-  <data key="d7">1.0</data>
-  <data key="d8">10)</data>
-  <data key="d9">connected_to</data>
-  <data key="d10">chunk-f27af30b67b6fd8da61653fb1280974b</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300216</data>
-  <data key="d13"></data>
-</edge>
-<edge source="ProcessInstrumentationFunction_5d8fde97-3be3-4cea-9e26-9620309eaad4" target="CentralLocation">
-  <data key="d7">1.0</data>
-  <data key="d8">7)</data>
-  <data key="d9">located_at</data>
-  <data key="d10">chunk-7174dc542d9c298400155db3428709b2</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300267</data>
-  <data key="d13"></data>
-</edge>
-<edge source="ProcessInstrumentationFunction_5d8fde97-3be3-4cea-9e26-9620309eaad4" target="HV-4750.01">
-  <data key="d7">1.0</data>
-  <data key="d8">6)</data>
-  <data key="d9">has_actuating_function_number</data>
-  <data key="d10">chunk-7174dc542d9c298400155db3428709b2</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300267</data>
-  <data key="d13"></data>
-</edge>
-<edge source="Equipment_2cf00380-7981-487e-bbda-aaa900394264" target="&lt;blank&gt;">
-  <data key="d7">1.0</data>
-  <data key="d8">8)</data>
-  <data key="d9">provides_pressure</data>
-  <data key="d10">chunk-f10d8a7764711b7a1d90f2d800c761d6</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300415</data>
-  <data key="d13"></data>
-</edge>
-<edge source="PipeTee 'PipingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d'" target="SpringLoadedAngleGlobeSafetyValve 'PipingComponent_f981ba82-33db-4c62-a398-94e0cdbec9e8'">
-  <data key="d7">1.0</data>
-  <data key="d8">10)</data>
-  <data key="d9">connected_to</data>
-  <data key="d10">chunk-3058d35a65d02cc248afd8f8475aa547</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300292</data>
-  <data key="d13"></data>
-</edge>
-<edge source="PipeTee 'PipingComponent_608c0e6f-4a4e-4719-aa80-d6ddfc97224d'" target="PipingComponent_b74a0350-9c80-449c-9a0d-320fa8ad8934">
-  <data key="d7">1.0</data>
-  <data key="d8">10)</data>
-  <data key="d9">connected_to</data>
-  <data key="d10">chunk-31087e434e49b24ab4de9d03739a6d67</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300456</data>
-  <data key="d13"></data>
-</edge>
-<edge source="ShutOffValve 'PipingComponent_94279153-41c7-4cf5-a215-2ee76904159c'" target="Nozzle 'Nozzle_757b6700-5b2f-478c-a2f4-b02c1b747d0d'">
-  <data key="d7">1.0</data>
-  <data key="d8">10)</data>
-  <data key="d9">connected_to</data>
-  <data key="d10">chunk-367e95b7ba74e11a4d32b18edaea7aba</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300296</data>
-  <data key="d13"></data>
-</edge>
-<edge source="UNIT1" target="unit itself">
+<edge source="Pipe Segment-900|#" target="Tank T-501|#">
   <data key="d7">1.0</data>
   <data key="d8">5)</data>
-  <data key="d9">is_defined_by</data>
-  <data key="d10">chunk-d0c2a534191596ff4be0c191fbb4484d</data>
+  <data key="d9">flows to</data>
+  <data key="d10">chunk-1dd94ddcea2a5dd1e49dc773567ea5bb</data>
   <data key="d11">unknown_source</data>
-  <data key="d12">1768300300</data>
+  <data key="d12">1768304265</data>
   <data key="d13"></data>
 </edge>
-<edge source="47123_2" target="C01V01-HEX.EX03.xml">
+<edge source="Controller C-902|#" target="Sensor S-203|#">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">receives signal from</data>
+  <data key="d10">chunk-1dd94ddcea2a5dd1e49dc773567ea5bb</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304265</data>
+  <data key="d13"></data>
+</edge>
+<edge source="ProcessInstrumentationFunction_7e82ebcc-eb06-4e15-8275-4f7c9f955e7a" target="BlindFlange 'PipingComponent_d61b25cd-e04d-400f-96ef-d38a947a4da3'">
   <data key="d7">1.0</data>
   <data key="d8">10)</data>
-  <data key="d9">defined_in</data>
-  <data key="d10">chunk-ec06cd61ee0a6726a5f120ce2cf7705c</data>
+  <data key="d9">connected_to</data>
+  <data key="d10">chunk-ee71a07e3fcaecee1d3f2fbae320babf</data>
   <data key="d11">unknown_source</data>
-  <data key="d12">1768300326</data>
+  <data key="d12">1768304266</data>
   <data key="d13"></data>
 </edge>
-<edge source="PipingComponent_1a435236-07f5-45f4-95a9-dd5ed6fcb330" target="itself">
+<edge source="BlindFlange 'PipingComponent_d61b25cd-e04d-400f-96ef-d38a947a4da3'" target="PlugValve 'PipingComponent_2b0661dd-d0c0-4335-8d36-398b0204943a'">
   <data key="d7">1.0</data>
-  <data key="d8">8)</data>
-  <data key="d9">acts_as</data>
-  <data key="d10">chunk-3bc0e50d8770591cc1e7a7212e69b341</data>
+  <data key="d8">10)</data>
+  <data key="d9">connected_to</data>
+  <data key="d10">chunk-8b6b50a90788f2131db391dfd4cec684</data>
   <data key="d11">unknown_source</data>
-  <data key="d12">1768300409</data>
+  <data key="d12">1768304609</data>
   <data key="d13"></data>
 </edge>
-<edge source="SP_DisableFlipText" target="SP_DrawingID">
+<edge source="47126_7" target="(no target entity specified)">
   <data key="d7">1.0</data>
-  <data key="d8">5)</data>
-  <data key="d9">is_mapped_to</data>
-  <data key="d10">chunk-7fb7f9c0145d80754dce8f4601b93a24</data>
+  <data key="d8">0)</data>
+  <data key="d9">(no description)</data>
+  <data key="d10">chunk-5644edb1e28a31fe34a282fa01d1a9ca</data>
   <data key="d11">unknown_source</data>
-  <data key="d12">1768300430</data>
+  <data key="d12">1768304273</data>
   <data key="d13"></data>
 </edge>
-<edge source="File Name" target="Fliesspfeil.sym">
+<edge source="Nozzle Nozzle_2bb74ef3-3fa5-46ad-86b8-22aed5612e25" target="ShutOffValve PipingComponent_94279153-41c7-4cf5-a215-2ee76904159c">
   <data key="d7">1.0</data>
-  <data key="d8">7)</data>
-  <data key="d9">references</data>
-  <data key="d10">chunk-7fb7f9c0145d80754dce8f4601b93a24</data>
+  <data key="d8">10)</data>
+  <data key="d9">connected_to</data>
+  <data key="d10">chunk-e28a3d6ae9b0d0a860dd9fbc0f970fde</data>
   <data key="d11">unknown_source</data>
-  <data key="d12">1768300430</data>
+  <data key="d12">1768304290</data>
   <data key="d13"></data>
 </edge>
-<edge source="DEXPI" target="PLEX">
-  <data key="d7">1.0</data>
-  <data key="d8">8)</data>
-  <data key="d9">part_of</data>
-  <data key="d10">chunk-70843cda954492455ce92a082af5b8af</data>
-  <data key="d11">unknown_source</data>
-  <data key="d12">1768300476</data>
-  <data key="d13"></data>
-</edge>
-<edge source="PipeTee 'PipingComponent_f7f60dc3-c853-492d-9f31-78fa6b15d5fa'" target="PlugValve 'PipingComponent_2b0661dd-d0c0-4335-8d36-398b0204943a'">
+<edge source="PipeTee 'PipingComponent_f7f60dc3-c853-492d-9f31-78fa6b15d5fa'" target="PlugValve 'PingingComponent_2b0661dd-d0c0-4335-8d36-398b0204943a'">
   <data key="d7">1.0</data>
   <data key="d8">10)</data>
   <data key="d9">connected_to</data>
   <data key="d10">chunk-20f3379081de012b8ed785fe17c4e716</data>
   <data key="d11">unknown_source</data>
-  <data key="d12">1768300477</data>
+  <data key="d12">1768304308</data>
+  <data key="d13"></data>
+</edge>
+<edge source="PipeTee 'PipingComponent_f7f60dc3-c853-492d-9f31-78fa6b15d5fa'" target="PipeTee 'PingingComponent_47fbf26c-6ef3-4149-8d39-2735249786ff'">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">connected_to</data>
+  <data key="d10">chunk-530ae8ab8a56c4321fd4ba15d4080902</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304438</data>
+  <data key="d13"></data>
+</edge>
+<edge source="ActuatingSystemComponent_4edbd630-5851-4d27-a9c2-55ffddd967d3" target="ProcessInstrumentationFunction_a0bbbdda-560f-4d3a-aecd-b952485d2416">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">connected_to</data>
+  <data key="d10">chunk-f474d90020fe94b9b9e873d5d4c28b19</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304319</data>
+  <data key="d13"></data>
+</edge>
+<edge source="ActuatingSystemComponent_4edbd630-5851-4d27-a9c2-55ffddd967d3" target="none available">
+  <data key="d7">1.0</data>
+  <data key="d8">0)</data>
+  <data key="d9">no relationship description</data>
+  <data key="d10">chunk-a801c134f1cd015dbf53d6c8b79840a9</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304546</data>
+  <data key="d13"></data>
+</edge>
+<edge source="PipeTee PipingComponent_47fbf26c-6ef3-4149-8d39-2735249786ff" target="Nozzle Nozzo_c0426cee-9f6f-4531-a35e-2daf46bdd533">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">connected_to</data>
+  <data key="d10">chunk-4a28a7a4f1fda31e2e44999cb357e1bc</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304337</data>
+  <data key="d13"></data>
+</edge>
+<edge source="The Nozzle 'Nozzle_e36d2abc-bac7-438d-9dab-0d79054a53a6'" target="The Nozzle 'Nozzle_686a3623-ffde-41b5-b553-c90046834829'">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">connected_to</data>
+  <data key="d10">chunk-ee119798ba5f2c5afaa4a28d1be60708</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304351</data>
+  <data key="d13"></data>
+</edge>
+<edge source="The SpringLoadedAngleGlobeSafetyValve 'PipingComponent_f981ba82-33db-4c62-a398-94e0cdbec9e8'" target="Nozzle 'Nozzle_1acc3e45-636c-4b8f-84a8-706629262ca2'">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">connected_to</data>
+  <data key="d10">chunk-2a3e52a7d10b0426e55be81d442eb423</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304360</data>
+  <data key="d13"></data>
+</edge>
+<edge source="47141_1" target="&lt;self&gt;">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">defined_in</data>
+  <data key="d10">chunk-35ad6de9a641903dd5663b24c34c6ce6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304365</data>
+  <data key="d13"></data>
+</edge>
+<edge source="47124_2" target="SGF2C61F6FA6C04D32B8D40D09ABC4B458">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">identifies_as</data>
+  <data key="d10">chunk-9e1ea40add3c41188f4e8ec6542ea970</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304429</data>
+  <data key="d13"></data>
+</edge>
+<edge source="PipingComponent_2eec4e5f-afbf-4d21-8088-b650de8843f0" target="&quot;&quot; (no target entity)">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">defined_as</data>
+  <data key="d10">chunk-c4da924a6ec4af9bb60f4516748ae8e2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304445</data>
+  <data key="d13"></data>
+</edge>
+<edge source="PipingComponent_5b71776c-d5ef-4994-8199-ab65f8e771e0" target="_5b71776c-d5ef-4994-8199-ab65f8e771e0">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">acts_as</data>
+  <data key="d10">chunk-ebd7f55f7ee230b341d3814d4c8b4a78</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304621</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Unnamed_Component (ID: SP8F1256539D684240959558BAA5FA2EF5_SE001)" target="&lt;no target&gt;">
+  <data key="d7">1.0</data>
+  <data key="d8">0)</data>
+  <data key="d9"></data>
+  <data key="d10">chunk-609cbbd0b2253074b9b76c71d46fcf72</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304456</data>
+  <data key="d13"></data>
+</edge>
+<edge source="ProcessInstrumentationFunction 'ProcessInstrumentationFunction_7e82ebcc-eb06-4e15-8275-4f7c9f955e7a'" target="ControlledActuator 'ActuatingSystemComponent_44b9de42-8a3b-4142-86c9-1789877919f2'">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">connected_to</data>
+  <data key="d10">chunk-01d33d446bb9614e7dfead6ccfeabbeb</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304480</data>
+  <data key="d13"></data>
+</edge>
+<edge source="PipeReducer 'PipingComponent_2eec4e5f-afbf-4d21-8088-b650de8843f0'" target="Nozzle 'Nozzle_5787d082-9186-4697-9660-2c77fbd2b945'">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">connected_to</data>
+  <data key="d10">chunk-c0a09a082c7ab6e2c3891613ce7a2e66</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304498</data>
+  <data key="d13"></data>
+</edge>
+<edge source="The BlindFlange 'PipingComponent_ba4365dc-5700-4575-a722-0b972c031389'" target="PipeTee 'PipingComponent_b74a0350-9c80-449c-9a0d-320fa8ad8934'">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">connected_to</data>
+  <data key="d10">chunk-6754190e756b8c7e34581578b7088e36</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304507</data>
+  <data key="d13"></data>
+</edge>
+<edge source="67126_8" target="unknown">
+  <data key="d7">1.0</data>
+  <data key="d8">1)</data>
+  <data key="d9">has_properties</data>
+  <data key="d10">chunk-107d87b27fa6649469d56447ca452ae2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304511</data>
+  <data key="d13"></data>
+</edge>
+<edge source="SG11933F04339546E2BB3FAE0C30B7D6AA" target="&quot;&quot; (no target)">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">has properties</data>
+  <data key="d10">chunk-dee7c97ccb290b08b82d24acdeccd1d0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304532</data>
+  <data key="d13"></data>
+</edge>
+<edge source="SP80B1E87317254ED2B14B798DEE432AE5_SE002__Unnamed_Component" target="&lt;empty&gt;">
+  <data key="d7">1.0</data>
+  <data key="d8">)</data>
+  <data key="d9"></data>
+  <data key="d10">chunk-a3a044f98c5ca58df4bc766e69b8b2b4</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304537</data>
+  <data key="d13"></data>
+</edge>
+<edge source="PipingComponent_1a435236-07f5-45f4-95a9-dd5ed6fcb330" target="null">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">acts_as</data>
+  <data key="d10">chunk-3bc0e50d8770591cc1e7a7212e69b341</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304542</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Valve V-2015" target="Conductor Line CL-1010">
+  <data key="d7">1.0</data>
+  <data key="d8">9)</data>
+  <data key="d9">connected_to</data>
+  <data key="d10">chunk-e3e372af2a6c24e1d8a81626831488fc</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304568</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Valve V-2015" target="Pressure Transmitter PT-1030">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">measures</data>
+  <data key="d10">chunk-e3e372af2a6c24e1d8a81626831488fc</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304568</data>
+  <data key="d13"></data>
+</edge>
+<edge source="T-4750.03" target="none">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">is_an_instrumentation_loop_function_of</data>
+  <data key="d10">chunk-4bdc9c53cf30840eeec616a4466ef48c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304577</data>
+  <data key="d13"></data>
+</edge>
+<edge source="DEXPI" target="&quot;&quot; (empty string)">
+  <data key="d7">1.0</data>
+  <data key="d8">0)|COMPLETE</data>
+  <data key="d9">"" (empty string)</data>
+  <data key="d10">chunk-70843cda954492455ce92a082af5b8af</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304582</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Piping Segment-300" target="Analyzer A-102">
+  <data key="d7">1.0</data>
+  <data key="d8">9)</data>
+  <data key="d9">connected_to</data>
+  <data key="d10">chunk-a1e00da900143d073a036acacee4cf76</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304613</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Analyzer A-102" target="Flow Sensor F-202">
+  <data key="d7">1.0</data>
+  <data key="d8">8)</data>
+  <data key="d9">measures_with</data>
+  <data key="d10">chunk-a1e00da900143d073a036acacee4cf76</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304614</data>
+  <data key="d13"></data>
+</edge>
+<edge source="PipingComponent_ba4365dc-5700-4575-a722-0b972c031389" target="NULL">
+  <data key="d7">1.0</data>
+  <data key="d8">10)</data>
+  <data key="d9">is_a</data>
+  <data key="d10">chunk-e50044cc9a3750d0b957b63dbede1645</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1768304634</data>
   <data key="d13"></data>
 </edge>
 </graph></graphml>

@@ -1,4 +1,4 @@
-All questions are from C01V01-HEX.EX03.xml
+Questions from C01V01-HEX.EX03.xml
 
 Specific Lookup:
 
