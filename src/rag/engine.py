@@ -36,13 +36,10 @@ class LightRAGEngine:
         await self.rag.initialize_storages()
 
     # =========================================================================
-    #  INGESTION: RICH TEXT SYNTHESIS
+    #  INGESTION
     # =========================================================================
     async def ingest_dexpi_data(self, parsed_data: Dict[str, Any]):
-        """
-        Converts parsed dictionary into rich, semantic sentences for embedding.
-        Dynamically handles all attributes to prevent information loss.
-        """
+        """Ingest data into LightRAG (remains unchanged)"""
         logger.info("Starting rich text synthesis for ingestion...")
         filename = parsed_data['filename']
         texts_to_ingest = []
@@ -56,7 +53,6 @@ class LightRAGEngine:
             tag = item.get('tag', 'Unknown')
             etype = item.get('type', 'Unknown')
             
-            # Enrichment: Add functional roles
             role = ""
             if "Valve" in etype: role = " It acts as a flow control/isolation device."
             elif "Pump" in etype: role = " It provides pressure to move fluids."
@@ -64,11 +60,9 @@ class LightRAGEngine:
             
             base_desc = f"{prefix}In '{filename}', entity '{tag}' (ID: {item['id']}) is a '{etype}'.{role}"
             
-            # Dynamic Attribute Loop
             attr_text = []
             if item.get('attributes'):
                 for k, v in item['attributes'].items():
-                    # Clean technical keys for better embedding
                     clean_k = k.replace("AssignmentClass", "").replace("Specialization", "")
                     attr_text.append(f"Its {clean_k} is '{v}'.")
             
@@ -95,7 +89,7 @@ class LightRAGEngine:
             logger.warning("No text generated for ingestion.")
 
     # =========================================================================
-    #  RETRIEVAL: CUSTOM VECTOR LOGIC
+    #  MANUAL RETRIEVAL HELPERS 
     # =========================================================================
     def _decode_vector(self, vec_raw):
         """Decodes LightRAG vectors: Base64 -> Zlib -> Float16 -> Float32"""
@@ -114,59 +108,112 @@ class LightRAGEngine:
         norm = np.linalg.norm(v1) * np.linalg.norm(v2)
         return np.dot(v1, v2) / norm if norm != 0 else 0.0
 
-    def _recursive_find_chunks(self, data, chunks_list):
-        """Recursively scans JSON for objects with 'vector' and 'content'"""
+    def _recursive_find_chunks(self, data, chunks_list, key_field="content"):
+        """Recursively scans JSON for objects with 'vector' and content"""
         if isinstance(data, dict):
-            if "vector" in data and "content" in data:
+            if "vector" in data and key_field in data:
                 chunks_list.append(data)
             for v in data.values():
-                self._recursive_find_chunks(v, chunks_list)
+                self._recursive_find_chunks(v, chunks_list, key_field)
         elif isinstance(data, list):
             for item in data:
-                self._recursive_find_chunks(item, chunks_list)
+                self._recursive_find_chunks(item, chunks_list, key_field)
 
-    async def retrieve_context(self, query: str, top_k: int = 5) -> str:
-        """
-        Manually retrieves context from LightRAG storage to bypass internal query limitations.
-        """
-        logger.info(f"Retrieving context for: '{query}'")
-        
-        # 1. Load Data
-        vdb_path = os.path.join(self.working_dir, "vdb_chunks.json")
-        if not os.path.exists(vdb_path):
-            return "Error: Database not found. Please ingest data first."
+    async def _manual_search(self, filename: str, query_vec: np.ndarray, top_k: int = 5, key_field="content") -> List[str]:
+        """Generic searcher for any LightRAG JSON storage."""
+        path = os.path.join(self.working_dir, filename)
+        if not os.path.exists(path):
+            logger.warning(f"Storage file {filename} not found.")
+            return []
             
         try:
-            with open(vdb_path, "r") as f:
+            with open(path, "r") as f:
                 raw_json = json.load(f)
         except Exception as e:
-            return f"Error loading database: {e}"
+            logger.error(f"Failed to load {filename}: {e}")
+            return []
             
-        chunks = []
-        self._recursive_find_chunks(raw_json, chunks)
+        items = []
+        self._recursive_find_chunks(raw_json, items, key_field)
         
-        if not chunks:
-            return "No data chunks found in database."
-
-        # 2. Embed Query
-        query_vecs = await ollama_embedding_func([query])
-        query_vec = np.array(query_vecs[0], dtype=np.float32)
-
-        # 3. Rank
         scores = []
-        for ch in chunks:
-            vec = self._decode_vector(ch["vector"])
+        for item in items:
+            vec = self._decode_vector(item["vector"])
             score = self._cosine_similarity(query_vec, vec)
-            scores.append({"score": score, "content": ch.get("content", "")})
+            # Store content and score
+            content = item.get(key_field, "")
+            scores.append({"score": score, "content": content})
 
         scores.sort(key=lambda x: x['score'], reverse=True)
+        return [x['content'] for x in scores[:top_k]]
+
+    # =========================================================================
+    #  HYBRID QUERY LOGIC 
+    # =========================================================================
+    async def query_hybrid(self, query: str) -> str:
+        """
+        Manually implements Hybrid RAG to avoid async library bugs.
+        1. Embeds Query.
+        2. Searches Entities 
+        3. Searches Text Chunks
+        4. Synthesizes Answer.
+        """
+        logger.info(f"Executing Robust Manual Hybrid Query for: {query}")
         
-        # 4. Format
-        top_chunks = scores[:top_k]
-        context_str = "\n\n".join([
-            f"[Match (Score: {c['score']:.4f})]: {c['content']}" 
-            for c in top_chunks
-        ])
+        # 1. Embed Query
+        try:
+            query_vecs = await ollama_embedding_func([query])
+            query_vec = np.array(query_vecs[0], dtype=np.float32)
+        except Exception as e:
+            return f"Error embedding query: {e}"
+
+        # 2. Retrieve from Entities
+
+        entities = await self._manual_search("vdb_entities.json", query_vec, top_k=5, key_field="content")
         
-        logger.info(f"Retrieved {len(top_chunks)} chunks. Best score: {top_chunks[0]['score']:.4f}")
-        return context_str
+        # 3. Retrieve from Chunks (Raw Context)
+        chunks = await self._manual_search("vdb_chunks.json", query_vec, top_k=5, key_field="content")
+
+        # 4. Retrieve from Relationships (optional but good for 'hybrid')
+        relations = await self._manual_search("vdb_relationships.json", query_vec, top_k=3, key_field="content")
+
+        if not entities and not chunks:
+            return "No relevant data found in the knowledge base."
+
+        # 5. Synthesize Context
+        context_parts = []
+        if entities:
+            context_parts.append("--- IDENTIFIED ENTITIES ---")
+            context_parts.extend(entities)
+        
+        if chunks:
+            context_parts.append("\n--- RELEVANT EXCERPTS ---")
+            context_parts.extend(chunks)
+        
+        if relations:
+            context_parts.append("\n--- RELEVANT EXCERPTS ---")
+            context_parts.extend(relations)
+
+        full_context = "\n".join(context_parts)
+        
+        # 6. Generate Answer
+        prompt = f"""
+        You are a Senior Process Engineer. Answer based ONLY on the context below.
+        
+        CONTEXT:
+        {full_context}
+        
+        QUESTION: 
+        {query}
+        
+        ANSWER (Be precise, list IDs if found):
+        """
+        
+        answer = await ollama_llm_func(prompt)
+        return answer
+
+    async def retrieve_context(self, query: str, top_k: int = 5) -> str:
+        query_vecs = await ollama_embedding_func([query])
+        query_vec = np.array(query_vecs[0], dtype=np.float32)
+        chunks = await self._manual_search("vdb_chunks.json", query_vec, top_k=top_k)
+        return "\n\n".join(chunks)

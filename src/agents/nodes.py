@@ -1,55 +1,81 @@
-import logging
+import time
 from src.agents.state import AgentState
 from src.rag.engine import LightRAGEngine
-from src.llm.ollama_client import ollama_llm_func
+from src.ingestion.graph_builder import PIDGraphBuilder
+from src.utils.monitor import monitor
+import networkx as nx
 
-logger = logging.getLogger(__name__)
 rag_engine = LightRAGEngine()
 
-async def router_node(state: AgentState) -> AgentState:
-    logger.info(f"[Router] Analyzing query: {state['question']}")
-    
-    q_lower = state['question'].lower()
-    keywords = ['connected', 'flow', 'path', 'isolation', 'between', 'trace']
-    
-    intent = "graph_reasoning" if any(k in q_lower for k in keywords) else "specific_lookup"
+graph_tool = PIDGraphBuilder() 
+graph_tool.load_graph()
 
-    logger.info(f"[Router] Decision: {intent}")
+async def router_node(state: AgentState) -> AgentState:
+    t0 = time.time()
+    q = state['question'].lower()
+    
+    # Conditional Logic
+    # If the user asks about connections, paths, or neighbors -> TOPOLOGY
+    if any(x in q for x in ['connected', 'path', 'between', 'downstream', 'upstream', 'next to']):
+        intent = "topology_agent"
+    else:
+        intent = "semantic_agent"
+        
+    monitor.log_step("Router", state['question'], intent, t0)
     return {"intent": intent, "steps": ["Router"]}
 
-async def retriever_node(state: AgentState) -> AgentState:
-    question = state["question"]
-    
-    await rag_engine.initialize()
-    
-    context = await rag_engine.retrieve_context(question, top_k=7)
-
-    logger.info(f"[Retriever] Retrieved context for question: \n\n {context} \n\n")
-
-    return {"context": context, "steps": ["Custom_Retriever"]}
-
-async def generator_node(state: AgentState) -> AgentState:
-    logger.info("[Generator] Generating answer...")
-    
-    prompt = f"""
-    You are a Senior Process Engineer analyzing a DEXPI P&ID database.
-    
-    CONTEXT (Extracted from Plant Database):
-    {state['context']}
-    
-    USER QUESTION: 
-    {state['question']}
-    
-    INSTRUCTIONS:
-    1. Answer strictly based on the Context provided above.
-    2. If the user asks about a specific ID or Tag, look for it exactly in the text.
-    3. If attributes (like Pressure, Temperature, Material) are requested, extract them directly.
-    4. If the information is not in the context, explicitly state "Information not found in the parsed data."
-    5. Also mention the source of your context like the File name and other details if present to make the system more observable.
-    
-    ANSWER:
+async def topology_node(state: AgentState) -> AgentState:
     """
+    Agent responsible for Graph Theory queries using NetworkX.
+    Now uses 'Smart Lookup' to handle complex IDs and Tags.
+    """
+    t0 = time.time()
+    question = state['question']
     
-    answer = await ollama_llm_func(prompt)
+    # 1. Ask the Graph to identify relevant entities in the text
+    relevant_ids = graph_tool.find_relevant_nodes(question)
     
-    return {"final_answer": answer, "steps": ["Generator"]}
+    context = ""
+    
+    if not relevant_ids:
+        context = "Topological Analysis: No specific equipment IDs or Tags (like P-101) were found in your query to trace."
+        
+    elif len(relevant_ids) == 1:
+        # Case A: "What is connected to X?"
+        target_id = relevant_ids[0]
+        neighbors = graph_tool.get_neighbors_by_id(target_id)
+        context = "\n".join(neighbors)
+        
+    elif len(relevant_ids) >= 2:
+        # Case B: "Path between X and Y"
+        # We try to find path between the first two identified nodes
+        start_id, end_id = relevant_ids[0], relevant_ids[1]
+        
+        try:
+            path = nx.shortest_path(graph_tool.graph, start_id, end_id)
+            path_desc = []
+            for pid in path:
+                p_data = graph_tool.graph.nodes[pid]
+                path_desc.append(f"{p_data.get('tag', 'Unknown')} ({p_data.get('type')})")
+            context = "Path Found:\n" + " -> ".join(path_desc)
+        except Exception:
+            context = f"No direct physical connection found between the identified items."
+
+    monitor.log_step("Topology_Agent", question, context, t0)
+    return {"context": f"Topological Analysis Result:\n{context}", "steps": ["Topology_Agent"]}
+
+async def semantic_node(state: AgentState) -> AgentState:
+    """
+    Agent responsible for Conceptual/Attribute queries using LightRAG.
+    """
+    t0 = time.time()
+    answer = await rag_engine.query_hybrid(state['question'])
+    
+    monitor.log_step("Semantic_Agent", state['question'], answer, t0)
+    return {"final_answer": answer, "steps": ["Semantic_Agent"]}
+
+async def synthesizer_node(state: AgentState) -> AgentState:
+    """
+    Only used if Topology Agent ran, to humanize the NetworkX output.
+    """
+    return {"final_answer": state['context'], "steps": ["Synthesizer"]}

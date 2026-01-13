@@ -1,4 +1,4 @@
-from typing import Annotated, List, TypedDict
+from typing import Annotated, List, TypedDict, Any
 import operator
 
 class AgentState(TypedDict):
@@ -10,3 +10,4 @@ class AgentState(TypedDict):
     context: str                
     final_answer: str            
     steps: List[str]             # decision trace logs
+    graph_data: Any

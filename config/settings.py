@@ -4,7 +4,7 @@ from functools import lru_cache
 class Settings(BaseSettings):
     OLLAMA_SERVER_IP: str
     OLLAMA_PORT: int = 11435
-    OLLAMA_MODEL: str = "llama3.3:7b"
+    OLLAMA_MODEL: str = "llama3:8b"
     OLLAMA_EMBED_MODEL: str = "nomic-embed-text"
     
     DATA_DIR: str = "data"
